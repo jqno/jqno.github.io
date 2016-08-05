@@ -22,6 +22,26 @@ title: "tr ouwens"
 name: "Jan Ouwens"
 description: "By the way: things I want to say"
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: false
+  - scope:
+      type: posts
+    values:
+      permalink: /:year/:month/:day/:title/
+      read_time: true
+      comments: true
+  - scope:
+      type: pages
+    values:
+      read_time: false
+      comments: false
+
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.20.2
 plugins:
