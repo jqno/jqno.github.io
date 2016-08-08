@@ -27,6 +27,9 @@ author:
   avatar: "https://www.gravatar.com/avatar/f2e0574e5b5e770b5c5678b91ba889a6"
   bio: "<a href='/about'>Scala by day, Java by night</a><br>&mdash; I make <a href='/equalsverifier'>EqualsVerifier</a>"
   location: "The Netherlands"
+  github: jqno
+  stackoverflow: 127863
+  twitter: jqno
 
 defaults:
   - scope:
