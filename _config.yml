@@ -22,6 +22,12 @@ title: "tr ouwens"
 name: "Jan Ouwens"
 description: "By the way: things I want to say"
 
+author:
+  name: "Jan Ouwens"
+  avatar: "https://www.gravatar.com/avatar/f2e0574e5b5e770b5c5678b91ba889a6"
+  bio: "<a href='/about'>Scala by day, Java by night</a><br>&mdash; I make <a href='/equalsverifier'>EqualsVerifier</a>"
+  location: "The Netherlands"
+
 defaults:
   - scope:
       path: ""
