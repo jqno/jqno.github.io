@@ -8,7 +8,7 @@ tags:
 Introduction
 ------------
 
-In [a previous post]({{ pcposturl(2012, 09, 11, 'foobal-predicting-soccer-matches-with-scala-and-drools') }}), I promised to keep you updated on the progress of [Foobal](https://github.com/jqno/foobal).
+In [a previous post]({% post_url 2012-09-11-foobal-predicting-soccer-matches-with-scala-and-drools %}), I promised to keep you updated on the progress of [Foobal](https://github.com/jqno/foobal).
 
 After about five or six weeks, Foobal was squarely in the lead of the family pool. However, after that, Foobal got more and more predictions wrong. It seems to be slightly biased towards tie games (a score of 1-1 was a particularly common prediction), which aren't all that common in practice. So I decided to fix that. And of course, the two matches after that ended in a tie that Foobal sadly did not predict. Bummer. One of the matches would even have been predicted correctly had I not changed anything. Double bummer. After that, however, Foobal started to get some predictions right again. I'm confident that my changes will work out for the better. I won't be deterred by statistical anomalies!
 

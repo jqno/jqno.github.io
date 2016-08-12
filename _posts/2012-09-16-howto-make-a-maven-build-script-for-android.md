@@ -5,7 +5,7 @@ tags:
 - android
 - how-to
 ---
-I've written before about [writing Android apps in Scala]({{ pcposturl(2011, 10, 16, "howto-android-development-in-scala") }}). Sometimes, though, Scala isn't the answer, and you need to fall back on Java. That doesn't necessarily mean you should also fall all the way back to Ant, though. This post is about creating a Maven build script for an Android app written in Java.
+I've written before about [writing Android apps in Scala]({% post_url 2011-10-16-howto-android-development-in-scala %}). Sometimes, though, Scala isn't the answer, and you need to fall back on Java. That doesn't necessarily mean you should also fall all the way back to Ant, though. This post is about creating a Maven build script for an Android app written in Java.
 
 But...why?
 ----------

@@ -4,7 +4,6 @@ tags:
 - configuration
 - dropbox
 - how-to
-time: "12:00"
 ---
 If you're anything like me, you have more than one pc that you regularly use.
 One at home, one at work, maybe more. If you're even more like me, there is
@@ -49,9 +48,9 @@ Further reading
 
 Now, you can open any of the following posts to find out how to set it up for your favourite software<sup>[[2]](#note2)</sup>:
 
-* [Part 1: VIM]({{ pcposturl(2012, 03, 11, "configuration-sharing-with-dropbox-part-1-vim") }})
-* [Part 2: Eclipse]({{ pcposturl(2012, 03, 17, "configuration-sharing-with-dropbox-part-2-eclipse") }})
-* [Part 3: Bash]({{ pcposturl(2012, 03, 24, "configuration-sharing-with-dropbox-part-3-bash") }})
+* [Part 1: VIM]({% post_url 2012-03-11-configuration-sharing-with-dropbox-part-1-vim %})
+* [Part 2: Eclipse]({% post_url 2012-03-17-configuration-sharing-with-dropbox-part-2-eclipse %})
+* [Part 3: Bash]({% post_url 2012-03-24-configuration-sharing-with-dropbox-part-3-bash %})
 * Part 4.._n_: other cool software _(hoped for)_
 
 Enjoy!

@@ -6,7 +6,7 @@ tags:
 ---
 This weekend, a new soccer season started! It's way past time I told you all how I, or rather, how [Foobal](https://github.com/jqno/foobal) did last season.
 
-As you may remember, Foobal started out [pretty well]({{ pcposturl(2012, 09, 11, 'foobal-predicting-soccer-matches-with-scala-and-drools') }}). After half a season, it was still doing [quite OK]({{ pcposturl(2012, 12, 31, 'foobal-end-of-year-update') }}). And then... not so much. Unfortunately. Foobal and I finished fourth; a position shared with three other people. In other words: slightly above the middle.
+As you may remember, Foobal started out [pretty well]({% post_url 2012-09-11-foobal-predicting-soccer-matches-with-scala-and-drools %}). After half a season, it was still doing [quite OK]({% post_url 2012-12-31-foobal-end-of-year-update %}). And then... not so much. Unfortunately. Foobal and I finished fourth; a position shared with three other people. In other words: slightly above the middle.
 
 But I shan't be deterred! This year is going to be better. Actually, I know this for a SOLID FACT, because when I was dusting off the code and preparing the program for the new season, I discovered a bug. A bug that had been there the whole time. A bug that caused Foobal to ignore over 30% of all the data it could have used. A bug that caused foobal to ignore all matches that were played before the 10th of each month.
 

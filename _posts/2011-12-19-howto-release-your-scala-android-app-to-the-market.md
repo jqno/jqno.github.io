@@ -7,7 +7,7 @@ tags:
 - scala
 ---
 This post is a follow-up to my previous one,
-[How to: Android development in Scala]({{ pcposturl(2011, 10, 16, "howto-android-development-in-scala") }}).
+[How to: Android development in Scala]({% post_url 2011-10-16-howto-android-development-in-scala %}).
 I'm sure it has inspired you to write an awesome Android app in Scala. In this
 post, I'll explain how to release your app to the Android Market.
 

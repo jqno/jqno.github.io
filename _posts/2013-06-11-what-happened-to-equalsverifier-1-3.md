@@ -27,7 +27,7 @@ Fortunately, this issue only occurred in EqualsVerifier's own test suite, and do
 
 * I will receive an e-mail from Travis CI every time one of the builds breaks;
 * I have added an explicit step to the release procedure to actively check the Travis CI build status; and
-* I have added a badge to the sidebar of the [EqualsVerifier website]({{ pcurl('equalsverifier') }}), so everybody can see the current build status: <a href="https://travis-ci.org/jqno/equalsverifier"><img src="https://travis-ci.org/jqno/equalsverifier.png" alt="Build Status" style="border:0;"></a>
+* I have added a badge to the sidebar of the [EqualsVerifier website](http://www.jqno.nl/equalsverifier), so everybody can see the current build status: <a href="https://travis-ci.org/jqno/equalsverifier"><img src="https://travis-ci.org/jqno/equalsverifier.png" alt="Build Status" style="border:0;"></a>
 
 So from now on, broken EqualsVerifier releases because of JDK-dependent issues will forever be a thing of the past!<sup>[[4]](#note4)</sup>
 

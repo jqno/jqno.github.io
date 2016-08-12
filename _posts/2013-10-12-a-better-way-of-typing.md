@@ -35,10 +35,10 @@ I like this. It doesn't get in the way at all. I'm free to type `String vowel = 
 
 By now, I have probably convinced you that you want to have a Compose key, too. So how do you get one? It's easy.
 
+<a name="How"></a>
+
 How?
 ====
-
-<a name="How"></a>
 
 * OS X: Install the [US custom](http://uscustom.sourceforge.net/) keyboard layout: download and installation instructions are [here](http://uscustom.sourceforge.net/#installation).<br>Note that MacBooks don't have a Menu key. This tool uses the `§` key instead, which is fine, because who uses it anyway? And even if you do, it's a `Compose`-`s`-`o` away.
 * Windows: Install [this nifty little program](https://github.com/SamHocevar/wincompose).

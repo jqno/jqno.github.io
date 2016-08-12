@@ -9,9 +9,9 @@ tags:
 Introduction
 ------------
 
-In this article, I will explain how you can easily share shell scripts between your workstations. Some of these scripts, such as convenient aliases or a [git color prompt script]({{ pcposturl(2012, 04, 02, "howto-display-the-current-git-branch-in-your-prompt") }}), have to be run each time you start your shell; others only have to be accessible from the PATH. Both cases are covered by this trick.
+In this article, I will explain how you can easily share shell scripts between your workstations. Some of these scripts, such as convenient aliases or a [git color prompt script]({% post_url 2012-04-02-howto-display-the-current-git-branch-in-your-prompt %}), have to be run each time you start your shell; others only have to be accessible from the PATH. Both cases are covered by this trick.
 
-But first, you should read [Part 0]({{ pcposturl(2012, 03, 11, "configuration-sharing-with-dropbox-part-0-introduction") }}), if you haven't done so already.
+But first, you should read [Part 0]({% post_url 2012-03-11-configuration-sharing-with-dropbox-part-0-introduction %}), if you haven't done so already.
 
 One-time set-up
 ---------------
@@ -24,26 +24,28 @@ One-time set-up
   in `scripts` or `session`!) Make it executable. Its contents should be as
   follows:
 
-<pre class="prettyprint language-bash">
-# Add the following line to ~/.bashrc:
-# . /path/to/this/script/run.sh script_folder
-# For example:
-# . ~/Dropbox/config/bash/run.sh session
-# Don't forget the dot!
+  <pre class="prettyprint language-bash">
+  # Add the following line to ~/.bashrc:
+  # . /path/to/this/script/run.sh script_folder
+  # For example:
+  # . ~/Dropbox/config/bash/run.sh session
+  # Don't forget the dot!
 
-for f in `dirname ${BASH_SOURCE[0]}`/$1/*; do
-  . $f
-done
-</pre>
+  for f in `dirname ${BASH_SOURCE[0]}`/$1/*; do
+    . $f
+  done
+  </pre>
 
   This file will iterate over all the files in the given directory; in this case, `~/Dropbox/config/bash/session/*`, and execute them.
 
 * Finally, create a file called `add-scripts-to-path.sh` in the
   `~/Dropbox/config/bash/session` folder. Again, don't forget to make it
   executable. It should contain the following one-liner:
-    <pre class="prettyprint language-bash">
-    export PATH=$PATH:\`dirname ${BASH_SOURCE[0]}\`/../scripts
-    </pre>
+
+  <pre class="prettyprint language-bash">
+  export PATH=$PATH:\`dirname ${BASH_SOURCE[0]}\`/../scripts
+  </pre>
+
   ... which is how `~/Dropbox/config/bash/scripts/` ends up on the PATH. 
 
 Per computer set-up

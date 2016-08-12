@@ -4,7 +4,7 @@ tags:
 - equalsverifier
 - generics
 ---
-This is part 1 of a two-part series. This part deals with overcoming type erasure. In [Part 2]({{ pcposturl(2016, 06, 26, "generics-in-equalsverifier-part-2") }}), we will see what EqualsVerifier can do with this generic type information.
+This is part 1 of a two-part series. This part deals with overcoming type erasure. In [Part 2]({% post_url 2016-06-26-generics-in-equalsverifier-part-2 %}), we will see what EqualsVerifier can do with this generic type information.
 
 Introduction
 ---
@@ -93,7 +93,7 @@ In order to construct an instance, we'll need a `java.lang.reflect.Field`, becau
 It does mean that we can't get the generic types at the top of the chain, though. Say we have the following class:
 
 <pre class="prettyprint">
-public final class Entity&lt;I extends Comparable<I>> {
+public final class Entity&lt;I extends Comparable&lt;I>> {
     private final I id;
     
     // Constructor, getters, equals, hashCode left out for brevity.
@@ -170,5 +170,5 @@ You might have noticed that I haven't discussed multiple bounds, like `T extends
 
 Summary
 ---
-We have seen how we can determine the full, generic type of a class's field. In [Part 2]({{ pcposturl(2016, 06, 26, "generics-in-equalsverifier-part-2") }}), we will see how we can put this information to good use.
+We have seen how we can determine the full, generic type of a class's field. In [Part 2]({% post_url 2016-06-26-generics-in-equalsverifier-part-2 %}), we will see how we can put this information to good use.
 

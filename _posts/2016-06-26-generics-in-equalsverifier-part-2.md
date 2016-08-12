@@ -4,7 +4,7 @@ tags:
 - equalsverifier
 - generics
 ---
-In [Part 1]({{ pcposturl(2016, 06, 23, "generics-in-equalsverifier-part-1") }}) of this two-part series, we have explored how to determine the full, generic type of a class's fields. Now it's time to do something with this information: instantiate an object of any given type.
+In [Part 1]({% post_url 2016-06-23-generics-in-equalsverifier-part-1 %}) of this two-part series, we have explored how to determine the full, generic type of a class's fields. Now it's time to do something with this information: instantiate an object of any given type.
 
 Introduction
 ---
@@ -55,7 +55,7 @@ Generic classes
 ---
 Keeping track of generics makes maintaining prefab values a lot harder. In the past, EqualsVerifier could simply instantiate an `ArrayList` and add a bunch of `java.lang.Object` instances. Because of type erasure, at runtime every `ArrayList` is essentially an `ArrayList<Object>` anyway.
 
-Most of the time that would work. It would only fail when the list is 'unpacked', like in the `SparseArray` example in [Part 1]({{ pcposturl(2016, 06, 23, "generics-in-equalsverifier-part-1") }}).
+Most of the time that would work. It would only fail when the list is 'unpacked', like in the `SparseArray` example in [Part 1]({% post_url 2016-06-23-generics-in-equalsverifier-part-1 %}).
 
 Now that we do keep track of generics, it doesn't work anymore. An `ArrayList<String>` is no longer the same thing as an `ArrayList<Integer>`. That means a single instance of `ArrayList` is no longer sufficient. We need an instance of _all_ the `ArrayLists`, which is clearly impossible.
 
@@ -75,7 +75,7 @@ Finally, every value created by the factory is added to the original collection 
 
 Other considerations
 ---
-In a [previous post](??? the things we do for compatibility), I have explained how EqualsVerifier uses reflection to create prefab values for classes that it wasn't compiled with, and that may or may not be available at runtime. Of course there have to be separate factories for these types as well. I will not discuss these in this article, but you're welcome to take a look at [the code](https://github.com/jqno/equalsverifier/blob/master/src/main/java/nl/jqno/equalsverifier/JavaApiPrefabValues.java#L274).
+In a [previous post]({% post_url 2014-08-20-the-things-we-do-for-compatibility %}), I have explained how EqualsVerifier uses reflection to create prefab values for classes that it wasn't compiled with, and that may or may not be available at runtime. Of course there have to be separate factories for these types as well. I will not discuss these in this article, but you're welcome to take a look at [the code](https://github.com/jqno/equalsverifier/blob/master/src/main/java/nl/jqno/equalsverifier/JavaApiPrefabValues.java#L274).
 
 Putting it all together
 ---
@@ -89,13 +89,13 @@ This is a known limitation which fortunately doesn't come up a lot in practice. 
 
 Summary
 ---
-In [Part 1]({{ pcposturl(2016, 06, 23, "generics-in-equalsverifier-part-1") }}), we have explored how we can determine the full generic type of a field in a class. In this part, we have seen how we can leverage this information to build instances of objects that respect these generics.
+In [Part 1]({% post_url 2016-06-23-generics-in-equalsverifier-part-1 %}), we have explored how we can determine the full generic type of a field in a class. In this part, we have seen how we can leverage this information to build instances of objects that respect these generics.
 
 Because of this, users of EqualsVerifier have more freedom to implement their `equals` and `hashCode` methods, since it is now possible to directly refer to the generic components of fields, which was not possible before. For instance:
 
 <pre class="prettyprint">
 public class SparseArrayContainer {
-    private final SparseArray<String> sparseArray;
+    private final SparseArray&lt;String> sparseArray;
     
     // ...
     

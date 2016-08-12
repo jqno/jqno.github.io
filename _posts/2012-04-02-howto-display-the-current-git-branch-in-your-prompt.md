@@ -41,7 +41,7 @@ your `~/.bashrc` like this:
 
 The dot at the start of the line is important; it won't work if you leave it out!
 
-Or better yet: add it to [your Dropbox]({{ pcposturl(2012, 03,24, "configuration-sharing-with-dropbox-part-3-bash") }})!
+Or better yet: add it to [your Dropbox]({% post_url 2012-03-24-configuration-sharing-with-dropbox-part-3-bash %})!
 
 <pre class="prettyprint language-bash">
 function _fancy_prompt {

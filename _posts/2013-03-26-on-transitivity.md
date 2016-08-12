@@ -5,7 +5,7 @@ tags:
 - equalsverifier
 - java
 ---
-[Last time]({{ pcposturl(2013, 02, 17, "reaction-to-cedric-beusts-equals-challenge") }}), I discussed a transitivity issue for `equals` methods that also affects [EqualsVerifier](http://www.jqno.nl/equalsverifier). To recap, consider this class:
+[Last time]({% post_url 2013-02-17-reaction-to-cedric-beusts-equals-challenge %}), I discussed a transitivity issue for `equals` methods that also affects [EqualsVerifier](http://www.jqno.nl/equalsverifier). To recap, consider this class:
 
 <pre class="prettyprint">
 class School {

@@ -19,7 +19,7 @@ configurations is useful even without the added cloudiness of Dropbox. Maybe
 you have only one development machine anyway. However, it's still worthwile
 storing your configuration in Dropbox, if only for the automagic backups it
 makes. So I recommend that you read
-[Part 0]({{ pcposturl(2012, 03, 11, "configuration-sharing-with-dropbox-part-0-introduction") }})
+[Part 0]({% post_url 2012-03-11-configuration-sharing-with-dropbox-part-0-introduction %})
 anyway.
 
 One-time set-up
@@ -69,7 +69,7 @@ will be a lot easier to identify them.
 Per workspace set-up
 --------------------
 
-* In Window|Preferences, find the Workspace Mechanic node.
+* In Window\|Preferences, find the Workspace Mechanic node.
 * Under Task Sources, click the New button.<br>
 ![Eclipse window preferences]({{ assets['eclipse-window-preferences'] }})
 * Navigate to `~/Dropbox/config/eclipse` and press OK.

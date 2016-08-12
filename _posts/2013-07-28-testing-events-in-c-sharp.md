@@ -1,7 +1,7 @@
 ---
 title: "Testing events in C#"
 tags:
-- c#
+- c-sharp
 - event-handling
 - unit-testing
 ---
@@ -61,7 +61,7 @@ So now we end up with something like this:
 public void Attempt2()
 {
     var finder = new AnswerFinder();
-    EventHandler<AnswerEventArgs> handler = (sender, e) =>
+    EventHandler&lt;AnswerEventArgs> handler = (sender, e) =>
     {
         Assert.That(e.Answer, Is.EqualTo(42));
     };
@@ -186,6 +186,7 @@ And now, we're stuck with that nasty `-1` again.
 Thankfully, we can do better. A lot better.
 
 <a name='solution'></a>
+
 ## A solution
 
 I've written a small class that uses some clever reflection tricks to handle most of the boilerplate I've shown above. Behold:
@@ -246,6 +247,7 @@ Here's a few things `EventMonitor` unfortunately can't do:
 Fixed the code, so that it will handle event delegates with primitive type arguments, as well as object type arguments, by adding generics to the solution, as suggested in [this StackOverflow question](http://stackoverflow.com/q/19346023/127863).
 
 <a name='code'></a>
+
 ## Full code of `EventMonitor`
 
 <pre class="prettyprint">

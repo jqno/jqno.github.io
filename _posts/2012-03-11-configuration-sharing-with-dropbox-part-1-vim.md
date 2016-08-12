@@ -5,7 +5,6 @@ tags:
 - dropbox
 - how-to
 - vim
-time: "13:00"
 ---
 Introduction
 ------------

@@ -10,7 +10,7 @@ Several times now, I've been in a situation where we would have some performance
 
 I'm writing this down so next time I can't come up with an example, I can refer back to this post.
 
-Yesterday, I was doing my yearly [foobal]({{ pctagurl('foobal') }}) touch-up. One of the things I wanted to fix was a performance problem where, as the year progressed and new scores were added to the data set, the program would get increasingly slow, up to the point where I'd have to remove old data from the data set if I ever was going to get an answer from the damn thing.
+Yesterday, I was doing my yearly [foobal](/tags/#foobal) touch-up. One of the things I wanted to fix was a performance problem where, as the year progressed and new scores were added to the data set, the program would get increasingly slow, up to the point where I'd have to remove old data from the data set if I ever was going to get an answer from the damn thing.
 
 Here's how the program works:
 

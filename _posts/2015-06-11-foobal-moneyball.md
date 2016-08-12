@@ -4,7 +4,7 @@ tags:
 - foobal
 - statistics
 ---
-Ever since [Moneyball](http://www.imdb.com/title/tt1210166/) came out, winning at sports using statistics has become more and more mainstream. As I've [blogged before]({{ pctagurl('foobal') }}), I have also been getting in on some of that action: I've been competing in my family's soccer match betting game, where we guess the results of NAC Breda, our favourite team. But instead of predicting the outcomes myself, I'm using [Foobal](https://github.com/jqno/foobal), a little Scala program that I've written for this very purpose.
+Ever since [Moneyball](http://www.imdb.com/title/tt1210166/) came out, winning at sports using statistics has become more and more mainstream. As I've [blogged before](/tags/#foobal), I have also been getting in on some of that action: I've been competing in my family's soccer match betting game, where we guess the results of NAC Breda, our favourite team. But instead of predicting the outcomes myself, I'm using [Foobal](https://github.com/jqno/foobal), a little Scala program that I've written for this very purpose.
 
 And, like the [Oakland A's](http://www.amazon.com/Moneyball-The-Winning-Unfair-Game/dp/0393324818), [FC Midtjylland](https://decorrespondent.nl/2607/How-data-not-humans-run-this-Danish-football-club/230219386155-d2948861) and [Brentford FC](http://www.theguardian.com/football/2015/jun/04/brentford-head-coach-marinus-dijkhuizen), this has not been without success: I won this year's pool! And by quite some margin, too. Here's the trophy:
 

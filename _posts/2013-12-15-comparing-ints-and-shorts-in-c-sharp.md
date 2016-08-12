@@ -1,7 +1,7 @@
 ---
 title: "Comparing ints and shorts in C#"
 tags:
-- c#
+- c-sharp
 - equals
 ---
 My colleague Ralph and I recently discovered an interesting bit of C# equality behaviour. Consider the following piece of code:
