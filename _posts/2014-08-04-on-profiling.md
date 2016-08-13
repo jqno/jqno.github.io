@@ -49,7 +49,7 @@ If you're familiar with Scala, you will see that `millis` is a `def`, meaning th
 
 Here's a graph of the speed-up that I got out of that.
 
-![Speed-up]({{ assets['graph'] }})
+![Speed-up](/images/2014-08-04-on-profiling/graph.png)
 
 Oh, by the way: the scale of the vertical axis is logarithmic. OMG.
 

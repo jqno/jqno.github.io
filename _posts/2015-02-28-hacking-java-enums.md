@@ -14,7 +14,7 @@ enum CallMe { YES, NO, MAYBE }
 
 And two variables, `original` and `clone`, containing a value of said enum. Here's what the bug looked like in Eclipse's debugger:
 
-![Call Me Maybe]({{ assets['CallMeMaybe'] }})
+![Call Me Maybe](/images/2015-02-28-hacking-java-enums/CallMeMaybe.png)
 
 So, what do we see here? We see two variables of type `EnumHack$CallMe` (the enum was an inner class, so that makes sense). Both enums have the same `name` and `ordinal`, so they are equal. They also have different ids (33 and 34, respectively), so they're not the same object.
 
@@ -85,7 +85,7 @@ While Objenesis maybe a relatively unknown library, it is actually pretty widely
 
 OK, now we that know this, can we go one further? It turns out we can:
 
-![Call Me Sometime]({{ assets['CallMeSometime'] }})
+![Call Me Sometime](/images/2015-02-28-hacking-java-enums/CallMeSometime.png)
 
 We can add our own enum constants. Here's how:
 

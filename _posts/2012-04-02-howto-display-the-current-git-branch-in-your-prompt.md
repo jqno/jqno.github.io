@@ -11,7 +11,7 @@ feeling this way once I got the hang of branching. But if you have a lot of
 branches lying around, it's easy to get lost. Fortunately, it's easy to fix
 that problem, by pimping your terminal prompt. Mine now looks like this:
 
-![Git prompt]({{ assets['git-prompt'] }})
+![Git prompt](/images/2012-04-02-howto-display-the-current-git-branch-in-your-prompt/git-prompt.png)
 
 And suddenly, keeping track of branches has become easy.
 

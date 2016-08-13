@@ -8,7 +8,7 @@ Ever since [Moneyball](http://www.imdb.com/title/tt1210166/) came out, winning a
 
 And, like the [Oakland A's](http://www.amazon.com/Moneyball-The-Winning-Unfair-Game/dp/0393324818), [FC Midtjylland](https://decorrespondent.nl/2607/How-data-not-humans-run-this-Danish-football-club/230219386155-d2948861) and [Brentford FC](http://www.theguardian.com/football/2015/jun/04/brentford-head-coach-marinus-dijkhuizen), this has not been without success: I won this year's pool! And by quite some margin, too. Here's the trophy:
 
-![Trophy]({{ assets['Trophy'] }})
+![Trophy](/images/2015-06-11-foobal-moneyball/Trophy.jpg)
 
 On the last few lines, it says `J10 anO15` which really should have been `2015 JanO`. I guess the thick black line got in the way :). I'll keep it until next year, when I pass it on to the next winner.
 

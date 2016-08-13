@@ -71,14 +71,14 @@ Per workspace set-up
 
 * In Window\|Preferences, find the Workspace Mechanic node.
 * Under Task Sources, click the New button.<br>
-![Eclipse window preferences]({{ assets['eclipse-window-preferences'] }})
+  ![Eclipse window preferences](/images/2012-03-17-configuration-sharing-with-dropbox-part-2-eclipse/eclipse-window-preferences.png)
 * Navigate to `~/Dropbox/config/eclipse` and press OK.
 * Press OK to close Window|Preferences, and you will see a small popup window
   telling you that the Workspace Mechanic has found issues.<br>
-  ![Eclipse Workspace Mechanic]({{ assets['eclipse-workspace-mechanic'] }})
+  ![Eclipse Workspace Mechanic](/images/2012-03-17-configuration-sharing-with-dropbox-part-2-eclipse/eclipse-workspace-mechanic.png)
 * Press View and correct configuration issues.
 * You can now review all individual preferences. Or you can just press OK.<br>
-![Eclipse fix issues]({{ assets['eclipse-fix-issues'] }})
+  ![Eclipse fix issues](/images/2012-03-17-configuration-sharing-with-dropbox-part-2-eclipse/eclipse-fix-issues.png)
 
 Your preferences are now loaded!
 
