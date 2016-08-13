@@ -29,7 +29,7 @@ child, even though it's not an Apple product. He actually gives it a name:
 Abulafia. So, obviously, Abulafia is called upon to generate the permutations,
 using the following program:
 
-<pre class="prettyprint language-vb">
+{% highlight vb %}
 10 REM anagrams
 20 INPUT L$(1),L$(2),L$(3),L$(4)
 30 PRINT
@@ -45,7 +45,7 @@ using the following program:
 130 NEXT I2
 140 NEXT I1
 150 END
-</pre>
+{% endhighlight %}
 
 Quite the clever algorithm, I might add, although Eco doesn't address the
 duplicates this program will produce when given God's name as input.

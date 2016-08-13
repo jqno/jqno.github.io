@@ -15,14 +15,14 @@ The answer is: yes. Yes, it can be done. Here's how.
 
 It turns out that Java 6 introduced the `javax.tools.JavaCompiler` interface. You can use it, usurprisingly, to compile Java classes at runtime, like so:
 
-<pre class="prettyprint">
+{% highlight java %}
 private void compileClass(File sourceFile, File tempFolder) throws IOException {
     JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
     StandardJavaFileManager fileManager = null;
     try {
         fileManager = compiler.getStandardFileManager(null, null, null);
         fileManager.setLocation(StandardLocation.CLASS_OUTPUT, Arrays.asList(tempFolder));
-        Iterable&lt;? extends JavaFileObject> javaFileObjects = fileManager.getJavaFileObjectsFromFiles(Arrays.asList(sourceFile));
+        Iterable<? extends JavaFileObject> javaFileObjects = fileManager.getJavaFileObjectsFromFiles(Arrays.asList(sourceFile));
         CompilationTask task = compiler.getTask(null, fileManager, null, null, null, javaFileObjects);
 
         boolean success = task.call();
@@ -36,7 +36,7 @@ private void compileClass(File sourceFile, File tempFolder) throws IOException {
         }
     }
 }
-</pre>
+{% endhighlight %}
 
 Note that we can't use try-with-resources because of EqualsVerifier's Java 6 compatibility requirement.
 
@@ -49,7 +49,7 @@ Also, any compile errors are written to the console. Not ideal, but I haven't tr
 
 So, now we have a `.class` file somewhere on our filesystem. However, it's not on the classpath yet, the JVM doesn't automagically load it, and we don't have a `Class<?>` variable referencing it. So how do we use it? This is where `java.net.URLClassLoader` comes in:
 
-<pre class="prettyprint">
+{% highlight java %}
 private URLClassLoader createClassLoader(File tempFolder) {
     try {
         URL[] urls = { tempFolder.toURI().toURL() };
@@ -59,16 +59,16 @@ private URLClassLoader createClassLoader(File tempFolder) {
         throw new AssertionError(e);
     }
 }
-</pre>
+{% endhighlight %}
 
 Note that, as of Java 7, the `URLClassLoader` implements `Closeable`, which means it has a `close()` method that needs to be called when we're done. It's not `Closeable` yet in Java 6, so we'll have to call `close()` using reflection. I'll leave it as an exercise to you, my esteemed reader, to figure out how to do that.
 
 The important thing is: now we have a class loader that we can use to load our class and pass it to EqualsVerifier:
 
-<pre class="prettyprint">
-Class&lt;?> type = createClassLoader(tempFolder);
+{% highlight java %}
+Class<?> type = createClassLoader(tempFolder);
 EqualsVerifier.forClass(type).verify();
-</pre>
+{% endhighlight %}
 
 Note that this code adds the entire contents of the `tempFolder` file to the classpath, so it's wise to create a fresh, empty directory for this. Since I use this code only in unit tests, I use JUnit's `TemporaryFolder` rule to manage this.
 
@@ -77,15 +77,15 @@ Note that this code adds the entire contents of the `tempFolder` file to the cla
 
 The unit test simply contains a raw `String`:
 
-<pre class="prettyprint">
+{% highlight java %}
 private static final String JAVA_8_CLASS =
     "\nimport java.util.List;" +
     "\nimport java.util.Objects;" +
     "\n" +
     "\npublic final class Java8Class {" +
-    "\n    private final List&lt;Object> objects;" +
+    "\n    private final List<Object> objects;" +
     "\n    " +
-    "\n    public Java8Class(List&lt;Object> objects) {" +
+    "\n    public Java8Class(List<Object> objects) {" +
     "\n        this.objects = objects;" +
     "\n    }" +
     "\n    " +
@@ -106,7 +106,7 @@ private static final String JAVA_8_CLASS =
     "\n        return Objects.hash(objects);" +
     "\n    }" +
     "\n}";
-</pre>
+{% endhighlight %}
 
 We can write this `String` to a `java.io.File` (in the same `tempFolder` directory mentioned above), making sure that it's name is the name of the class with a `.java` extension. In this case, that would be `Java8Class.java`. Then we pass the `File` reference to the `compileClass` method defined above, and the circle is complete.
 
@@ -115,7 +115,7 @@ We can write this `String` to a `java.io.File` (in the same `tempFolder` directo
 
 Now what about Java 6? We haven't used any API calls that aren't available in Java 6, so that's good, but obviously the `Java8Class` string won't compile. We don't want our test to fail on that. We can solve this by simply detecting if the test is running on a Java 8 JVM, and if it's not, simply return. How we do this? Well...
 
-<pre class="prettyprint">
+{% highlight java %}
 public boolean isTypeAvailable(String fullyQualifiedTypeName) {
     try {
         Class.forName(fullyQualifiedClassName);
@@ -131,7 +131,7 @@ public boolean isTypeAvailable(String fullyQualifiedTypeName) {
 if (!isTypeAvailable("java.util.Optional")) {
     return;
 }
-</pre>
+{% endhighlight %}
 
 `java.util.Optional` was introduced in Java 8, so if it's on the classpath, we know we're running Java 8 (or higher). It's a bit of a hack, I know, but to me it felt more reliable than checking Java system properties. And the whole thing is obviously a huge hack anyway, so what's one more, right? :)
 
@@ -144,12 +144,12 @@ We know in advance which classes we need to add to EqualsVerifier's prefab value
 
 It turns out there are 3 main ways an instance of a class can be retrieved: through calling its constructor, through calling a static factory method defined on the same class, or through referencing a static constant defined on the class. Since reflection is even more verbose than vanilla Java, I've hidden all this away in a nice helper class that allows me to do things like this:
 
-<pre class="prettyprint">
+{% highlight java %}
 ConditionalPrefabValueBuilder.of("java.lang.Integer")
         .callFactory("valueOf", classes(int.class), objects(42))
         .callFactory("valueOf", classes(int.class), objects(1337))
         .addTo(prefabValues);
-</pre>
+{% endhighlight %}
 
 The `ConditionalPrefabValueBuilder` contains similar methods for calling constructors or referencing constants. Behind the curtains, it calls things like `Class.forName()`, `Constructor.newInstance()` and `Method.invoke()`. It contains a lot of `try/catch` blocks, too. The `classes` and `objects` methods are static imports for methods that I wrote that convert a vararg into an array. They just look a lot nicer than `new Class<?>[] { int.class }` would.
 

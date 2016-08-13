@@ -20,20 +20,20 @@ Non-generics classes
 ---
 Let's say we want to instantiate the following class:
 
-<pre class="prettyprint">
+{% highlight java %}
 public class Point {
     private final int x;
     private final int y;
 
     // Constructor, getters, equals, hashCode left out for brevity.
 }
-</pre>
+{% endhighlight %}
 
 It's easy: with Objenesis, we get an instance of `Point` with `x` and `y` set to their default values (`0`). Using reflection, we can give `x` and `y` a value.
 
 Sometimes, this doesn't work. For example, when there is a recursion. The simplest example of that is the `Node`:
 
-<pre class="prettyprint">
+{% highlight java %}
 public class Node {
     private final Node n;
 
@@ -41,7 +41,7 @@ public class Node {
         this.n = n;
     }
 }
-</pre>
+{% endhighlight %}
 
 This would result in an infinite loop of trying to instantiate `Node`. To avoid this, EqualsVerifier detects these infinite loops and aborts when it encounters them. To get around this, EqualsVerifier keeps a collection of so-called 'prefab values', where the user can manually add pre-fabricated instances of these classes. Before trying to instantiate a type, EqualsVerifier always checks the prefab values to see if there's a value it can use.
 
@@ -93,9 +93,9 @@ In [Part 1]({% post_url 2016-06-23-generics-in-equalsverifier-part-1 %}), we hav
 
 Because of this, users of EqualsVerifier have more freedom to implement their `equals` and `hashCode` methods, since it is now possible to directly refer to the generic components of fields, which was not possible before. For instance:
 
-<pre class="prettyprint">
+{% highlight java %}
 public class SparseArrayContainer {
-    private final SparseArray&lt;String> sparseArray;
+    private final SparseArray<String> sparseArray;
     
     // ...
     
@@ -115,7 +115,7 @@ public class SparseArrayContainer {
         return true;
     }
 }
-</pre>
+{% endhighlight %}
 
 When tested by older versions of EqualsVerifier, this class would throw a `ClassCastException` on the line `String a = sparseArray.get(i);`, because `sparseArray` would contain instances of `java.lang.Object` instead of `String`. As of version 2.0, EqualsVerifier recognises that `sparseArray` is a `SparseArray` of `String`, and fills it with `String`s instead of `Object`s, thus preventing the `ClassCastException`.
 

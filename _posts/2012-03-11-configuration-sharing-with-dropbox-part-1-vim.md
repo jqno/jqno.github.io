@@ -30,15 +30,15 @@ First, let's set up a VIM folder in your Dropbox:
 * Add a file called `vimrc.local` to the folder, with the following
   contents:
 
-<pre class="prettyprint language-vim">
-if has('win32') || has('win64')
-  set runtimepath^=$HOME/Dropbox/config/vim
-  source ~\Dropbox\config\vim\vimrc.vim
-else
-  set runtimepath^=~/Dropbox/config/vim
-  source ~/Dropbox/config/vim/vimrc.vim
-endif
-</pre>
+{% highlight vim %}
+  if has('win32') || has('win64')
+    set runtimepath^=$HOME/Dropbox/config/vim
+    source ~\Dropbox\config\vim\vimrc.vim
+  else
+    set runtimepath^=~/Dropbox/config/vim
+    source ~/Dropbox/config/vim/vimrc.vim
+  endif
+{% endhighlight %}
 
 Per machine set-up
 ------------------

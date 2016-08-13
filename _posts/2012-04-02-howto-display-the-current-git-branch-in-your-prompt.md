@@ -37,13 +37,15 @@ different, is that it has the following features:
 Here's the code for my prompt. Save it as `~/fancy-prompt.sh` and call it from
 your `~/.bashrc` like this:
 
-`. ~/fancy-prompt.sh`
+{% highlight bash %}
+. ~/fancy-prompt.sh
+{% endhighlight %}
 
 The dot at the start of the line is important; it won't work if you leave it out!
 
 Or better yet: add it to [your Dropbox]({% post_url 2012-03-24-configuration-sharing-with-dropbox-part-3-bash %})!
 
-<pre class="prettyprint language-bash">
+{% highlight bash %}
 function _fancy_prompt {
   local RED="\[\033[01;31m\]"
   local GREEN="\[\033[01;32m\]"
@@ -103,4 +105,4 @@ function _fancy_prompt {
 }
 
 export PROMPT_COMMAND="_fancy_prompt"
-</pre>
+{% endhighlight %}

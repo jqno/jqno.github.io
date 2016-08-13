@@ -6,7 +6,7 @@ tags:
 ---
 My colleague Ralph and I recently discovered an interesting bit of C# equality behaviour. Consider the following piece of code:
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void Equals()
 {
@@ -18,7 +18,7 @@ public void Equals()
     Assert.IsTrue(i.Equals(s));
     Assert.IsTrue(s.Equals(i)); // fails
 }
-</pre>
+{% endhighlight %}
 
 One would expect the last assert to pass, just like the others. The fact that it doesn't, tells us two things:
 

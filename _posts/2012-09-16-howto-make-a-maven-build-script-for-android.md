@@ -43,19 +43,21 @@ And while you're fiddling with environment variables, make sure that the `ANDROI
 
 To make things easier (even though, technically, it's cheating), you can add your ADV to the Maven `pom` file. That way, Maven will automatically deploy your app to the given ADV, so you don't have to provide it manually every time you run Maven. In the `<build><plugins>` section, find the `android-maven-plugin`. It has a `<configuration>` section, where you can add the following lines:
 
-<pre class="prettyprint">
-&lt;emulator>
-  &lt;adv>my_adv_name&lt;/adv>
-&lt;/emulator>
-</pre>
+{% highlight xml %}
+<emulator>
+  <adv>my_adv_name</adv>
+</emulator>
+{% endhighlight %}
 
 Obviously, you need to replace `my_adv_name` with the name of an ADV that you have actually configured.
 
 Once all this is out of the way, you can finally run Maven from the command-line! Useful commands include:
 
-    mvn clean install
-    mvn android:deploy
-    mvn android:run
+{% highlight bash %}
+mvn clean install
+mvn android:deploy
+mvn android:run
+{% endhighlight %}
 
 Be sure to run `mvn clean install` at least once before running `mvn android:deploy` or `mvn android:run`, or else you might start to see weird error messages about "trying to figure out package name from inside apk file".
 

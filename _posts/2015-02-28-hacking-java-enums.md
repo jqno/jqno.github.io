@@ -8,9 +8,9 @@ tags:
 ---
 The other day, I was debugging some enum related code in EqualsVerifier. I had this enum:
 
-<pre class="prettyprint">
+{% highlight java %}
 enum CallMe { YES, NO, MAYBE }
-</pre>
+{% endhighlight %}
 
 And two variables, `original` and `clone`, containing a value of said enum. Here's what the bug looked like in Eclipse's debugger:
 
@@ -34,7 +34,7 @@ Clearly, despite the fact that an enum constant can never be cloned, I had a clo
 
 So what happened? I traced the problem back to this:
 
-<pre class="prettyprint">
+{% highlight java %}
 @Test
 public void hackAnEnum() throws Exception {
     CallMe original = CallMe.MAYBE;
@@ -45,19 +45,19 @@ public void hackAnEnum() throws Exception {
     assertFalse(original.equals(clone));
     assertFalse(original == clone);
 }
-</pre>
+{% endhighlight %}
 
 I added the asserts so you can see for yourself what's going on: if you copy/paste this to your IDE and put EqualsVerifier on the classpath, you'll be able to run it. This test passes, which means that both `original.equals(clone)` and `original == clone` are, indeed, false.
 
 So what does this `ObjectAccessor` do? It's part of EqualsVerifier's reflection library, and as you probably guessed, it makes a copy of the given object. If I factor out all EqualsVerifier code, I end up with this:
 
-<pre class="prettyprint">
+{% highlight java %}
 CallMe clone = new ObjenesisStd().newInstance(CallMe.class);
 for (Field f : Enum.class.getDeclaredFields()) {
     f.setAccessible(true);
     f.set(clone, f.get(original));
 }
-</pre>
+{% endhighlight %}
 
 Apart from the reference to `ObjenesisStd`, this is all standard Java reflection code. So, what is this Objenesis thing, then? From their [website](http://objenesis.org):
 
@@ -65,19 +65,19 @@ Apart from the reference to `ObjenesisStd`, this is all standard Java reflection
 
 In other words, it can instantiate any object, without calling its constructor. So how does Objenesis work, exactly? Well, that depends. It uses the Strategy pattern to choose from several different ways of instantiating objects, depending on what kind of JVM you're running, and probably some other factors, too. In my case, it expanded to this:
 
-<pre class="prettyprint">
-Constructor&lt;Object> objectConstructor =
+{% highlight java %}
+Constructor<Object> objectConstructor =
     Object.class.getConstructor((Class[]) null);
-Class&lt;?> reflectionFactoryClass =
+Class<?> reflectionFactoryClass =
     Class.forName("sun.reflect.ReflectionFactory");
 Method method = reflectionFactoryClass.getDeclaredMethod("getReflectionFactory");
 Object reflectionFactory = method.invoke(null);
 Method newConstructorForSerializationMethod =
     reflectionFactoryClass.getDeclaredMethod("newConstructorForSerialization", Class.class, Constructor.class);
-Constructor&lt;CallMe> ctr = (Constructor&lt;CallMe>)
+Constructor<CallMe> ctr = (Constructor<CallMe>)
     newConstructorForSerializationMethod.invoke(reflectionFactory, CallMe.class, objectConstructor);
 CallMe clone = ctr.newInstance((Object[]) null);
-</pre>
+{% endhighlight %}
 
 That's some incredibly hairy scary code. Let's pretend we never saw this. The only thing we need to remember is that all this can be done without resorting to actually changing the bytecode at runtime; it's all reflection.
 
@@ -89,7 +89,7 @@ OK, now we that know this, can we go one further? It turns out we can:
 
 We can add our own enum constants. Here's how:
 
-<pre class="prettyprint">
+{% highlight java %}
 CallMe sometime = new ObjenesisStd().newInstance(CallMe.class);
 Field ordinal = Enum.class.getDeclaredField("ordinal");
 ordinal.setAccessible(true);
@@ -97,7 +97,7 @@ ordinal.set(sometime, 4);
 Field name = Enum.class.getDeclaredField("name");
 name.setAccessible(true);
 name.set(sometime, "SOMETIME");
-</pre>
+{% endhighlight %}
 
 It's actually pretty simple. I guess the JVM's guarantees aren't ironclad enough for this particular sophisticated reflection attack. And to think I actually found it by accident! I fixed the bug in EqualsVerifier before it ever got released into production, so all's well that ends well, I guess.
 

@@ -24,7 +24,7 @@ One-time set-up
   in `scripts` or `session`!) Make it executable. Its contents should be as
   follows:
 
-  <pre class="prettyprint language-bash">
+{% highlight bash %}
   # Add the following line to ~/.bashrc:
   # . /path/to/this/script/run.sh script_folder
   # For example:
@@ -34,7 +34,7 @@ One-time set-up
   for f in `dirname ${BASH_SOURCE[0]}`/$1/*; do
     . $f
   done
-  </pre>
+{% endhighlight %}
 
   This file will iterate over all the files in the given directory; in this case, `~/Dropbox/config/bash/session/*`, and execute them.
 
@@ -42,9 +42,7 @@ One-time set-up
   `~/Dropbox/config/bash/session` folder. Again, don't forget to make it
   executable. It should contain the following one-liner:
 
-  <pre class="prettyprint language-bash">
-  export PATH=$PATH:\`dirname ${BASH_SOURCE[0]}\`/../scripts
-  </pre>
+  {% highlight bash %}export PATH=$PATH:\`dirname ${BASH_SOURCE[0]}\`/../scripts{% endhighlight %}
 
   ... which is how `~/Dropbox/config/bash/scripts/` ends up on the PATH. 
 
@@ -53,7 +51,9 @@ Per computer set-up
 
 On each computer, you need to add the following line to the end of your
 `~/.bashrc` to make it all work:
-<pre class="prettyprint language-bash">. ~/Dropbox/config/bash/run.sh session</pre>
+
+{% highlight bash %}. ~/Dropbox/config/bash/run.sh session{% endhighlight %}
+
 Don't forget the dot! It won't work without it. And that's all!
 
 

@@ -7,7 +7,7 @@ tags:
 ---
 [Last time]({% post_url 2013-02-17-reaction-to-cedric-beusts-equals-challenge %}), I discussed a transitivity issue for `equals` methods that also affects [EqualsVerifier](http://www.jqno.nl/equalsverifier). To recap, consider this class:
 
-<pre class="prettyprint">
+{% highlight java %}
 class School {
     private final String name;
     private final String nickname;
@@ -21,7 +21,7 @@ class School {
         return name.equals(other.name) || nickname.equals(other.nickname);
     }
 }
-</pre>
+{% endhighlight %}
 
 This class violates the transitivity requirement: if `x` equals `y`, and if `y` equals `z`, then `x` must equal `z`. It's easy to see why:
 

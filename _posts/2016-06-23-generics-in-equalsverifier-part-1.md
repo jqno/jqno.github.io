@@ -14,11 +14,11 @@ Some background
 ---
 EqualsVerifier works by creating instances of objects, filling their fields with carefully chosen values, and repeatedly calling `equals` on them to see if something unexpected comes up. However, type erasure causes problems. Say we have the following class:
 
-<pre class="prettyprint">
+{% highlight java %}
 class ListContainer {
-    private final List&lt;String> list;
+    private final List<String> list;
 }
-</pre>
+{% endhighlight %}
 
 EqualsVerifier can see that this class has a field `list` of type `List`. Versions below 2.0 don't know anything more than that: they can't determine that it's really a `List<String>`, because the generics get erased by the JVM. To work around this, EqualsVerifier simply instantiates a raw `List`, puts in a few values of type `Object`, and hopes nobody notices.
 
@@ -26,9 +26,9 @@ In most cases this works perfectly fine, because in most cases, an `equals` meth
 
 In a small number of cases, this doesn't work. For example, Android has a type called `SparseArray`. It's a generic type that contains a sequence of values, like an array or a list. However, unlike arrays and lists, it doesn't implement its own `equals` method. Calling `equals` on a `SparseArray` is like calling `==` on it: it doesn't matter if two `SparseArrays` contain exactly the same elements; if they're not the same instance, they're not equal. This means that a class with a `SparseArray` field, has to 'unwrap' it in `equals`:
 
-<pre class="prettyprint">
+{% highlight java %}
 public class SparseArrayContainer {
-    private final SparseArray&lt;String> sparseArray;
+    private final SparseArray<String> sparseArray;
     
     // ...
     
@@ -38,7 +38,7 @@ public class SparseArrayContainer {
             return false;
         }
         SparseArrayContainer other = (SparseArrayContainer)obj;
-        for (int i = 0; i &lt; sparseArray.size(); i++) {
+        for (int i = 0; i < sparseArray.size(); i++) {
             String a = sparseArray.get(i);
             String b = other.sparseArray.get(i);
             if (!a.equals(b)) {
@@ -48,7 +48,7 @@ public class SparseArrayContainer {
         return true;
     }
 }
-</pre>
+{% endhighlight %}
 
 Now, we get a `ClassCastException` in the line that assigns an element of `sparseArray` to `a`: `a` expects a `String`, but it gets an `Object`. Oops.
 
@@ -58,14 +58,14 @@ There is!
 ---
 While it's true for objects at runtime that their generic type gets erased, there is something we can use. In EqualsVerifier, we're always inspecting a class and its fields, and it turns out that Java does retain the fully generic type of all fields in a class. You can use reflection to access this information. So, for our `SparseArrayContainer`, we can do this:
 
-<pre class="prettyprint">
+{% highlight java %}
 Field f = SparseArrayContainer.class.getDeclaredField("sparseArray");
 Type type = f.getGenericType();
 if (type instanceof ParameterizedType) {
     ParameterizedType pt = (ParameterizedType)type;
     Type[] genericTypes = pt.getActualTypeArguments();
 } 
-</pre>
+{% endhighlight %}
 
 The `type` variable has type `java.lang.reflect.Type`, which is an interface with several impementations. The most important implementation, and also the easiest, is good old `java.lang.Class`. However, our `sparseArray` field is parameterized, so we'll get an instance of `ParameterizedType`.
 
@@ -77,28 +77,28 @@ TypeTag
 ---
 First, we need to be able to pass around our new generic type information, where EqualsVerifier used to just pass around a `java.lang.Class`. `java.lang.reflect.Type` has all the information we need, but it's very unwieldy. Time then to build our own container: `TypeTag`. It looks something like this:
 
-<pre class="prettyprint">
+{% highlight java %}
 public final class TypeTag {
-    private final Class&lt;?> type;
-    private final List&lt;TypeTag> genericTypes;
+    private final Class<?> type;
+    private final List<TypeTag> genericTypes;
 
     public TypeTag(Field field) { ... }
     
     // Getters, equals, hashCode left out for brevity.
 }
-</pre>
+{% endhighlight %}
 
 In order to construct an instance, we'll need a `java.lang.reflect.Field`, because as we said before, we need that to access the generic types. (There are other ways to get them; for example, if we can make a subclass of a type and instantiate that, we can use that to instance to find the generic types. However, sometimes types are final and in those cases, making a subclass is impossible. Using a field is much more reliable.)
 
 It does mean that we can't get the generic types at the top of the chain, though. Say we have the following class:
 
-<pre class="prettyprint">
-public final class Entity&lt;I extends Comparable&lt;I>> {
+{% highlight java %}
+public final class Entity<I extends Comparable<I>> {
     private final I id;
     
     // Constructor, getters, equals, hashCode left out for brevity.
 }
-</pre>
+{% endhighlight %}
 
 There is no way to figure out that `Entity` has a generic type parameter `I extends Comparable<I>` if we only have an instance of `Entity`. Fortunately, this problem is not as big as it seems, because in all cases, we only need to know the type parameter when it's used. And when the type parameter is used, it's used in a field. And we _can_ get at the type parameters of fields!
 
@@ -110,15 +110,15 @@ Consider once again the `Entity` class above. When we have a `java.lang.reflect.
 
 And it gets more complicated. Consider the following (not even very contrived) example:
 
-<pre class="prettyprint">
+{% highlight java %}
 public interface Period { }
-public final class Per&lt;T extends Comparable&lt;T>, P extends Period> {
+public final class Per<T extends Comparable<T>, P extends Period> {
     private final P period;
     private final T value;
     
     // Constructor, getters, equals, hashCode left out for brevity.
 }
-</pre>
+{% endhighlight %}
 
 When we evaluate the types of `period` and `value`, we'll have to match them up with `Per`'s generic parameters. Note that I switched the order around, to emphasize that we can't simply say that the first field we encounter in the class will match with the first generic parameter, and the second field with the second generic parameter. No, we'll have to match the field's type's name with the generic parameter's name.
 
@@ -130,9 +130,9 @@ Other implementations of the `Type` interface
 ---
 The next `java.lang.reflect.Type` implementation we have to consider is the wildcard, which can also have bounds. Fortunately, the wildcard only occurs on fields, not on classes, so it's a bit easier:
 
-<pre class="prettyprint">
-private final List&lt;? extends Point> points;
-</pre>
+{% highlight java %}
+private final List<? extends Point> points;
+{% endhighlight %}
     
 We can safely substitute a boundless wildcard with `java.lang.Object`, and a bounded wildcard with the bound itself. In the case of the `List<? extends Point>` above, we can simply pretend it's a `List<Point>`. Note that wildcards, as opposed to `TypeVariable`s, can have upper (`? extends SomeType`) _and_ lower (`? super SomeType`) bounds. Fortunately, we can treat them the same in this case.
 
@@ -142,16 +142,16 @@ What do we have now?
 ---
 All this effort allows us to determine the complete type of any field, and take from that the information that is relevant to EqualsVerifier. For example, take this class:
 
-<pre class="prettyprint">
-public class Container&lt;T extends Comparable&lt;T>> {
-    private final List&lt;String> a;
-    private final Map&lt;String, List&lt;Integer>> b;
-    private final List&lt;T> c;
-    private final List&lt;?> d;
-    private final List&lt;? super Class<?>> e;
+{% highlight java %}
+public class Container<T extends Comparable<T>> {
+    private final List<String> a;
+    private final Map<String, List<Integer>> b;
+    private final List<T> c;
+    private final List<?> d;
+    private final List<? super Class<?>> e;
     private final T[] f;
 }
-</pre>
+{% endhighlight %}
 
 This gives us the following `TypeTag`s for its fields:
 

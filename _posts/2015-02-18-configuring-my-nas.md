@@ -86,6 +86,14 @@ Now you can rsync from the pc to the NAS like this (assuming your shared folder 
           --exclude ".Trashes" --exclude "@eaDir"
           /some/directory/ user_name@diskstation:/volume1/documents
 
+**EDIT** _August 13th, 2016:_ If you plan to run this command from OS X, you need to make sure that file names with special characters get transferred correctly. Add an `--iconv` parameter, like this:
+
+    rsync --iconv=UTF-8-MAC,UTF-8 
+          --delete -av --exclude ".DS_Store" --exclude ".fseventsd"
+          --exclude ".Spotlight-V100" --exclude ".TemporaryItems"
+          --exclude ".Trashes" --exclude "@eaDir"
+          /some/directory/ user_name@diskstation:/volume1/documents
+
 
 Install CrashPlan
 ---

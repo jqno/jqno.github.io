@@ -27,13 +27,13 @@ The idea behind Foobal is to gather data of previous matches, and use this data 
 
 This part I wrote in Scala. I used its native XML support to scrape the HTML (because everybody knows you [shouldn't use regex](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454)), and do I/O on the XML data file. Of course the website that I scraped did not consist of properly formatted, validated XHTML, and Scala's default XML parser failed miserably trying to make sense of it. Fortunately, it turned out to be pretty easy to hook [TagSoup](http://ccil.org/~cowan/XML/tagsoup/) into Scala's native XML support, like this:
 
-<pre class="prettyprint language-scala">
+{% highlight scala %}
 private def parseHtml(input: String): scala.xml.Elem = {
   import org.ccil.cowan.tagsoup.jaxp.SAXFactoryImpl
   val parser = new SAXFactoryImpl().newSAXParser
   XML.withSAXParser(parser).loadString(input)
 }
-</pre>
+{% endhighlight %}
 
 Next, I created a simple case class, called `Outcome` for lack of a better name, to store the results of my scraping. It consists of the names of the home team and the out team, their respective scores, and the date of their match. This case class can easily be written to and read from XML, without duplicates.
 

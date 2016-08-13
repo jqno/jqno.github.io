@@ -29,7 +29,7 @@ After about 10 minutes, I found out that Foobal was spending most of its time **
 
 Turns out I use that method only once in my application, in the data object that goes between the xml and the rule engine. Here it is:
 
-<pre class="prettyprint">
+{% highlight scala %}
 case class Outcome(
     homeTeam: String,
     outTeam: String,
@@ -41,7 +41,7 @@ case class Outcome(
 
   // other methods elided for brevity
 }
-</pre>
+{% endhighlight %}
 
 I added the `millis` method because I like to use Joda-Time, but the rule engine doesn't. Using `Long`s makes date comparisons a lot easier to do for the rule engine. But why does the program spend so much time there?
 
@@ -59,5 +59,5 @@ Another moral of the story is that I, too, am not immune to the premature optimi
 
 Let me finish up with [Donald Knuth's quote about premature optimization](http://c2.com/cgi/wiki?PrematureOptimization):
 
-   "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."
+> "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."
 

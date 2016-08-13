@@ -27,18 +27,18 @@ Yes, those are long Java names, but it beats having a shorter name and putting t
 
 In languages and/or framworks that support it, I always prefer a string over an identifier to name my tests. For example, in ScalaTest you can also write:
 
-<pre class="prettyprint language-scala">
+{% highlight scala %}
 "shuffle" should "reshuffle the deck given a pre-shuffled deck" in {
   // ...
 }
-</pre>
+{% endhighlight %}
 
 Obviously, this is much more readable than a camel-cased Java identifier.
 
 ## Magic numbers
 Many people believe magic numbers are OK in unit tests. I think, however, that introducing constants can be very beneficial in making a test more understandable. For example:
 
-<pre class="prettyprint">
+{% highlight java %}
 @Rule ExpectedException thrown = ExpectedException.none();
 
 @Test
@@ -52,25 +52,25 @@ public void dealThrowsISE_whenAskingTooManyCards() {
     thrown.expect(IllegalStateException.class);
     deck.deal(NUMBER_OF_CARDS_IN_A_DECK + 1);
 }
-</pre>
+{% endhighlight %}
 
 Not everybody might immediately recognize that `79` is not some aribitrarily large number, but that it is, in fact, precisely one more than the number of cards in the [French game of Tarot](http://en.wikipedia.org/wiki/French_tarot). In the second example, it's immediately clear what's going on. You don't even need to see the actual value for `NUMBER_OF_CARDS_IN_A_DECK`.
 
 Here's another example:
 
-<pre class="prettyprint">
+{% highlight java %}
 @Test
 public void dealGivesTheExactNumberOfCardsAsked_whenAskingSomeNumber() {
-    List&lt;Card> hand = deck.deal(SOME_NUMBER);
+    List<Card> hand = deck.deal(SOME_NUMBER);
     assertThat(hand.size(), is(SOME_NUMBER));
 }
 
 @Test
 public void dealGivesAFullHandOfCards_whenAskingTheNumberOfCardsInAHand() {
-    List&lt;Card> hand = deck.deal(NUMBER_OF_CARDS_IN_A_HAND);
+    List<Card> hand = deck.deal(NUMBER_OF_CARDS_IN_A_HAND);
     assertThat(hand.size(), is(NUMBER_OF_CARDS_IN_A_HAND));
 }
-</pre>
+{% endhighlight %}
 
 The difference may be subtle, but in the first case, I don't care about the specific number as long as it's the same in both instances, whereas in the second one, I do care about the specific number. The first test looks like it's part of a test suite for a generalized `CardDeck` class, while the second one might be specific to a particular game.
 
@@ -83,14 +83,14 @@ In other words, these tests tend to be very brittle, leading to lots of frustrat
 
 It should be obvious, really. Test code is code, so you can refactor it. Move initialization code to an `@Before` set-up method, or to a private helper method. Give the helper method parameters if you have different flavors of initialization. Big assert blocks can be moved to a helper too. So instead of this:
 
-<pre class="prettyprint">
+{% highlight java %}
     assertThat(hand.get(0).getValue(), is(Value.ACE));
     assertThat(hand.get(0).getSuit(), is(Suite.SPADES));
-</pre>
+{% endhighlight %}
 
 You should have something like this:
 
-<pre class="prettyprint">
+{% highlight java %}
     assertCard(hand.get(0), Value.ACE, Suite.SPADES);
 
 // ...
@@ -99,7 +99,7 @@ private void assertCard(Card actualCard, Value expectedValue, Suite expectedSuit
     assertThat(actualHand.getValue(), is(expectedValue));
     assertThat(actualHand.getSuit(), is(expectedSuite));
 }
-</pre>
+{% endhighlight %}
 
 However, as I said, you shouldn't be asserting too much in a single test, because you'll lose information. If the first assert fails, you no longer know what the rest will do. It might be the difference between a typo and a major design flaw and you won't know until you've fixed the first assertion and the second one can be executed, and the third, etc. But when you refactor this test into several smaller ones, you'll immediately see how big your problems are just by the number of tests that are failing.
 
@@ -112,24 +112,24 @@ This is what I mean when I say that test code is code, too. You don't tolerate e
 ## Arrange, act, assert
 This is the same thing as "given-when-then", and it's a good way to organize your test method. Consider:
 
-<pre class="prettyprint">
+{% highlight java %}
 @Test
 public void dealGivesKnownCards_whenShufflingWithAKnownSeed() {
     Random rand = new Random(TEST_SEED);
     CardDeck deck = new CardDeck(rand);
     assertThat(deck.size(), is(52));
     deck.shuffle();
-    List&lt;Card> hand = deck.deal(2);
+    List<Card> hand = deck.deal(2);
     Card one = hand.get(0);
     assertCard(one, Value.ACE, Suite.SPADES);
     Card two = hand.get(1);
     assertCard(two, Value.QUEEN, Suite.HEARTS);
 }
-</pre>
+{% endhighlight %}
 
 versus:
 
-<pre class="prettyprint">
+{% highlight java %}
 @Test
 public void dealGivesKnownCards_whenShufflingWithAKnownSeed() {
     // Arrange
@@ -138,7 +138,7 @@ public void dealGivesKnownCards_whenShufflingWithAKnownSeed() {
     deck.shuffle();
 
     // Act
-    List&lt;Card> hand = deck.deal(2);
+    List<Card> hand = deck.deal(2);
     Card one = hand.get(0);
     Card two = hand.get(1);
 
@@ -147,7 +147,7 @@ public void dealGivesKnownCards_whenShufflingWithAKnownSeed() {
     assertCard(one, Value.ACE, Suite.SPADES);
     assertCard(two, Value.QUEEN, Suite.HEARTS);
 }
-</pre>
+{% endhighlight %}
 
 This is obviously a contrived example, but in general, it's nice to always keep tests in the same order, so you will always know where to find things in tests that you may not have seen in a while. Note that you don't always need an Arrange section, as it might be covered by the `@Before` set-up method. If I'm unable to disentangle your test in this way, I see it as a signal that I need to refactor the test into several smaller ones. If any of the blocks becomes more than a few lines in length, I will start extracting methods.
 

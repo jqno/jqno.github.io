@@ -14,7 +14,7 @@ This is a story about the pain of testing events in C#. If you don't have time t
 
 So I've been unit-testing events in C# lately, and it's been kind of a pain. Let's say we have this code:
 
-<pre class="prettyprint">
+{% highlight c# %}
 public delegate void AnswerHandler(object sender, AnswerEventArgs e);
 public class AnswerEventArgs : EventArgs
 {
@@ -35,11 +35,11 @@ public class AnswerFinder
         }
     }
 }
-</pre>
+{% endhighlight %}
 
 And we want to know whether we got the correct answer. We could write a unit test that looks something like this:
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void Attempt1()
 {
@@ -50,18 +50,18 @@ public void Attempt1()
     };
     finder.FindTheAnswer();
 }
-</pre>
+{% endhighlight %}
 
 Although--doesn't this cause a [memory leak](http://stackoverflow.com/q/4526829/127863)? Actually, no, because both the producer of, and the subscriber to the event, have the same life cycle and can be garbage collected together. Still, one could argue (and many people do) that it's good practice to explicitly unsubscribe from the event anyway: that way, you've got your bases covered if you do run into a situation where such a memory leak would occur. Or even worse: you could refactor your code, change the scope of either the `finder` or the event handler, and you forget to update all the places where either of them is used, and voilà: you've introduced a memory leak and you didn't even know it. Better safe than sorry, right?
 
 So now we end up with something like this:
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void Attempt2()
 {
     var finder = new AnswerFinder();
-    EventHandler&lt;AnswerEventArgs> handler = (sender, e) =>
+    EventHandler<AnswerEventArgs> handler = (sender, e) =>
     {
         Assert.That(e.Answer, Is.EqualTo(42));
     };
@@ -69,11 +69,11 @@ public void Attempt2()
     finder.FindTheAnswer();
     finder.AnswerEvent -= handler;
 }
-</pre>
+{% endhighlight %}
 
 That will do the trick, right? Wrong. There's no guarantee an answer will be found. `DeepThought.Compute()` may simply give up at some point and return `null`, and the event will never be raised. Unfortunately, in that case, our assert is never executed, and the test will happily report success. So we have to guard against that:
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void Attempt3()
 {
@@ -88,11 +88,11 @@ public void Attempt3()
     Assert.That(answer, Is.EqualTo(42));
     finder.AnswerEvent -= handler;
 }
-</pre>
+{% endhighlight %}
 
 Ouch. Also, what does that `-1` mean? Assuming that the answer is always an integer, are we sure it can't be negative? I'm certainly not. Also, we're conflating two properties here: whether or not the event was raised, and the actual answer. Let's fix that.
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void Attempt4()
 {
@@ -108,14 +108,13 @@ public void Attempt4()
     Assert.That(eventWasCalled, Is.True);
     finder.AnswerEvent -= handler;
 }
-</pre>
-
+{% endhighlight %} 
 
 That's an awful lot of boilerplate code for such a simple test! In fact, I'm having trouble seeing the actual test logic through all the boilerplate. Now, imagine if you have a comprehensive test suite with many tests like these. Or actually: please don't. It makes me sad.
 
 What makes me even sadder, is that `DeepThought.Compute()` is quite an expensive operation. We don't want it to freeze the GUI; we should off-load it to a background thread. Great: now we have an asynchronous event. Let's replace the `bool` with a `ManualResetEventSlim`:
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void Attempt5()
 {
@@ -131,11 +130,11 @@ public void Attempt5()
     Assert.That(resetEvent.Wait(TimeSpan.FromMilliseconds(500)), Is.True);
     finder.AnswerEvent -= handler;
 }
-</pre>
+{% endhighlight %}
 
 OK, that's not so bad, right? But wait: `ManualResetEventSlim` implements `IDisposable`!
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void Attempt6()
 {
@@ -153,13 +152,13 @@ public void Attempt6()
         finder.AnswerEvent -= handler;
     }
 }
-</pre>
+{% endhighlight %}
 
 Of course we could lessen that load by turning `resetEvent` into a field, and using `[SetUp]` and `[TearDown]` methods to initialize it and clean it up. But still a lot of boilerplate remains.
 
 **EDIT** Are we done? I thought so, but as Ralph correctly pointed out in the comments, this still doesn't work. If the assert fails, it will throw an exception, yes--but it will do so in the background thread, not in NUnit's main thread. This means that NUnit doesn't pick up on it, and the behaviour that follows is undefined. It could report success, or it could fail to terminate at all. The only thing you can be certain of, is that the test won't actually fail in the way you want. So we have to move the assertion back into the main thread:
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void Attempt7()
 {
@@ -179,7 +178,7 @@ public void Attempt7()
         finder.AnswerEvent -= handler;
     }
 }
-</pre>
+{% endhighlight %}
 
 And now, we're stuck with that nasty `-1` again.
 
@@ -191,7 +190,7 @@ Thankfully, we can do better. A lot better.
 
 I've written a small class that uses some clever reflection tricks to handle most of the boilerplate I've shown above. Behold:
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void FinalAttempt()
 {
@@ -205,7 +204,7 @@ public void FinalAttempt()
         finder.FindTheAnswer();
     }
 }
-</pre>
+{% endhighlight %}
 
 Neat, isn't it? You can find the code [below](#code). Maybe I'll do a proper version on GitHub some day, with its own test suite and proper documentation. Until then, this blog post will have to do :).
 
@@ -216,7 +215,7 @@ Here's a few things `EventMonitor` can do:
 * Even if you decide not to use the conventional `object sender, EventArgs e` delegates, it will work with any delegate with up to 4 parameters, as long as they have a `void` return type.
 * If you want to check that the same event is fired twice, you can do that as follows:
 
-<pre class="prettyprint">
+{% highlight c# %}
 [Test]
 public void TheSameEventTwice()
 {
@@ -236,7 +235,7 @@ public void TheSameEventTwice()
         monitor.Verify();
     }
 }
-</pre>
+{% endhighlight %}
 
 Here's a few things `EventMonitor` unfortunately can't do:
 
@@ -250,7 +249,7 @@ Fixed the code, so that it will handle event delegates with primitive type argum
 
 ## Full code of `EventMonitor`
 
-<pre class="prettyprint">
+{% highlight c# %}
 using System;
 using System.Linq;
 using System.Reflection;
@@ -353,19 +352,19 @@ namespace Test
 			Handle(() => handler.DynamicInvoke());
 		}
 
-		private void Arity1&lt;T>(T arg1)
+		private void Arity1<T>(T arg1)
 		{
 			Handle(() => handler.DynamicInvoke(Convert.ChangeType(arg1, arg1.GetType())));
 		}
 
-		private void Arity2&lt;T1, T2>(T1 arg1, T2 arg2)
+		private void Arity2<T1, T2>(T1 arg1, T2 arg2)
 		{
 			Handle(() => handler.DynamicInvoke(
 					Convert.ChangeType(arg1, arg1.GetType()),
 					Convert.ChangeType(arg2, arg2.GetType())));
 		}
 
-		private void Arity3&lt;T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3)
+		private void Arity3<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3)
 		{
 			Handle(() => handler.DynamicInvoke(
 					Convert.ChangeType(arg1, arg1.GetType()),
@@ -373,7 +372,7 @@ namespace Test
 					Convert.ChangeType(arg3, arg3.GetType())));
 		}
 
-		private void Arity4&lt;T1, T2, T3, T4>(T1 arg1, T2 arg2, T3 arg3, T4 arg4)
+		private void Arity4<T1, T2, T3, T4>(T1 arg1, T2 arg2, T3 arg3, T4 arg4)
 		{
 			Handle(() => handler.DynamicInvoke(
 					Convert.ChangeType(arg1, arg1.GetType()),
@@ -383,4 +382,4 @@ namespace Test
 		}
 	}
 }
-</pre>
+{% endhighlight %}

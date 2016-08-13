@@ -103,14 +103,13 @@ Code!
 * Add the following folders to your `.gitignore` file (or equivalent thing for
   your favourite SCM tool):
 
-<pre class="prettyprint">lib_managed/
-src_managed/
-project/boot/
-project/build/target/
-project/plugins/target/
-project/plugins/lib_managed/
-project/plugins/src_managed/
-</pre>
+      lib_managed/
+      src_managed/
+      project/boot/
+      project/build/target/
+      project/plugins/target/
+      project/plugins/lib_managed/
+      project/plugins/src_managed/
 
 * I like to keep SBT running in a terminal window, so I can quickly type
   instructions into the interactive prompt:
