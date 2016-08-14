@@ -51,6 +51,12 @@ defaults:
       read_time: false
       comments: false
 
+# Analytics
+analytics:
+  provider               : google # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : UA-26048593-1
+
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.20.2
 plugins:
