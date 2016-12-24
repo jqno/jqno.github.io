@@ -13,7 +13,7 @@ This article explains how to easily share your `.vimrc` _and_ all the plugins,
 color schemes, and syntax highlighters that you use between all your
 workstations.
 
-If you haven't done so already, please read [Part 0]({{ pcposturl(2012, 03, 11, "configuration-sharing-with-dropbox-part-0-introduction") }}) first. Go ahead, I'll wait.
+If you haven't done so already, please read [Part 0]({% post_url 2012-03-11-configuration-sharing-with-dropbox-part-0-introduction %}) first. Go ahead, I'll wait.
 
 One-time set-up
 ---------------
