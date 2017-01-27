@@ -1,5 +1,6 @@
 ---
 title: "Get to grips with your build, with Gradle"
+excerpt: In which I share an article I wrote for the Dutch Java Magazine.
 tags:
 - gradle
 - java-magazine

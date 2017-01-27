@@ -1,5 +1,6 @@
 ---
 title: "How to: Android development in Scala"
+excerpt: In which I explain how I wrote an Android app in Scala.
 tags:
 - android
 - code

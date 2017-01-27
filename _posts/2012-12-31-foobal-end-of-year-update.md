@@ -1,5 +1,6 @@
 ---
 title: "Foobal: end-of-year, half-of-season update"
+excerpt: In which I manage to delight and annoy my uncle even more.
 tags:
 - foobal
 - statistics

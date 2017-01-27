@@ -1,5 +1,6 @@
 ---
 title: "The things we do for compatibility"
+excerpt: In which I share an elaborate hack.
 tags:
 - compatibility
 - java

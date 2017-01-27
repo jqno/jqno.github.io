@@ -1,5 +1,6 @@
 ---
 title: "Comparing ints and shorts in C#"
+excerpt: In which I find a possible bug in the language.
 tags:
 - c-sharp
 - equals

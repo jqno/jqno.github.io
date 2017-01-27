@@ -1,5 +1,6 @@
 ---
 title: "Inconsistent equality in C#"
+excerpt: In which Eric Lippert follows up on the potential bug I found last time.
 tags:
 - c-sharp
 - equals

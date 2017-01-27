@@ -1,5 +1,6 @@
 ---
 title: "A better way of typing"
+excerpt: In which you, dear reader, get your mind blown.
 tags:
 - compose-key
 - os-x

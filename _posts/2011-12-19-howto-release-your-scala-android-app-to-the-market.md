@@ -1,5 +1,6 @@
 ---
 title: "How to: Release your Scala Android app to the Market"
+excerpt: In which I show how I added my app to the Android Market.
 tags:
 - android
 - code

@@ -1,5 +1,6 @@
 ---
 title: "Configuration sharing with Dropbox, Part 2: Eclipse"
+excerpt: Part 2 of my series, in which I show how I shared my Eclipse configuration through Dropbox, using the Workbench Mechanic plugin.
 tags:
 - configuration
 - dropbox

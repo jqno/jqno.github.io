@@ -1,5 +1,6 @@
 ---
 title: "Reaction to Cedric Beust's equals challenge"
+excerpt: In which I nerd-sniped into writing a complicated equals method.
 tags:
 - equals
 - equalsverifier

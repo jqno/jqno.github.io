@@ -1,5 +1,6 @@
 ---
 title: "What happened to EqualsVerifier 1.3?"
+excerpt: In which I post-mortem a botched release.
 tags:
 - equalsverifier
 - travis-ci

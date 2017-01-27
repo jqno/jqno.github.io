@@ -1,5 +1,6 @@
 ---
 title: "Configuring my NAS"
+excerpt: In which I setup my NAS to perform backups automatically.
 tags:
 - synology
 - how-to

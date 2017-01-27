@@ -1,5 +1,6 @@
 ---
 title: "On profiling"
+excerpt: In which I manage to delight and annoy my uncle much more quickly.
 tags:
 - profiling
 - visualvm

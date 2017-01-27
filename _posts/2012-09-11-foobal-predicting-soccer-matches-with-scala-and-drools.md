@@ -1,5 +1,6 @@
 ---
 title: "Foobal: predicting soccer matches with Scala and Drools"
+excerpt: In which I use my programming skills to delight and annoy my uncle.
 tags:
 - foobal
 - scala

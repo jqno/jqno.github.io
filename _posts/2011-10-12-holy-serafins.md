@@ -5,6 +5,7 @@ tags:
 - literature
 - references-in-popular-culture
 - umberto-eco
+excerpt: In which I discover a piece of BASIC code in Umberto Eco's novel Foucault's Pendulum.
 ---
 Who would expect, while reading High Literature, to see a piece of BASIC code
 actually included in the text? Not me, that's for sure. But if you read Umerto

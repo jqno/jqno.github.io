@@ -1,5 +1,6 @@
 ---
 title: "On transitivity"
+excerpt: In which I follow up on a problem I discovered in my previous post.
 tags:
 - equals
 - equalsverifier

@@ -1,5 +1,6 @@
 ---
 title: "Foobal: A New Hope"
+excerpt: In which I look forward to a new year of delighting and annoying my uncle.
 tags:
 - foobal
 - bug

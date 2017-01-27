@@ -1,5 +1,6 @@
 ---
 title: "Switching blogging platform - again"
+excerpt: In which I rant about blogging platforms - again.
 tags:
 - blog
 - telegram

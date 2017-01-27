@@ -1,5 +1,6 @@
 ---
 title: "Configuration sharing with Dropbox, Part 3: Bash"
+excerpt: Part 3 of my series, in which I show how I shared my .bashrc and other bash scripts through Dropbox.
 tags:
 - bash
 - configuration

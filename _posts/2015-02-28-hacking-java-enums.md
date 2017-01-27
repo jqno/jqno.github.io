@@ -1,5 +1,6 @@
 ---
 title: "Hacking Java enums"
+excerpt: In which I show how to hack the Java language and break your code.
 tags:
 - java
 - enum

@@ -1,5 +1,6 @@
 ---
 title: "Devoxx 2011 post-mortem"
+excerpt: In which I list the talks I liked the most.
 tags:
 - code
 - devoxx

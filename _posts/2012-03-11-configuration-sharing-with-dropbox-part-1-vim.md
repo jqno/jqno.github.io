@@ -1,5 +1,6 @@
 ---
 title: "Configuration sharing with Dropbox, Part 1: VIM"
+excerpt: Part 1 of my series, in which I show how I shared my .vimrc through Dropbox.
 tags:
 - configuration
 - dropbox

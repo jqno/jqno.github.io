@@ -1,5 +1,6 @@
 ---
 title: "Crummy word processors"
+excerpt: In which I rant about blogging platforms.
 tags:
 - telegram
 - posterous

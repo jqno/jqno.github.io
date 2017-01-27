@@ -1,5 +1,6 @@
 ---
 title: "Generics in EqualsVerifier, part 2: Instantiating generic classes"
+excerpt: In which I apply the things I've learned in the previous post.
 tags:
 - equalsverifier
 - generics

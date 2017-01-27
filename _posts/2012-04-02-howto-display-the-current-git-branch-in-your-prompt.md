@@ -1,5 +1,6 @@
 ---
 title: "How to: Display the current Git branch in your prompt"
+excerpt: In which I show my fancy color prompt script.
 tags:
 - bash
 - git

@@ -1,5 +1,6 @@
 ---
 title: "Testing events in C#"
+excerpt: In which I share my solution to a surprisingly tricky problem.
 tags:
 - c-sharp
 - event-handling

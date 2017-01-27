@@ -1,5 +1,6 @@
 ---
 title: "Generics in EqualsVerifier, part 1: Overcoming type erasure"
+excerpt: In which I take a deep dive into Java's reflection API.
 tags:
 - equalsverifier
 - generics

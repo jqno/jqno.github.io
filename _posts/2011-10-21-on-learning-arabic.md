@@ -1,5 +1,6 @@
 ---
 title: "On learning Arabic"
+excerpt: In which I discuss the things that fascinate me about the Arabic language.
 tags:
 - arabic
 - language

@@ -1,5 +1,6 @@
 ---
 title: "\"It's just test code\""
+excerpt: In which I share how I managed to get my unit tests back under control.
 tags:
 - unit-testing
 - java

@@ -1,5 +1,6 @@
 ---
 title: "How to: make a Maven build script for Android"
+excerpt: In which I share how I managed to ditch Ant in favor of Maven in my Android project.
 tags:
 - maven
 - android

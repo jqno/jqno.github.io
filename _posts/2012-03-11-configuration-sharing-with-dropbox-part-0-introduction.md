@@ -1,5 +1,6 @@
 ---
 title: "Configuration sharing with Dropbox, Part 0: Introduction"
+excerpt: Part 0 of my series in which I show how I shared all my configuration files through Dropbox.
 tags:
 - configuration
 - dropbox

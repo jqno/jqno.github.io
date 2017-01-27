@@ -1,5 +1,6 @@
 ---
 title: "Foobal, Moneyball"
+excerpt: In which I deliver the final blow of delight and annoyance to my uncle.
 tags:
 - foobal
 - statistics
