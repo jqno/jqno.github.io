@@ -5,7 +5,7 @@ layout: single
 ---
 ![]({{ site.url }}/images/about.jpg)
 
-Hi there! I'm Jan Ouwens, a software developer from the Netherlands. You might know me from my [EqualsVerifier](/equalsverifier) project, which is a Java tool that you can use to test whether you've implemented `equals` correctly.
+Hi there! I'm Jan Ouwens, a software developer from the Netherlands. You might know me from my [EqualsVerifier](http://jqno.nl/equalsverifier) project, or from the [talks](/speaking) I sometimes give.
 
 I have worked in many different domains: banking, train operations, image processing for electron microscopes, and ITIL process management, to name just a few. I try to be a polyglot, so I have worked with various different languages such as Java, C#, Typescript, Delphi, Ruby, Jess (a Prolog-like language with a Lisp-like syntax), and yes, even VBScript. Currently I'm working mostly in Scala. Like any self-respecting nerd, I also [have an app](https://play.google.com/store/apps/developer?id=Jan+Ouwens)!
 
