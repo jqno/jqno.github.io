@@ -41,7 +41,8 @@ By now, I have probably convinced you that you want to have a Compose key, too. 
 How?
 ====
 
-* OS X: Install the [US custom](http://uscustom.sourceforge.net/) keyboard layout: download and installation instructions are [here](http://uscustom.sourceforge.net/#installation).<br>Note that MacBooks don't have a Menu key. This tool uses the `§` key instead, which is fine, because who uses it anyway? And even if you do, it's a `Compose`-`s`-`o` away.
+* OS X: ~~Install the [US custom](http://uscustom.sourceforge.net/) keyboard layout: download and installation instructions are [here](http://uscustom.sourceforge.net/#installation).<br>Note that MacBooks don't have a Menu key. This tool uses the `§` key instead, which is fine, because who uses it anyway? And even if you do, it's a `Compose`-`s`-`o` away.~~
+<br>See my follow-up post, [An even better way of typing]({% post_url 2017-12-06-an-even-better-way-of-typing %}).
 * Windows: Install [this nifty little program](https://github.com/SamHocevar/wincompose).
 * Ubuntu: Go to System Settings → Keyboard Layout → Options → Compose key position.
 * Any other Linux? Then you probably already know how to do this.
