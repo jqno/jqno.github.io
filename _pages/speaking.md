@@ -25,4 +25,6 @@ layout: single
   Growing a DSL - [see the (partial) video](https://www.youtube.com/watch?v=gmCQS72yFTg)
 * _23 November 2015, Scala Utrecht Meetup_<br>
   Growing a DSL
+* _11 June 2014, Sogeti_<br>
+  Scala - [see the video](https://www.youtube.com/watch?v=uksqLVk3l6M)
 
