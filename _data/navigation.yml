@@ -4,7 +4,5 @@ main:
     url: /archive
   - title: "About"
     url: /about
-  - title: "Speaking"
-    url: /speaking
   - title: "EqualsVerifier"
     url: /equalsverifier
