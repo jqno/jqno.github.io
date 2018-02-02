@@ -12,11 +12,11 @@ layout: single
 ## Past
 
 * _6 November 2017, [Devoxx Belgium](https://devoxx.be/)_<br>
-  Not all equals methods are created equal - [see the video](https://www.youtube.com/watch?v=pNJ_O10XaoM&t=1376s)
+  Not all equals methods are created equal - [see the video](https://www.youtube.com/watch?v=pNJ_O10XaoM)
 * _7 October 2016, [HBO-ICT Job & Student event](http://www.hboictjobevent.nl/)_<br>
   Growing a DSL for financial calculations
 * _4 May 2016, [Typelevel Summit Oslo](https://typelevel.org/event/2016-05-summit-oslo/)_<br>
-  Growing a DSL for financial calculations - [see the video](https://www.youtube.com/watch?v=W37Mp3mBYLw&t=6s)
+  Growing a DSL for financial calculations - [see the video](https://www.youtube.com/watch?v=W37Mp3mBYLw)
 * _13 April 2016, [Appril Festival](http://appril.nl/)_<br>
   Growing a DSL
 * _31 March 2016, [Brabant Scala Meetup](https://www.meetup.com/brabant-scala/events/228851052/?eventId=228851052)_<br>
