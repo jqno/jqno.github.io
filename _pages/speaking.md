@@ -7,10 +7,12 @@ layout: single
 
 ## Upcoming
 
-* _30 January 2018, [JVMCON](https://jvmcon.com)_<br>Don't hack the platform? ☠️💣💥 
+_none_
 
 ## Past
 
+* _30 January 2018, [JVMCON](https://jvmcon.com)_<br>
+  Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-01-30-jvmcon/)
 * _6 November 2017, [Devoxx Belgium](https://devoxx.be/)_<br>
   Not all equals methods are created equal - [see the video](https://www.youtube.com/watch?v=pNJ_O10XaoM)
 * _7 October 2016, [HBO-ICT Job & Student event](http://www.hboictjobevent.nl/)_<br>
