@@ -7,7 +7,8 @@ layout: single
 
 ## Upcoming
 
-_none_
+* _17 April 2018, [Utrecht JUG](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/)_<br>
+  Don't hack the platform? ☠️💣💥
 
 ## Past
 
