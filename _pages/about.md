@@ -1,14 +1,61 @@
 ---
 permalink: /about/
-title: About this website
+title: About me
 layout: single
 ---
 ![]({{ site.url }}/images/about.jpg)
 
-Hi there! I'm Jan Ouwens, a software developer from the Netherlands. You might know me from my [EqualsVerifier](http://jqno.nl/equalsverifier) project, or from the [talks](/speaking) I sometimes give.
+I work as a developer at [Codestar](http://www.codestar.nl) in the Netherlands. I'm a polyglot developer and have professionally written code in languages such as Delphi, Ruby, Java, and yes, even VBScript. For the past several years I have been enjoying Scala.
 
-I have worked in many different domains: banking, train operations, image processing for electron microscopes, and ITIL process management, to name just a few. I try to be a polyglot, so I have worked with various different languages such as Java, C#, Typescript, Delphi, Ruby, Jess (a Prolog-like language with a Lisp-like syntax), and yes, even VBScript. Currently I'm working mostly in Scala. Like any self-respecting nerd, I also [have an app](https://play.google.com/store/apps/developer?id=Jan+Ouwens)!
+I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to make rigourously testing Java's equals and hashCode methods a one-liner.
 
-When I'm not coding (or doing other things), I like to write, usually in Dutch. See for example my old blog [Brief en leed](http://www.jqno.nl/briefenleed), my [Master's thesis on wireless video streaming](https://dl.dropboxusercontent.com/u/367016/jqno.nl/thesis.pdf) or my [way too in-depth survey of Asterix jokes](https://dl.dropboxusercontent.com/u/367016/jqno.nl/paper.pdf). Oh, and this blog, obviously.
+## Talks
 
-You can find me on [LinkedIn](http://www.linkedin.com/in/janouwens), [GitHub](http://github.com/jqno), [StackOverflow](http://stackoverflow.com/users/127863/jqno), [Twitter](http://twitter.com/jqno), [Pinboard](https://pinboard.in/u:jqno), and [Last.fm](http://www.last.fm/user/jqno). Speaking of Last.fm: here's [a list of all the concerts that I've been to since 1999](http://jqno.nl/concerts).
+### Upcoming
+
+* _17 April 2018, [Utrecht JUG](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/)_<br>
+  Don't hack the platform? ☠️💣💥
+
+### Past
+
+* _30 January 2018, [JVMCON](https://jvmcon.com)_<br>
+  Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-01-30-jvmcon/)
+* _6 November 2017, [Devoxx Belgium](https://devoxx.be/)_<br>
+  Not all equals methods are created equal - [see the video](https://www.youtube.com/watch?v=pNJ_O10XaoM)
+* _7 October 2016, [HBO-ICT Job & Student event](http://www.hboictjobevent.nl/)_<br>
+  Growing a DSL for financial calculations
+* _4 May 2016, [Typelevel Summit Oslo](https://typelevel.org/event/2016-05-summit-oslo/)_<br>
+  Growing a DSL for financial calculations - [see the video](https://www.youtube.com/watch?v=W37Mp3mBYLw)
+* _13 April 2016, [Appril Festival](http://appril.nl/)_<br>
+  Growing a DSL
+* _31 March 2016, [Brabant Scala Meetup](https://www.meetup.com/brabant-scala/events/228851052/?eventId=228851052)_<br>
+  Growing a DSL
+* _24 March 2016, [Codestar Launch Event](https://www.codestar.nl/#team/launchevent)_<br>
+  Growing a DSL - [see the (partial) video](https://www.youtube.com/watch?v=gmCQS72yFTg)
+* _23 November 2015, Scala Utrecht Meetup_<br>
+  Growing a DSL
+* _11 June 2014, Sogeti_<br>
+  Scala - [see the video](https://www.youtube.com/watch?v=uksqLVk3l6M)
+
+## Writings
+
+### In English
+
+* _tr ouwens_, my tech blog<br>
+  [go to the site](http://jqno.nl)
+* _The Performance of Wireless MPEG-2 Video Streaming_, my Master's Thesis<br>
+  [open the PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)
+
+### In Dutch
+
+* My publications in the Dutch Java Magazine<br>
+  [go to the site](http://www.nljug.org/authors/jan-ouwens/)
+* _Brief en leed_, a funny letter-writing blog I did with my friend Ralf<br>
+  [go to the site](http://jqno.nl/briefenleed)
+* _Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen_, a way too in-depth survey of Asterix jokes<br>
+  [open the PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)
+
+## Also
+
+I often go to concerts, and I keep [a list](http://jqno.nl/concerts).
+
