@@ -42,7 +42,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       related: false
   - scope:
       type: posts
@@ -55,12 +55,6 @@ defaults:
     values:
       read_time: false
       comments: false
-
-# Analytics
-analytics:
-  provider               : google-universal # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : UA-26048593-1
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.20.2
