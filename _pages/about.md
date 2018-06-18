@@ -13,12 +13,12 @@ I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to mak
 
 ### Upcoming
 
-* _September 2018, [JavaZone](https://2018.javazone.no/)_<br>
+* _September 2018, [JavaZone Oslo](https://2018.javazone.no/)_<br>
   Don't hack the platform? ☠️💣💥
 
 ### Past
 
-* _June 2018, [JBCNConf](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=)_<br>
+* _June 2018, [JBCNConf Barcelona](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=)_<br>
   Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-06-12-jbcnconf/)
 * _17 April 2018, [Utrecht JUG](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/)_<br>
   Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-04-14-utrecht-jug/)
@@ -26,7 +26,7 @@ I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to mak
   Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-01-30-jvmcon/)
 * _6 November 2017, [Devoxx Belgium](https://devoxx.be/)_<br>
   Not all equals methods are created equal - [see the video](https://www.youtube.com/watch?v=pNJ_O10XaoM)
-* _7 October 2016, [HBO-ICT Job & Student event](http://www.hboictjobevent.nl/)_<br>
+* _7 October 2016, [HBO-ICT Job & Student event Rotterdam](http://www.hboictjobevent.nl/)_<br>
   Growing a DSL for financial calculations
 * _4 May 2016, [Typelevel Summit Oslo](https://typelevel.org/event/2016-05-summit-oslo/)_<br>
   Growing a DSL for financial calculations - [see the video](https://www.youtube.com/watch?v=W37Mp3mBYLw)
