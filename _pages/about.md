@@ -52,8 +52,13 @@ I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to mak
 
 ### In Dutch
 
-* My publications in the Dutch Java Magazine<br>
-  [go to the site](http://www.nljug.org/authors/jan-ouwens/)
+* My publications in the Dutch Java Magazine
+    * _Selenium is leuk met ScalaTest_<br>
+      [go to the site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)
+    * _Een DSL kweken_<br>
+      [go to the site](https://nljug.org/java-magazine/een-dsl-kweken/)
+    * _Grip op je buildproces met Gradle_, met [Hanno Embregts](https://twitter.com/hannotify)<br>
+      [go to the site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)
 * _Brief en leed_, a funny letter-writing blog I did with my friend Ralf<br>
   [go to the site](http://jqno.nl/briefenleed)
 * _Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen_, a way too in-depth survey of Asterix jokes<br>
