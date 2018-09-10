@@ -13,6 +13,8 @@ I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to mak
 
 ### Upcoming
 
+* _November 2018, [J-Fall](https://jfall.nl/)_<br>
+  Don't hack the platform? ☠️💣💥
 * _September 2018, [JavaZone Oslo](https://2018.javazone.no/)_<br>
   Don't hack the platform? ☠️💣💥
 
