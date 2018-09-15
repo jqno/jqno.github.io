@@ -13,14 +13,14 @@ I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to mak
 
 ### Upcoming
 
-* _November 2018, [J-Fall](https://jfall.nl/)_<br>
-  Don't hack the platform? ☠️💣💥
-* _September 2018, [JavaZone Oslo](https://2018.javazone.no/)_<br>
+* _8 November 2018, [J-Fall](https://jfall.nl/)_<br>
   Don't hack the platform? ☠️💣💥
 
 ### Past
 
-* _June 2018, [JBCNConf Barcelona](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=)_<br>
+* _12 September 2018, [JavaZone Oslo](https://2018.javazone.no/)_<br>
+  Don't hack the platform? ☠️💣💥 - [see the video](https://vimeo.com/289655964) or [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-09-12-javazone/)
+* _12 June 2018, [JBCNConf Barcelona](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=)_<br>
   Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-06-12-jbcnconf/)
 * _17 April 2018, [Utrecht JUG](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/)_<br>
   Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-04-14-utrecht-jug/)
