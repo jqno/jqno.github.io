@@ -38,7 +38,7 @@ After the upgrade to MacOS Mojave borked my laptop the other day, I was forced t
 
 * [**Homebrew**](https://brew.sh) is obviously the best way to install a whole bunch of command-line applications.
   * **`ZSH`** is my shell of choice. There's no need to install something like Oh-my-zsh, which I find gets in the way every time it tries to update. Everything that Oh-my-zsh offers is very easy to add by hand: there's Homebrew packages for certain plugins like syntax highlighting, and prompts don't need Oh-my-zsh either. Check my [dotfiles](https://github.com/jqno/dotfiles/tree/master/zsh) if you don't believe me.<br>`brew install zsh zsh-autosuggestions zsh-syntax-highlighting`
-  * **`git`** and **`rsync`** I install with Homebrew because the built-in versions are outdated.<br>`brew install git rsync`
+  * **`git`**, **ctags** and **`rsync`** I install with Homebrew because the built-in versions are outdated.<br>`brew install git ctags rsync`
   * **`ag`** (or **The Silver Searcher**) is a replacement for `grep` that I find easier to work with. It's also (supposed to be) faster.<br>`brew install ag`
   * **`bat`** is a replacement for `cat` that does syntax highlighting. I was trying it out before my laptop broke so I might not keep it, but so far it seems nice.<br>`brew install bat`
   * **`fzf`** is a fuzzy finding tool for the command-line. It's great for finding stuff in your shell history. It's also great in Vim to find files, buffers, tags, and other things.<br>`brew install fzf`, and don't forget to also run the install script for keybindings.
