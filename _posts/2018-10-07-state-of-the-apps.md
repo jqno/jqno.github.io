@@ -64,6 +64,8 @@ After the upgrade to MacOS Mojave borked my laptop the other day, I was forced t
 
 * [**Karabiner Elements**](https://pqrs.org/osx/karabiner) for redefining some of my keyboard's keys. I use it mainly to switch the `` ` `` and `~` keys, which for some reason are swapped on Dutch Macbooks. I also use it to remap CapsLock with a makeshift Hyper key, which I use heavily in my Hammerspoon scripts to define global shortcuts.
 
+* [**Rocket**](https://matthewpalmer.net/rocket) makes it super easy to write emojis.
+
 * Bonus app: [**Night Owl**](https://nightowl.kramser.xyz) is a new tool for Mojave that switches between Light Mode and Dark Mode based on the time of the day. Nice!
 
 # Miscellaneous
