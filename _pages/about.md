@@ -47,24 +47,24 @@ I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to mak
 
 ### In English
 
-* _tr ouwens_, my tech blog<br>
-  [go to the site](http://jqno.nl)
-* _The Performance of Wireless MPEG-2 Video Streaming_, my Master's Thesis<br>
-  [open the PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)
+* _2011 - present, tr ouwens_<br>
+  my tech blog - [go to the site](http://jqno.nl)
+* _August 2005, The Performance of Wireless MPEG-2 Video Streaming_<br>
+  my Master's Thesis - [open the PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)
 
 ### In Dutch
 
 * My publications in the Dutch Java Magazine
-    * _Selenium is leuk met ScalaTest_<br>
+    * _February 2018, Selenium is leuk met ScalaTest_<br>
       [go to the site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)
-    * _Een DSL kweken_<br>
+    * _April 2016, Een DSL kweken_<br>
       [go to the site](https://nljug.org/java-magazine/een-dsl-kweken/)
-    * _Grip op je buildproces met Gradle_, met [Hanno Embregts](https://twitter.com/hannotify)<br>
+    * _June 2015, Grip op je buildproces met Gradle_ (met [Hanno Embregts](https://twitter.com/hannotify))<br>
       [go to the site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)
-* _Brief en leed_, a funny letter-writing blog I did with my friend Ralf<br>
-  [go to the site](http://jqno.nl/briefenleed)
-* _Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen_, a way too in-depth survey of Asterix jokes<br>
-  [open the PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)
+* _2009 - 2012, Brief en leed_<br>
+  a funny letter-writing blog I did with my friend Ralf - [go to the site](http://jqno.nl/briefenleed)
+* _January 2008, Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen_<br>
+  a way too in-depth survey of Asterix jokes - [open the PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)
 
 ## Also
 
