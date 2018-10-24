@@ -55,6 +55,7 @@ I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to mak
 ### In Dutch
 
 * My publications in the Dutch Java Magazine
+    * _October 2018, Lees dit niet! ☠️💣💥_
     * _February 2018, Selenium is leuk met ScalaTest_<br>
       [go to the site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)
     * _April 2016, Een DSL kweken_<br>
