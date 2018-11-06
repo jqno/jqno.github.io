@@ -11,61 +11,83 @@ I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to mak
 
 ## Talks
 
-### Upcoming
+I sometimes speak at meetups and conferences. Here's a selection of talks I've given.
 
-* _8 November 2018, [J-Fall](https://jfall.nl/)_<br>
-  Don't hack the platform? ☠️💣💥
+### Don't hack the platform? ☠️💣💥
 
-### Past
+A funny anthology of tricks and hacks for the JVM.
 
-* _12 September 2018, [JavaZone Oslo](https://2018.javazone.no/)_<br>
-  Don't hack the platform? ☠️💣💥 - [see the video](https://vimeo.com/289655964) or [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-09-12-javazone/)
-* _12 June 2018, [JBCNConf Barcelona](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=)_<br>
-  Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-06-12-jbcnconf/)
-* _17 April 2018, [Utrecht JUG](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/)_<br>
-  Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-04-14-utrecht-jug/)
-* _30 January 2018, [JVMCON](https://jvmcon.com)_<br>
-  Don't hack the platform? ☠️💣💥 - [see the slides](http://jqno.nl/dont-hack-the-platform-talk/2018-01-30-jvmcon/)
-* _6 November 2017, [Devoxx Belgium](https://devoxx.be/)_<br>
-  Not all equals methods are created equal - [see the video](https://www.youtube.com/watch?v=pNJ_O10XaoM)
-* _7 October 2016, [HBO-ICT Job & Student event Rotterdam](http://www.hboictjobevent.nl/)_<br>
-  Growing a DSL for financial calculations
-* _4 May 2016, [Typelevel Summit Oslo](https://typelevel.org/event/2016-05-summit-oslo/)_<br>
-  Growing a DSL for financial calculations - [see the video](https://www.youtube.com/watch?v=W37Mp3mBYLw)
-* _13 April 2016, [Appril Festival](http://appril.nl/)_<br>
-  Growing a DSL
-* _31 March 2016, [Brabant Scala Meetup](https://www.meetup.com/brabant-scala/events/228851052/?eventId=228851052)_<br>
-  Growing a DSL
-* _24 March 2016, [Codestar Launch Event](https://www.codestar.nl/#team/launchevent)_<br>
-  Growing a DSL - [see the (partial) video](https://www.youtube.com/watch?v=gmCQS72yFTg)
-* _23 November 2015, Scala Utrecht Meetup_<br>
-  Growing a DSL
-* _11 June 2014, Sogeti_<br>
-  Scala - [see the video](https://www.youtube.com/watch?v=uksqLVk3l6M)
+<div style="float:right;width:224px;height:126px;">
+<iframe src="https://www.youtube-nocookie.com/embed/9AbtsYUBcN4?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+* _8 November 2018_, [J-Fall](https://jfall.nl/sessions/dont-hack-the-jvm/) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-11-08-jfall/)]
+* _12 September 2018_, [JavaZone Oslo](https://2018.javazone.no/) - [[video](https://vimeo.com/289655964)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-09-12-javazone/)]
+* _12 June 2018_, [JBCNConf Barcelona](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-06-12-jbcnconf/)]
+* _17 April 2018_, [Utrecht JUG](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-04-14-utrecht-jug/)]
+* _30 January 2018_, [JVMCON](https://jvmcon.com) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-01-30-jvmcon/)]
+
+### Not all equals methods are created equal
+
+How to write a good `equals` method, and to test it with [EqualsVerifier](http://jqno.nl/equalsverifier).
+
+<div style="float:right;width:224px;height:126px;">
+<iframe src="https://www.youtube-nocookie.com/embed/pNJ_O10XaoM?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+* _6 November 2017_, [Devoxx Belgium](https://devoxx.be/2017/) - [[video](https://www.youtube.com/watch?v=pNJ_O10XaoM)] [[slides](https://github.com/jqno/equalsverifier-talk/tree/2017-11-06-devoxx)]
+
+
+### Growing a DSL for financial calculations
+
+The story of how my colleague and I 'discovered' a Scala DSL for writing complex mortgage calculations.
+
+<div style="float:right;width:224px;height:126px;">
+<iframe src="https://www.youtube-nocookie.com/embed/W37Mp3mBYLw?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+* _7 October 2016_, [HBO-ICT Job & Student event Rotterdam](http://www.hboictjobevent.nl/)
+* _4 May 2016_, [Typelevel Summit Oslo](https://typelevel.org/event/2016-05-summit-oslo/) - [[video](https://www.youtube.com/watch?v=w37mp3mbylw)]
+
+* _13 April 2016_, [Appril Festival](http://appril.nl/)
+* _31 March 2016_, [Brabant Scala Meetup](https://www.meetup.com/brabant-scala/events/228851052/?eventId=228851052)
+* _24 March 2016_, [Codestar Launch Event](https://www.codestar.nl/#team/launchevent) - [[partial video](https://www.youtube.com/watch?v=gmCQS72yFTg)]
+* _23 November 2015_, Scala Utrecht Meetup
+
+### Scala
+
+A quick overview of Scala language features, intended for Java developers.
+
+<div style="float:right;width:224px;height:126px;">
+<iframe src="https://www.youtube-nocookie.com/embed/uksqLVk3l6M?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+* _11 June 2014_, Sogeti - [[video](https://www.youtube.com/watch?v=uksqLVk3l6M)]
+
 
 ## Writings
 
 ### In English
 
-* _2011 - present, tr ouwens_<br>
-  my tech blog - [go to the site](http://jqno.nl)
-* _August 2005, The Performance of Wireless MPEG-2 Video Streaming_<br>
-  my Master's Thesis - [open the PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)
+* _2011 - present_, tr ouwens<br>
+  my tech blog - [site](http://jqno.nl)
+* _August 2005_, The Performance of Wireless MPEG-2 Video Streaming<br>
+  my Master's Thesis - [PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)
 
 ### In Dutch
 
 * My publications in the Dutch Java Magazine
-    * _October 2018, Lees dit niet! ☠️💣💥_
-    * _February 2018, Selenium is leuk met ScalaTest_<br>
-      [go to the site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)
-    * _April 2016, Een DSL kweken_<br>
-      [go to the site](https://nljug.org/java-magazine/een-dsl-kweken/)
-    * _June 2015, Grip op je buildproces met Gradle_ (met [Hanno Embregts](https://twitter.com/hannotify))<br>
-      [go to the site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)
-* _2009 - 2012, Brief en leed_<br>
-  a funny letter-writing blog I did with my friend Ralf - [go to the site](http://jqno.nl/briefenleed)
-* _January 2008, Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen_<br>
-  a way too in-depth survey of Asterix jokes - [open the PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)
+    * _October 2018_, Lees dit niet! ☠️💣💥
+    * _February 2018_, Selenium is leuk met ScalaTest<br>
+      [site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)
+    * _April 2016_, Een DSL kweken<br>
+      [site](https://nljug.org/java-magazine/een-dsl-kweken/)
+    * _June 2015_, Grip op je buildproces met Gradle (met [Hanno Embregts](https://twitter.com/hannotify))<br>
+      [site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)
+* _2009 - 2012_, Brief en leed<br>
+  a funny letter-writing blog I did with my friend Ralf - [site](http://jqno.nl/briefenleed)
+* _January 2008_, Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen<br>
+  a way too in-depth survey of Asterix jokes - [PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)
 
 ## Also
 
