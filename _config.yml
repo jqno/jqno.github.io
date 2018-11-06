@@ -25,7 +25,7 @@ description: "By the way: things I want to say"
 author:
   name: "Jan Ouwens"
   avatar: "https://www.gravatar.com/avatar/f2e0574e5b5e770b5c5678b91ba889a6"
-  bio: "<a href='/about'>Scala by day, Java by night</a><br>&mdash; I make <a href='/equalsverifier'>EqualsVerifier</a>"
+  bio: "<a href='/about'>Scala by day, Java by night</a>"
   location: "The Netherlands"
   github: jqno
   stackoverflow: 127863
