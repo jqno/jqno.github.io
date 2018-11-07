@@ -5,9 +5,22 @@ layout: single
 ---
 ![]({{ site.url }}/images/about.jpg)
 
-I work as a developer at [Codestar](http://www.codestar.nl) in the Netherlands. I'm a polyglot developer and have professionally written code in languages such as Delphi, Ruby, Java, and yes, even VBScript. For the past several years I have been enjoying Scala.
+I'm a developer from the Netherlands. Currently, I work for [Codestar](http://www.codestar.nl).
 
-I'm the author of [EqualsVerifier](http://jqno.nl/equalsverifier), a tool to make rigourously testing Java's equals and hashCode methods a one-liner.
+
+## Projects
+
+* [EqualsVerifier](http://jqno.nl/equalsverifier) - [[github](https://github.com/jqno/equalsverifier)] [java]<br>
+  A tool to make rigourously testing Java's equals and hashCode methods a one-liner
+* [Foobal](https://jqno.nl/tags-detail/#foobal) - [[github](https://github.com/jqno/foobal)] [scala]<br>
+  A little program I use to predict the outcome of soccer matches, so that I can participate in the family pool without needing to learn about the actual sport
+* [ReminderMail](https://jqno.nl/remindermail) - [[github](https://github.com/jqno/remindermail)] [kotlin]<br>
+  A small Android app that makes it easy to quickly send mails to yourself
+* [ComposeKey](https://jqno.nl/ComposeKey.alfredsnippets/) - [[github](https://github.com/jqno/ComposeKey.alfredsnippets)] [scala]<br>
+  A bundle of text-expansion snippets for [Alfred](https://www.alfredapp.com/) that mimic the behaviour of Linux's compose key
+* vim-reversal - [[github](https://github.com/jqno/vim-reversal)] [vimscript]<br>
+  A colorscheme for Vim that highlights identifiers and de-emphasizes keywords, so you can easily see what's important in your code
+
 
 ## Talks
 
