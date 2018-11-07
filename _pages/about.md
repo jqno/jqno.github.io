@@ -36,7 +36,6 @@ The story of how my colleague and I 'discovered' a Scala DSL for writing complex
 
 * _7 October 2016_, [HBO-ICT Job & Student event Rotterdam](http://www.hboictjobevent.nl/)
 * _4 May 2016_, [Typelevel Summit Oslo](https://typelevel.org/event/2016-05-summit-oslo/) - [[video](https://www.youtube.com/watch?v=w37mp3mbylw)]
-
 * _13 April 2016_, [Appril Festival](http://appril.nl/)
 * _31 March 2016_, [Brabant Scala Meetup](https://www.meetup.com/brabant-scala/events/228851052/?eventId=228851052)
 * _24 March 2016_, [Codestar Launch Event](https://www.codestar.nl/#team/launchevent) - [[partial video](https://www.youtube.com/watch?v=gmCQS72yFTg)]
@@ -53,25 +52,22 @@ A quick overview of Scala language features, intended for Java developers.
 
 ### In English
 
-* _2011 - present_, tr ouwens<br>
-  my tech blog - [site](http://jqno.nl)
-* _August 2005_, The Performance of Wireless MPEG-2 Video Streaming<br>
-  my Master's Thesis - [PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)
+* _2011 - present_, tr ouwens - [[site](http://jqno.nl)]<br>
+  my tech blog
+* _August 2005_, The Performance of Wireless MPEG-2 Video Streaming - [[PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)]<br>
+  my Master's Thesis
 
 ### In Dutch
 
 * My publications in the Dutch Java Magazine
     * _October 2018_, Lees dit niet! ☠️💣💥
-    * _February 2018_, Selenium is leuk met ScalaTest<br>
-      [site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)
-    * _April 2016_, Een DSL kweken<br>
-      [site](https://nljug.org/java-magazine/een-dsl-kweken/)
-    * _June 2015_, Grip op je buildproces met Gradle (met [Hanno Embregts](https://twitter.com/hannotify))<br>
-      [site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)
-* _2009 - 2012_, Brief en leed<br>
-  a funny letter-writing blog I did with my friend Ralf - [site](http://jqno.nl/briefenleed)
-* _January 2008_, Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen<br>
-  a way too in-depth survey of Asterix jokes - [PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)
+    * _February 2018_, Selenium is leuk met ScalaTest - [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)]
+    * _April 2016_, Een DSL kweken - [[site](https://nljug.org/java-magazine/een-dsl-kweken/)]
+    * _June 2015_, Grip op je buildproces met Gradle (met [Hanno Embregts](https://twitter.com/hannotify)) - [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)]
+* _2009 - 2012_, Brief en leed - [[site](http://jqno.nl/briefenleed)]<br>
+  a funny letter-writing blog I did with my friend Ralf
+* _January 2008_, Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen - [[PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)]<br>
+  a way too in-depth survey of Asterix jokes
 
 ## Also
 
