@@ -7,24 +7,24 @@ layout: single
 
 My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I work for [Codestar](http://www.codestar.nl). I do a bunch of things:
 
-* I [write code](#projects)
-* I [give talks](#talks)
-* I [write prose](#writings)
-* I [go to concerts](http://jqno.nl/concerts)
+* [I write code](#projects)
+* [I give talks](#talks)
+* [I write prose](#writings)
+* [I go to concerts](http://jqno.nl/concerts)
 
 
 <a name="projects"/>
 ## Projects
 
-* [EqualsVerifier](http://jqno.nl/equalsverifier) - [[github](https://github.com/jqno/equalsverifier)] [java]<br>
+* **[EqualsVerifier](http://jqno.nl/equalsverifier)** - [[github](https://github.com/jqno/equalsverifier)] [java]<br>
   A tool to make rigourously testing Java's equals and hashCode methods a one-liner
-* [Foobal](https://jqno.nl/tags-detail/#foobal) - [[github](https://github.com/jqno/foobal)] [scala]<br>
+* **[Foobal](https://jqno.nl/tags-detail/#foobal)** - [[github](https://github.com/jqno/foobal)] [scala]<br>
   A little program I use to predict the outcome of soccer matches, so that I can participate in the family pool without needing to learn about the actual sport
-* [ReminderMail](https://jqno.nl/remindermail) - [[github](https://github.com/jqno/remindermail)] [kotlin]<br>
+* **[ReminderMail](https://jqno.nl/remindermail)** - [[github](https://github.com/jqno/remindermail)] [kotlin]<br>
   A small Android app that makes it easy to quickly send mails to yourself
-* [ComposeKey](https://jqno.nl/ComposeKey.alfredsnippets/) - [[github](https://github.com/jqno/ComposeKey.alfredsnippets)] [scala]<br>
+* **[ComposeKey](https://jqno.nl/ComposeKey.alfredsnippets/)** - [[github](https://github.com/jqno/ComposeKey.alfredsnippets)] [scala]<br>
   A bundle of text-expansion snippets for [Alfred](https://www.alfredapp.com/) that mimic the behaviour of Linux's compose key
-* vim-reversal - [[github](https://github.com/jqno/vim-reversal)] [vimscript]<br>
+* **vim-reversal** - [[github](https://github.com/jqno/vim-reversal)] [vimscript]<br>
   A colorscheme for Vim that highlights identifiers and de-emphasizes keywords, so you can easily see what's important in your code
 
 
@@ -33,7 +33,7 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 
 I sometimes speak at meetups and conferences. Here's a selection of talks I've given.
 
-* Don't hack the platform? ☠️💣💥<br>
+* **Don't hack the platform? ☠️💣💥**<br>
   A funny anthology of tricks and hacks for the JVM.
   * _8 November 2018_, [J-Fall](https://jfall.nl/sessions/dont-hack-the-jvm/) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-11-08-jfall/)]
   * _12 September 2018_, [JavaZone Oslo](https://2018.javazone.no/) - [[video](https://vimeo.com/289655964)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-09-12-javazone/)]
@@ -41,11 +41,11 @@ I sometimes speak at meetups and conferences. Here's a selection of talks I've g
   * _17 April 2018_, [Utrecht JUG](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-04-14-utrecht-jug/)]
   * _30 January 2018_, [JVMCON](https://jvmcon.com) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-01-30-jvmcon/)]
 
-* Not all equals methods are created equal<br>
+* **Not all equals methods are created equal**<br>
   How to write a good `equals` method, and to test it with [EqualsVerifier](http://jqno.nl/equalsverifier).
   * _6 November 2017_, [Devoxx Belgium](https://devoxx.be/2017/) - [[video](https://www.youtube.com/watch?v=pNJ_O10XaoM)] [[slides](https://github.com/jqno/equalsverifier-talk/tree/2017-11-06-devoxx)]
 
-* Growing a DSL for financial calculations<br>
+* **Growing a DSL for financial calculations**<br>
   The story of how my colleague and I 'discovered' a Scala DSL for writing complex mortgage calculations.
   * _7 October 2016_, [HBO-ICT Job & Student event Rotterdam](http://www.hboictjobevent.nl/)
   * _4 May 2016_, [Typelevel Summit Oslo](https://typelevel.org/event/2016-05-summit-oslo/) - [[video](https://www.youtube.com/watch?v=w37mp3mbylw)]
@@ -54,7 +54,7 @@ I sometimes speak at meetups and conferences. Here's a selection of talks I've g
   * _24 March 2016_, [Codestar Launch Event](https://www.codestar.nl/#team/launchevent) - [[partial video](https://www.youtube.com/watch?v=gmCQS72yFTg)]
   * _23 November 2015_, Scala Utrecht Meetup
 
-* Scala<br>
+* **Scala**<br>
   A quick overview of Scala language features, intended for Java developers.
   * _11 June 2014_, Sogeti - [[video](https://www.youtube.com/watch?v=uksqLVk3l6M)]
 
@@ -63,20 +63,20 @@ I sometimes speak at meetups and conferences. Here's a selection of talks I've g
 ## Writings
 
 * In English
-  * _2011 - present_, tr ouwens - [[site](http://jqno.nl)]<br>
+  * _2011 - present_, **tr ouwens** - [[site](http://jqno.nl)]<br>
     my tech blog
-  * _August 2005_, The Performance of Wireless MPEG-2 Video Streaming - [[PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)]<br>
+  * _August 2005_, **The Performance of Wireless MPEG-2 Video Streaming** - [[PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)]<br>
     my Master's Thesis
 
 * In Dutch
-  * My publications in the Dutch Java Magazine
-    * _October 2018_, Lees dit niet! ☠️💣💥
-    * _February 2018_, Selenium is leuk met ScalaTest - [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)]
-    * _April 2016_, Een DSL kweken - [[site](https://nljug.org/java-magazine/een-dsl-kweken/)]
-    * _June 2015_, Grip op je buildproces met Gradle (met [Hanno Embregts](https://twitter.com/hannotify)) - [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)]
-  * _2009 - 2012_, Brief en leed - [[site](http://jqno.nl/briefenleed)]<br>
+  * My publications in the Dutch **Java Magazine**
+    * _October 2018_, **Lees dit niet! ☠️💣💥**
+    * _February 2018_, **Selenium is leuk met ScalaTest** - [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)]
+    * _April 2016_, **Een DSL kweken** - [[site](https://nljug.org/java-magazine/een-dsl-kweken/)]
+    * _June 2015_, **Grip op je buildproces met Gradle** (met [Hanno Embregts](https://twitter.com/hannotify)) - [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)]
+  * _2009 - 2012_, **Brief en leed** - [[site](http://jqno.nl/briefenleed)]<br>
     a funny letter-writing blog I did with my friend Ralf
-  * _January 2008_, Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen - [[PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)]<br>
+  * _January 2008_, **Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen** - [[PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)]<br>
     a way too in-depth survey of Asterix jokes
 
 
