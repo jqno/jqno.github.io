@@ -5,9 +5,15 @@ layout: single
 ---
 ![]({{ site.url }}/images/about.jpg)
 
-I'm a developer from the Netherlands. Currently, I work for [Codestar](http://www.codestar.nl).
+My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I work for [Codestar](http://www.codestar.nl). I do a bunch of things:
+
+* I [write code](#projects)
+* I [give talks](#talks)
+* I [write prose](#writings)
+* I [go to concerts](http://jqno.nl/concerts)
 
 
+<a name="projects"/>
 ## Projects
 
 * [EqualsVerifier](http://jqno.nl/equalsverifier) - [[github](https://github.com/jqno/equalsverifier)] [java]<br>
@@ -22,6 +28,7 @@ I'm a developer from the Netherlands. Currently, I work for [Codestar](http://ww
   A colorscheme for Vim that highlights identifiers and de-emphasizes keywords, so you can easily see what's important in your code
 
 
+<a name="talks"/>
 ## Talks
 
 I sometimes speak at meetups and conferences. Here's a selection of talks I've given.
@@ -52,6 +59,7 @@ I sometimes speak at meetups and conferences. Here's a selection of talks I've g
   * _11 June 2014_, Sogeti - [[video](https://www.youtube.com/watch?v=uksqLVk3l6M)]
 
 
+<a name="writings"/>
 ## Writings
 
 * In English
@@ -71,7 +79,4 @@ I sometimes speak at meetups and conferences. Here's a selection of talks I've g
   * _January 2008_, Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen - [[PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)]<br>
     a way too in-depth survey of Asterix jokes
 
-## Also
-
-I often go to concerts, and I keep [a list](http://jqno.nl/concerts).
 
