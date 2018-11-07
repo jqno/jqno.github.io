@@ -17,10 +17,6 @@ I sometimes speak at meetups and conferences. Here's a selection of talks I've g
 
 A funny anthology of tricks and hacks for the JVM.
 
-<div style="float:right;width:224px;height:126px;">
-<iframe src="https://www.youtube-nocookie.com/embed/9AbtsYUBcN4?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
-
 * _8 November 2018_, [J-Fall](https://jfall.nl/sessions/dont-hack-the-jvm/) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-11-08-jfall/)]
 * _12 September 2018_, [JavaZone Oslo](https://2018.javazone.no/) - [[video](https://vimeo.com/289655964)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-09-12-javazone/)]
 * _12 June 2018_, [JBCNConf Barcelona](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=) - [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-06-12-jbcnconf/)]
@@ -31,20 +27,12 @@ A funny anthology of tricks and hacks for the JVM.
 
 How to write a good `equals` method, and to test it with [EqualsVerifier](http://jqno.nl/equalsverifier).
 
-<div style="float:right;width:224px;height:126px;">
-<iframe src="https://www.youtube-nocookie.com/embed/pNJ_O10XaoM?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
-
 * _6 November 2017_, [Devoxx Belgium](https://devoxx.be/2017/) - [[video](https://www.youtube.com/watch?v=pNJ_O10XaoM)] [[slides](https://github.com/jqno/equalsverifier-talk/tree/2017-11-06-devoxx)]
 
 
 ### Growing a DSL for financial calculations
 
 The story of how my colleague and I 'discovered' a Scala DSL for writing complex mortgage calculations.
-
-<div style="float:right;width:224px;height:126px;">
-<iframe src="https://www.youtube-nocookie.com/embed/W37Mp3mBYLw?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
 
 * _7 October 2016_, [HBO-ICT Job & Student event Rotterdam](http://www.hboictjobevent.nl/)
 * _4 May 2016_, [Typelevel Summit Oslo](https://typelevel.org/event/2016-05-summit-oslo/) - [[video](https://www.youtube.com/watch?v=w37mp3mbylw)]
@@ -57,10 +45,6 @@ The story of how my colleague and I 'discovered' a Scala DSL for writing complex
 ### Scala
 
 A quick overview of Scala language features, intended for Java developers.
-
-<div style="float:right;width:224px;height:126px;">
-<iframe src="https://www.youtube-nocookie.com/embed/uksqLVk3l6M?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
 
 * _11 June 2014_, Sogeti - [[video](https://www.youtube.com/watch?v=uksqLVk3l6M)]
 
