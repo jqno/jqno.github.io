@@ -31,7 +31,7 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 <a name="talks"/>
 ## Talks
 
-* **Don't hack the platform? ☠️💣💥**<br>
+* **Don't hack the platform? ☠️💣💥** - [[github](https://github.com/jqno/dont-hack-the-platform-talk/)]<br>
   A funny anthology of tricks and hacks for the JVM.
   * _8 November 2018_, J-Fall - [[event](https://jfall.nl/sessions/dont-hack-the-jvm/)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-11-08-jfall/)]
   * _12 September 2018_, JavaZone Oslo - [[event](https://2018.javazone.no/)] [[video](https://vimeo.com/289655964)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-09-12-javazone/)]
@@ -39,7 +39,7 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
   * _17 April 2018_, Utrecht JUG - [[event](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-04-14-utrecht-jug/)]
   * _30 January 2018_, JVMCON - [[event](https://jvmcon.com)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-01-30-jvmcon/)]
 
-* **Not all equals methods are created equal**<br>
+* **Not all equals methods are created equal** - [[github](https://github.com/jqno/equalsverifier-talk)]<br>
   How to write a good `equals` method, and to test it with [EqualsVerifier](http://jqno.nl/equalsverifier).
   * _6 November 2017_, Devoxx Belgium - [[event](https://devoxx.be/2017/)] [[video](https://www.youtube.com/watch?v=pNJ_O10XaoM)] [[slides](https://github.com/jqno/equalsverifier-talk/tree/2017-11-06-devoxx)]
 
