@@ -32,7 +32,7 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 ## Talks
 
 * **Don't hack the platform? ☠️💣💥** - [[github](https://github.com/jqno/dont-hack-the-platform-talk/)]<br>
-  A funny anthology of tricks and hacks for the JVM.
+  A funny anthology of tricks and hacks for the JVM.<br>Voted 2018's ["best non-Venkat talk"](https://nljug.org/nieuws/j-fall-2018-the-top-10-sessions/) by the J-Fall audience!
   * _8 November 2018_, J-Fall - [[event](https://jfall.nl/sessions/dont-hack-the-jvm/)] [[video](https://www.youtube.com/watch?v=3750lsxn8m8)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-11-08-jfall/)]
   * _12 September 2018_, JavaZone Oslo - [[event](https://2018.javazone.no/)] [[video](https://vimeo.com/289655964)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-09-12-javazone/)]
   * _12 June 2018_, JBCNConf Barcelona - [[event](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-06-12-jbcnconf/)]
