@@ -31,6 +31,10 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 <a name="talks"/>
 ## Talks
 
+* **Java from a Parallel Universe** - [[github](https://jqno.nl/talks/paralleljava)]<br>
+  What Java would look like in a world where annotation were never invented.
+  * _29 May 2019_, J-Spring - [[event](https://jspring.nl/sessions/java-from-a-parallel-universe/)]
+
 * **Don't hack the platform? ☠️💣💥** - [[github](https://github.com/jqno/dont-hack-the-platform-talk/)]<br>
   A funny anthology of tricks and hacks for the JVM.<br>Voted 2018's ["best non-Venkat talk"](https://nljug.org/nieuws/j-fall-2018-the-top-10-sessions/) by the J-Fall audience!
   * _8 November 2018_, J-Fall - [[event](https://jfall.nl/sessions/dont-hack-the-jvm/)] [[video](https://www.youtube.com/watch?v=3750lsxn8m8)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-11-08-jfall/)]
