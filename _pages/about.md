@@ -50,7 +50,7 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 * _2011 - present_, **tr ouwens** - [[site](http://jqno.nl)] [english]<br>
   my tech blog
 * My publications in the Dutch **Java Magazine**
-  * _October 2018_, **Lees dit niet! ☠️💣💥** - [dutch]
+  * _October 2018_, **Lees dit niet! ☠️💣💥** - [[site](https://nljug.org/java-magazine/2018-editie-4/java-magazine-4-2018/)] [dutch]
   * _February 2018_, **Selenium is leuk met ScalaTest** - [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)] [dutch]
   * _April 2016_, **Een DSL kweken** - [[site](https://nljug.org/java-magazine/een-dsl-kweken/)] [dutch]
   * _June 2015_, **Grip op je buildproces met Gradle** (met [Hanno Embregts](https://twitter.com/hannotify)) - [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)] [dutch]
