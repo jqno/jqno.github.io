@@ -35,35 +35,14 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 <a name="talks"/>
 ## Talks
 
-* **Java from a Parallel Universe** - [[github](https://jqno.nl/talks/paralleljava)]<br>
-  What Java would look like in a world where annotations were never invented.
-  * _29 May 2019_, J-Spring - [[event](https://jspring.nl/sessions/java-from-a-parallel-universe/)] [[video](https://www.youtube.com/watch?v=Yj_Bh93omw4)] [[slides](https://jqno.nl/talks/paralleljava/2019-jspring)]
-
-* **Don't hack the platform? ☠️💣💥** - [[github](https://github.com/jqno/dont-hack-the-platform-talk/)]<br>
-  A funny anthology of tricks and hacks for the JVM.<br>Voted 2018's ["best non-Venkat talk"](https://nljug.org/nieuws/j-fall-2018-the-top-10-sessions/) by the J-Fall audience!
-  * _8 November 2018_, J-Fall - [[event](https://jfall.nl/sessions/dont-hack-the-jvm/)] [[video](https://www.youtube.com/watch?v=3750lsxn8m8)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-11-08-jfall/)]
-  * _12 September 2018_, JavaZone Oslo - [[event](https://2018.javazone.no/)] [[video](https://vimeo.com/289655964)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-09-12-javazone/)]
-  * _12 June 2018_, JBCNConf Barcelona - [[event](http://www.jbcnconf.com/2018/infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-06-12-jbcnconf/)]
-  * _17 April 2018_, Utrecht JUG - [[event](https://www.meetup.com/Utrecht-Java-User-Group/events/247737886/)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-04-14-utrecht-jug/)]
-  * _30 January 2018_, JVMCON - [[event](https://jvmcon.com)] [[slides](http://jqno.nl/dont-hack-the-platform-talk/2018-01-30-jvmcon/)]
-
-* **Not all equals methods are created equal** - [[github](https://github.com/jqno/equalsverifier-talk)]<br>
-  How to write a good `equals` method, and to test it with [EqualsVerifier](http://jqno.nl/equalsverifier).
-  * _6 November 2017_, Devoxx Belgium - [[event](https://devoxx.be/2017/)] [[video](https://www.youtube.com/watch?v=pNJ_O10XaoM)] [[slides](https://github.com/jqno/equalsverifier-talk/tree/2017-11-06-devoxx)]
-
-* **Growing a DSL for financial calculations**<br>
-  The story of how my colleague and I 'discovered' a Scala DSL for writing complex mortgage calculations.
-  * _7 October 2016_, HBO-ICT Job & Student event Rotterdam - [[event](http://www.hboictjobevent.nl/)]
-  * _4 May 2016_, Typelevel Summit Oslo - [[event](https://typelevel.org/event/2016-05-summit-oslo/)] [[video](https://www.youtube.com/watch?v=w37mp3mbylw)]
-  * _13 April 2016_, Appril Festival - [[event](http://appril.nl/)]
-  * _31 March 2016_, Brabant Scala Meetup - [[event](https://www.meetup.com/brabant-scala/events/228851052/?eventId=228851052)]
-  * _24 March 2016_, Codestar Launch Event - [[event](https://www.codestar.nl/#team/launchevent)] [[partial video](https://www.youtube.com/watch?v=gmCQS72yFTg)]
-  * _23 November 2015_, Scala Utrecht Meetup
-
-* **Scala**<br>
-  A quick overview of Scala language features, intended for Java developers.
-  * _11 June 2014_, Sogeti - [[video](https://www.youtube.com/watch?v=uksqLVk3l6M)]
-
+* **Java from a Parallel Universe** - [[link](https://jqno.nl/talks/paralleljava)]<br>
+  What Java would look like in a world where annotations were never invented.<br>Delivered at [J-Spring](https://www.youtube.com/watch?v=Yj_Bh93omw4).
+* **Don't hack the platform? ☠️💣💥** - [[link](https://jqno.nl/talks/dont-hack-the-platform/)]<br>
+  A funny anthology of tricks and hacks for the JVM.<br>Voted 2018's ["best non-Venkat talk"](https://nljug.org/nieuws/j-fall-2018-the-top-10-sessions/) by the J-Fall audience!<br>Delivered at [J-Fall](https://www.youtube.com/watch?v=3750lsxn8m8), [JavaZone](https://vimeo.com/289655964), JBCNConf and more.
+* **Not all equals methods are created equal** - [[link](https://jqno.nl/talks/equalsverifier/)]<br>
+  How to write a good `equals` method, and to test it with [EqualsVerifier](http://jqno.nl/equalsverifier).<br>Delivered at [Devoxx](https://www.youtube.com/watch?v=pNJ_O10XaoM).
+* **Growing a DSL for financial calculations** - [[link](https://jqno.nl/talks/growing-a-dsl/)]<br>
+  The story of how my colleague and I 'discovered' a Scala DSL for writing complex mortgage calculations.<br>Delivered at [Typelevel Summit Oslo](https://www.youtube.com/watch?v=w37mp3mbylw) and [Codestar Launch Event](https://www.youtube.com/watch?v=gmCQS72yFTg).
 
 <a name="writings"/>
 ## Writings
