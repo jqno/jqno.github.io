@@ -35,6 +35,8 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 <a name="talks"/>
 ## Talks
 
+A [YouTube playlist](https://www.youtube.com/playlist?list=PLBVdSBwCyRsE7zi7YhfYWua1Jzi_iv1GQ) of my talks
+
 * **Java from a Parallel Universe** - [[link](https://jqno.nl/talks/paralleljava)]<br>
   What Java would look like in a world where annotations were never invented.<br>Delivered at J-Spring 2019 and [J-Fall 2019](https://www.youtube.com/watch?v=R0WnUd01f14).
 * **Don't hack the platform? ☠️💣💥** - [[link](https://jqno.nl/talks/dont-hack-the-platform/)]<br>
