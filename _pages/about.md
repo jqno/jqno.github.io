@@ -49,17 +49,17 @@ A [YouTube playlist](https://www.youtube.com/playlist?list=PLBVdSBwCyRsE7zi7YhfY
 <a name="writings"/>
 ## Writings
 
-* _2011 - present_, **tr ouwens** - [[site](http://jqno.nl)] [english]<br>
+* _2011 - present_, **tr ouwens** - 🇬🇧 [[site](http://jqno.nl)]<br>
   my tech blog
 * My publications in the Dutch **Java Magazine**
-  * _October 2018_, **Lees dit niet! ☠️💣💥** - [[site](https://nljug.org/java-magazine/2018-editie-4/java-magazine-4-2018/)] [dutch]
-  * _February 2018_, **Selenium is leuk met ScalaTest** - [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)] [dutch]
-  * _April 2016_, **Een DSL kweken** - [[site](https://nljug.org/java-magazine/een-dsl-kweken/)] [dutch]
-  * _June 2015_, **Grip op je buildproces met Gradle** (met [Hanno Embregts](https://twitter.com/hannotify)) - [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)] [dutch]
-* _2009 - 2012_, **Brief en leed** - [[site](http://jqno.nl/briefenleed)] [dutch]<br>
+  * _October 2018_, **Lees dit niet! ☠️💣💥** - 🇳🇱 [[site](https://nljug.org/java-magazine/2018-editie-4/java-magazine-4-2018/)]
+  * _February 2018_, **Selenium is leuk met ScalaTest** - 🇳🇱 [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)]
+  * _April 2016_, **Een DSL kweken** - 🇳🇱 [[site](https://nljug.org/java-magazine/een-dsl-kweken/)]
+  * _June 2015_, **Grip op je buildproces met Gradle** (met [Hanno Embregts](https://twitter.com/hannotify)) - 🇳🇱 [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)]
+* _2009 - 2012_, **Brief en leed** - 🇳🇱 [[site](http://jqno.nl/briefenleed)]<br>
   a funny letter-writing blog I did with my friend Ralf
-* _January 2008_, **Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen** - [[PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)] [dutch]<br>
+* _January 2008_, **Voorstel voor een methode voor de kwantitatieve analyse en vergelijking van beeldverhalen** - 🇳🇱 [[PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)]<br>
   a way too in-depth survey of Asterix jokes
-* _August 2005_, **The Performance of Wireless MPEG-2 Video Streaming** - [[PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)] [english]<br>
+* _August 2005_, **The Performance of Wireless MPEG-2 Video Streaming** - 🇬🇧 [[PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)]<br>
   my Master's Thesis
 
