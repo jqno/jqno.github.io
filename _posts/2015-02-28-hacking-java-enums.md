@@ -84,7 +84,9 @@ That's some incredibly hairy scary code. Let's pretend we never saw this. The on
 
 While Objenesis maybe a relatively unknown library, it is actually pretty widely used. The most famous libraries that use it are [Mockito](http://mockito.org) (and basically all mocking frameworks), and [Spring Framework](http://projects.spring.io/spring-framework/). But there are more. Many more. EqualsVerifier uses it to instantiate values for the fields of the class it's testing.
 
-OK, now we that know this, can we go one further? It turns out we can:
+**EDIT 27 feb 2020** What follows no longer works in JDK 12 and beyond. See [here](https://bugs.openjdk.java.net/browse/JDK-8218269) for more information. But you can still achieve the same effect with a tool like Byte Buddy 😉.
+
+OK, now that we know this, can we go one further? It turns out we can:
 
 ![Call Me Sometime](/images/2015-02-28-hacking-java-enums/CallMeSometime.png)
 
