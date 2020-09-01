@@ -52,6 +52,7 @@ A [YouTube playlist](https://www.youtube.com/playlist?list=PLBVdSBwCyRsE7zi7YhfY
 * _2011 - present_, **tr ouwens** - 🇬🇧 [[site](http://jqno.nl)]<br>
   my tech blog
 * My publications in the Dutch **Java Magazine**
+  * _September 2020_, **Actief worden in open source** (met [Danny van Bruggen](https://twitter.com/matozoid))
   * _October 2018_, **Lees dit niet! ☠️💣💥** - 🇳🇱 [[site](https://nljug.org/java-magazine/2018-editie-4/java-magazine-4-2018/)]
   * _February 2018_, **Selenium is leuk met ScalaTest** - 🇳🇱 [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)]
   * _April 2016_, **Een DSL kweken** - 🇳🇱 [[site](https://nljug.org/java-magazine/een-dsl-kweken/)]
