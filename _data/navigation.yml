@@ -4,5 +4,8 @@ main:
     url: /blog
   - title: "Tags"
     url: /tags
+  - title: "Talks"
+    url: https://jqno.nl/talks
   - title: "EqualsVerifier"
-    url: /equalsverifier
+    url: https://jqno.nl/equalsverifier
+
