@@ -1,5 +1,6 @@
 ---
-permalink: /about/
+permalink: /
+redirect_from: /about/
 title: About me
 layout: single
 ---
