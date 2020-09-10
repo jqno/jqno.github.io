@@ -1,6 +1,6 @@
 ---
 title: "State of the Apps 2018"
-excerpt: In which I make a list of stuff I have installed on my laptop, for future reference
+excerpt: In which I make a list of stuff I have installed on my laptop, for future reference.
 tags:
 - tools
 ---

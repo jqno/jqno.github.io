@@ -1,6 +1,6 @@
 ---
 title: "Review of Functional Programming in Scala"
-excerpt: "In which I share my views on this book"
+excerpt: "In which I share my views on this book."
 tags:
 - scala
 - review

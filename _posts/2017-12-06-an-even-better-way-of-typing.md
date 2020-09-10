@@ -1,6 +1,6 @@
 ---
 title: "An even better way of typing"
-excerpt: In which I improve upon the past
+excerpt: In which I improve upon the past.
 tags:
 - compose-key
 - macos

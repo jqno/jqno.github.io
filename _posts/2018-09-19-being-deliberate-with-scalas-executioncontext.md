@@ -1,6 +1,6 @@
 ---
 title: "Being deliberate with Scala's ExecutionContext"
-excerpt: In which I present a way to make sure Scala's implicit global ExecutionContext isn't used accidentally
+excerpt: In which I present a way to make sure Scala's implicit global ExecutionContext isn't used accidentally.
 tags:
 - scala
 - archunit
