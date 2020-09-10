@@ -10,6 +10,8 @@ excerpt: In which I discuss how I use Vim instead of an IDE
 
 People sometimes ask me about my development environment. This often happens after I give a presentation, or during a pair programming session. They ask because I'm using Vim. From a terminal, no less. Doing Java. What gives?
 
+![Java in Vim](/images/2020-09-09-my-vim-setup/vim-1.png)
+
 Many years ago, I used Eclipse for all of my Java editing. But it slowly became bloated and heavy, and around 2015 I switched to IntelliJ, which felt much faster and lighter. Unfortunately, to my tastes, IntelliJ has slowly been going in that same direction. Don't get me wrong, IntelliJ is still an amazing piece of software, and its slowness has a good reason: it has some really amazing features that simply take a lot of computing power.
 
 But it increasingly feels like it's no longer the IDE for me.
@@ -33,6 +35,8 @@ To begin with, I use [vim-plug](https://github.com/junegunn/vim-plug) to manage 
 ### Completions
 
 Next up, I use [CoC](https://github.com/neoclide/coc.nvim) to provide completions through the [Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/).
+
+![Java with completions in Vim](/images/2020-09-09-my-vim-setup/vim-2.png)
 
 I'm not completely happy with CoC, because it runs quite a heavy Node process in the background, it has its own plugin ecosystem outside of Vim's own ecosystem, and it can completely take over your Vim, to the point where it almost doesn't feel like Vim anymore. That said, it currently provides the best experience by far: it currently has the most complete implementation of the LSP and provides many quality-of-life features such as fuzzy searching in completions. It is also extremely configurable.
 
@@ -58,6 +62,8 @@ I'm one of those people who use print statements instead of a debugger, so this 
 
 When I said earlier that Vim is an editor, not an IDE, I left out the part where I do have a file browser plugin called [NERDTree](https://github.com/preservim/nerdtree). It's quite controversial in the Vim community, as many people think you shouldn't use a file explorer to open files in Vim; you should use a fuzzy finder like [FZF](https://github.com/junegunn/fzf.vim) instead. While I don't disagree, I do find it helpful sometimes to be able to see a tree outline of the files in my project. I have it set up so that it's invisible by default and opens only when I hit a certain mapping.
 
+![Scala with NERDTree in Vim](/images/2020-09-09-my-vim-setup/vim-3.png)
+
 For navigating code semantically, [Vista](https://github.com/liuchengxu/vista.vim) is quite nice. It hooks into the LSP via CoC to display symbols from your code in a sidebar.
 
 Finally, I use good old CTags (paired with [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags) to generate them) because it's just so damn fast, and CoC's go-to-definition feature sometimes just doesn't work well for some reason.
@@ -75,6 +81,10 @@ Still, this is one area where IntelliJ really shines and Vim often comes up shor
 ### Git
 
 Again, I said before that Vim shouldn't be your Git client, and I still believe in that. But sometimes it's useful to do a quick git blame, and for that, no plugin is better than [vim-fugitive](https://github.com/tpope/vim-fugitive), even if it contains a huge amount of feature that I never use.
+
+### Color scheme
+
+I have a weird color scheme I created myself, called [reversal.vim](https://github.com/jqno/reversal.vim). I find that most color schemes emphasize the reserved words in a language by giving them bright colours. Reversal.vim does the opposite, and emphasizes identifiers instead. After all, that's what the code is really about, right?
 
 ## Wrapping up
 
