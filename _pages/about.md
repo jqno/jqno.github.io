@@ -8,10 +8,10 @@ layout: single
 
 My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I work for [Codestar](http://www.codestar.nl). I do a bunch of things:
 
-* [I code](#projects)
-* [I speak](#talks)
-* [I write](#writings)
-* [I go to concerts](http://jqno.nl/concerts)
+* **I code** - [[my projects](#projects)]
+* **I speak** - [[my talks](http://jqno.nl/talks)]
+* **I write** - [[my blog](http://jqno.nl/blog)] [[my other writings](#writings)]
+* **I go to concerts** - [[the bands I've seen](http://jqno.nl/concerts)]
 
 
 <a name="projects"/>
@@ -32,20 +32,6 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 * **vim-reversal** - [[github](https://github.com/jqno/vim-reversal)] [vimscript]<br>
   A colorscheme for Vim that highlights identifiers and de-emphasizes keywords, so you can easily see what's important in your code
 
-
-<a name="talks"/>
-## Talks
-
-A [YouTube playlist](https://www.youtube.com/playlist?list=PLBVdSBwCyRsE7zi7YhfYWua1Jzi_iv1GQ) of my talks
-
-* **Java from a Parallel Universe** - [[link](https://jqno.nl/talks/paralleljava)]<br>
-  What Java would look like in a world where annotations were never invented.<br>Delivered at J-Spring 2019 and [J-Fall 2019](https://www.youtube.com/watch?v=R0WnUd01f14).
-* **Don't hack the platform? ☠️💣💥** - [[link](https://jqno.nl/talks/dont-hack-the-platform/)]<br>
-  A funny anthology of tricks and hacks for the JVM.<br>Voted 2018's ["best non-Venkat talk"](https://nljug.org/nieuws/j-fall-2018-the-top-10-sessions/) by the J-Fall audience!<br>Delivered at [J-Fall 2018](https://www.youtube.com/watch?v=3750lsxn8m8), [JavaZone 2018](https://vimeo.com/289655964), JBCNConf 2018 and more.
-* **Not all equals methods are created equal** - [[link](https://jqno.nl/talks/equalsverifier/)]<br>
-  How to write a good `equals` method, and to test it with [EqualsVerifier](http://jqno.nl/equalsverifier).<br>Delivered at [Devoxx 2017](https://www.youtube.com/watch?v=pNJ_O10XaoM).
-* **Growing a DSL for financial calculations** - [[link](https://jqno.nl/talks/growing-a-dsl/)]<br>
-  The story of how my colleague and I 'discovered' a Scala DSL for writing complex mortgage calculations.<br>Delivered at [Typelevel Summit Oslo 2016](https://www.youtube.com/watch?v=w37mp3mbylw) and [Codestar Launch Event](https://www.youtube.com/watch?v=gmCQS72yFTg).
 
 <a name="writings"/>
 ## Writings
