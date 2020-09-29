@@ -4,8 +4,6 @@ redirect_from: /about/
 title: About me
 layout: single
 ---
-![]({{ site.url }}/images/about.jpg)
-
 My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I work for [Codestar](http://www.codestar.nl). I do a bunch of things:
 
 * **I code** - [[my projects](#projects)]
