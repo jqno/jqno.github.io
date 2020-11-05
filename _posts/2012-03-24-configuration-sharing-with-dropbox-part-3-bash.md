@@ -57,20 +57,3 @@ On each computer, you need to add the following line to the end of your
 
 Don't forget the dot! It won't work without it. And that's all!
 
-
-Comments from my previous blog
-------------------------------
-
-#### [lptr](http://twitter.com/lptr) responded:
-
-> Hey, this is pretty cool when you have more than one Unix to work on. :)
-
-#### [Jan Ouwens](http://www.jqno.nl) responded:
-
-> It is, isn't it!
->
-> BTW, I'm pretty sure you can make the git color prompt thingy in my next post work for HG as well :).
-
-#### [lptr](http://twitter.com/lptr) responded:
-
-> Actuallty, I'm now working with Bazaar. Which calls itself "bzr" on the command-line. Yeah, you've read it right. I keep an eye out for Mango as well, I'm pretty sure they are both following me...

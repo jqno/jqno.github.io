@@ -108,15 +108,3 @@ version 2. Awesome! Here's how you do it.
   the same (although I don't recommend that).
 * Then, re-build and sign your app as described above, and upload it!
 
-
-Comments from my previous blog
-------------------------------
-
-#### [Stefan de Boey](http://posterous.com/users/5AB6ij4aTMSB) responded:
-
-> cool, thanks<br>
-> maybe you can contribute this to the wiki of the android-plugin? this kind of info seems to be missing on the wiki.
-
-#### [Jan Ouwens](http://www.jqno.nl) responded:
-
-> Hi Stefan, I'm glad you liked my post. I'll send the android-plugin maintainers a message. Thanks!

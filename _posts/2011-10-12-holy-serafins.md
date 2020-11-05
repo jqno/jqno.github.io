@@ -53,27 +53,3 @@ duplicates this program will produce when given God's name as input.
 
 Has anybody else ever encountered real, actual code in a novel/movie/billboard?
 
-
-Comments from my previous blog
-------------------------------
-
-#### Ralf responded:
-
-> Actually, Eco does address the duplicates. In the words of Diotallevi: "(...) l'arte della Temurah non ti dice che devi permutare le ventisette lettere dell'alfabeto ma tutti i segni della Torah, dove ogni segno vale come se fosse una lettera a se stante, anche se appare infinite altre volte in altre pagine, come a dire che le due he del nome di Ihvh valgono come due lettere diverse."
->
-> Thanks to your post I found another (albeit quite superficial) link in the novel. When Abulafia has spit out an alternate history at the end of chapter 65, and Casaubon remarks that this version corresponds to an existing (man-made) theory, Diotallevi uses the exact same phrase he uses in chapter 5 ("Santi Serafini") when he learns that Abulafia is re-inventing Temurah by means of the permutation algorithm, and now adds a nicely appropriate "Lo avevo detto." :-)
-
-#### [Jan Ouwens](http://www.jqno.nl) responded:
-
-> I'm still trying to think of a witty response to this, but my Italian isn't so good. So I guess that, as usual, I'll have to defer to your superior knowledge of this novel :).<br>
-> Glad that I was able to give you a new insight though, however small it might have been!
-
-#### Snader responded:
-
-> In Transformers the Movie from 1986 they show BASIC code. Not quite sure if it would run, since you only get to see a fraction of a huge complex AI :P
-
-#### [Jan Ouwens](http://www.jqno.nl) responded:
-
-> Hm, I'll have to watch it again, then :).
->
-> Also, implementing an AI in BASIC? That's ... that's awesome.
