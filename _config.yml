@@ -21,6 +21,7 @@
 title: "tr ouwens"
 name: "Jan Ouwens"
 description: "By the way: things I want to say"
+search: true
 
 author:
   name: "Jan Ouwens"
