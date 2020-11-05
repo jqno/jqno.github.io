@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "Blog"
-    url: /blog
   - title: "Tags"
     url: /tags
+  - title: "Blog"
+    url: /blog
   - title: "Talks"
     url: https://jqno.nl/talks
   - title: "EqualsVerifier"
