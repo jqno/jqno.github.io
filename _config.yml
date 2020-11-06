@@ -50,6 +50,7 @@ defaults:
     values:
       permalink: /:year/:month/:day/:title/
       read_time: true
+      show_date: true
       comments: true
   - scope:
       type: pages
