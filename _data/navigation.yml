@@ -1,11 +1,18 @@
 # main links links
 main:
-  - title: "Tags"
-    url: /tags
+  - title: "/"
+    url: https://jqno.nl
   - title: "Blog"
-    url: /blog
+    url: https://jqno.nl/blog
   - title: "Talks"
     url: https://jqno.nl/talks
   - title: "EqualsVerifier"
     url: https://jqno.nl/equalsverifier
 
+side:
+  - title: "Blog"
+    children:
+    - title: "Archive"
+      url: /blog
+    - title: "Tags"
+      url: /tags

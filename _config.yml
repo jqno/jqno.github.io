@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "tr ouwens"
+subtitle: "jqno.nl"
 name: "Jan Ouwens"
 description: "By the way: things I want to say"
 search: true
@@ -43,6 +44,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:
+        nav: "side"
       share: false
       related: false
   - scope:
@@ -50,6 +53,8 @@ defaults:
     values:
       permalink: /:year/:month/:day/:title/
       read_time: true
+      sidebar:
+        nav: "side"
       show_date: true
       comments: true
   - scope:
@@ -57,6 +62,8 @@ defaults:
     values:
       read_time: false
       comments: false
+      sidebar:
+        nav: "side"
 
 tag_archive:
   type: liquid
