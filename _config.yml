@@ -51,7 +51,7 @@ defaults:
   - scope:
       type: posts
     values:
-      permalink: /:year/:month/:day/:title/
+      permalink: /post/:year/:month/:day/:title/
       read_time: true
       sidebar:
         nav: "side"
