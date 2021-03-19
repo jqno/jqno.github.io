@@ -37,7 +37,7 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 * _2011 - present_, **tr ouwens** - 🇬🇧 [[site](http://jqno.nl)]<br>
   my tech blog
 * My publications in the Dutch **Java Magazine**
-  * _September 2020_, **Actief worden in open source** (met [Danny van Bruggen](https://twitter.com/matozoid)) - 🇳🇱 [[PDF](https://www.dropbox.com/s/nq52nlblkalv3ef/java-magazine-2020-3.pdf)]
+  * _September 2020_, **Actief worden in open source** (met [Danny van Bruggen](https://twitter.com/matozoid)) - 🇳🇱 [[PDF](https://www.dropbox.com/s/nq52nlblkalv3ef/java-magazine-2020-3.pdf)] [[site](https://nljug.org/java-magazine/java-magazine-3-2020-take-a-deep-dive-into-the-code/)]
   * _October 2018_, **Lees dit niet! ☠️💣💥** - 🇳🇱 [[PDF](https://www.dropbox.com/s/4ps9ufccavdp5kx/java-magazine-2018-4.pdf)] [[site](https://nljug.org/java-magazine/2018-editie-4/java-magazine-4-2018/)]
   * _February 2018_, **Selenium is leuk met ScalaTest** - 🇳🇱 [[PDF](https://www.dropbox.com/s/kj6errr6udf809x/java-magazine-2018-1.pdf)] [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)]
   * _April 2016_, **Een DSL kweken** - 🇳🇱 [[PDF](https://www.dropbox.com/s/v4q4ws2zqgfnf2v/java-magazine-2016-2.pdf)] [[site](https://nljug.org/java-magazine/een-dsl-kweken/)]
