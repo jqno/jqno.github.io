@@ -10,6 +10,7 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 * **I speak** - [[my talks](http://jqno.nl/talks)]
 * **I write** - [[my blog](http://jqno.nl/blog)] [[my other writings](#writings)]
 * **I go to concerts** - [[the bands I've seen](http://jqno.nl/concerts)]
+* **I got interviewed in a podcast that one time** - [[my media appearances](#appearances)]
 
 
 <a name="projects"/>
@@ -50,3 +51,8 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 * _August 2005_, **The Performance of Wireless MPEG-2 Video Streaming** - 🇬🇧 [[PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)]<br>
   my Master's Thesis
 
+
+<a name="appearances"/>
+## Appearances
+
+* _October 2021_, **BarCoding podcast** - 🇬🇧 [[anchor](https://anchor.fm/barcoding/episodes/Episode-20---The-tales-of-the-EqualsVerifier-project-e1993ev)] [[spotify](https://open.spotify.com/episode/1d0aieZzRB9Ts85XWuquBe?si=WWYvYBiASECteA1flOgpDQ&nd=1)] [[apple](https://podcasts.apple.com/us/podcast/episode-20-the-tales-of-the-equalsverifier-project/id1477504970?i=1000539604102)]
