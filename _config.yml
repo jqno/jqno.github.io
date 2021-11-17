@@ -26,12 +26,15 @@ search: true
 
 author:
   name: "Jan Ouwens"
-  avatar: "https://www.gravatar.com/avatar/f2e0574e5b5e770b5c5678b91ba889a6"
+  avatar: "images/avatar.jpg"
   bio: '<a href="/about">"Java juggler"</a>'
   location: "The Netherlands"
   github: jqno
   stackoverflow: 127863
   twitter: jqno
+
+twitter:
+  username: jqno
 
 footer:
   links:
@@ -46,6 +49,8 @@ defaults:
       author_profile: true
       sidebar:
         nav: "side"
+      header:
+        og_image: "images/devoxx.jpg"
       share: false
       related: false
   - scope:
@@ -55,6 +60,8 @@ defaults:
       read_time: true
       sidebar:
         nav: "side"
+      header:
+        og_image: "images/devoxx.jpg"
       show_date: true
       comments: true
   - scope:
@@ -64,6 +71,8 @@ defaults:
       comments: false
       sidebar:
         nav: "side"
+      header:
+        og_image: "images/devoxx.jpg"
 
 tag_archive:
   type: liquid
