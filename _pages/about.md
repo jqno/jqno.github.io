@@ -18,6 +18,8 @@ My name is Jan Ouwens and I'm a developer from the Netherlands. Currently, I wor
 
 * **EqualsVerifier** - [[site](http://jqno.nl/equalsverifier)] [[github](https://github.com/jqno/equalsverifier)] [java]<br>
   A tool to make rigourously testing Java's equals and hashCode methods a one-liner
+* **AnnotationScript** - [[github](https://github.com/jqno/AnnotationScript)] [java]<br>
+  A LISP-based programming language written entirely in Java annotations
 * **Parallel Java** - [[github](https://github.com/jqno/paralleljava/)] [java]<br>
   A [Todo Backend](https://www.todobackend.com/) written in Java, without using annotations, to support my talk [Java from a Parallel Universe](https://jqno.nl/talks/paralleljava/)
 * **PicoTest** - [[github](https://github.com/jqno/picotest)] [java]<br>
