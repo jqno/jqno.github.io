@@ -15,7 +15,7 @@ _January 2019_
 <br>
 I also used TilburgsAns in our daughter's birth card
 <br>
-![jè](/images/icons/je.png){: .icon } [[twitter](https://twitter.com/TilburgsAns/status/1116303992248832016)]
+🇳🇱 [[twitter](https://twitter.com/TilburgsAns/status/1116303992248832016)] [[website](http://www.tilburgsans.nl/nl/nieuws/cinq-ans-7-bijzondere-verrassingen.html)]
 
 ## BarCoding podcast
 
