@@ -22,9 +22,7 @@ imagebutton_row:
     title: "Other things"
     url: "other/"
 ---
-<div class="author__avatar text-center">
-<img src="/images/meta/avatar.jpg" alt="Jan Ouwens" itemprop="image"/>
-</div>
+![Jan Ouwens](/images/meta/avatar.jpg){: .main__avatar }
 
 "Java juggler"
 {: .text-center }
