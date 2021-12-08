@@ -40,3 +40,4 @@ Images on the website are my own, except for these ones on the home page:
 * [blog](/images/menu/blog.jpg) by Sophieja23 on [Pixabay](https://pixabay.com/photos/blog-to-blog-wordpress-write-684748/)
 * [writings](/images/menu/writings.jpg) by Bernard Hermant on [Unsplash](https://unsplash.com/photos/qTpc0Vj4YoE)
 * [other](/images/menu/other.jpg) by Luca Laurence on [Unsplash](https://unsplash.com/photos/vhQ4BTH6mj4)
+* [concerts](/images/menu/concerts.jpg) by me, taken at [this concert](https://jqno.nl/concerts/2019/08/14/The-Alan-Parsons-Live-Project/)
