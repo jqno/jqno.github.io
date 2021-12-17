@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: tr ouwens
+title: "Jan Ouwens"
 layout: splash
 imagebutton_row:
   - image_path: "images/menu/blog.jpg"
@@ -22,12 +22,14 @@ imagebutton_row:
     title: "Other things"
     url: "other/"
 ---
+&nbsp;
+
 ![Jan Ouwens](/images/meta/avatar.jpg){: .main__avatar }
 
 "Java juggler"
 {: .text-center }
 
-Hi! I'm Jan Ouwens, a developer from the Netherlands. I work for [Yoink](https://yoink.nl) and I do a bunch of things:
+Hi! I'm **Jan Ouwens**, a developer from the Netherlands. I work for [Yoink](https://yoink.nl) and I do a bunch of things:
 {: .text-center }
 
 {% include imagebutton_row %}
