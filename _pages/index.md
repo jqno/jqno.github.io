@@ -33,3 +33,5 @@ Hi! I'm **Jan Ouwens**, a developer from the Netherlands. I work for [Yoink](htt
 {: .text-center }
 
 {% include imagebutton_row %}
+
+<a hidden rel="me" href="https://mastodon.online/@jqno">Mastodon verification link</a>
