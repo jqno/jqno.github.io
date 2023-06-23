@@ -24,6 +24,12 @@ A GNOME Shell extension that automatically maximizes new windows, leaving 'usele
 <br>
 ![javascript](/images/icons/javascript.png){: .icon } [[site](https://extensions.gnome.org/extension/5696/one-window-wonderland/)] [[github](https://github.com/jqno/gnome-one-window-wonderland/)]
 
+_Happy Appy Hotkey_
+<br>
+A GNOME Shell extension to assign hotkeys to applications to give them focus or launch them
+<br>
+![javascript](/images/icons/javascript.png){: .icon } [[site](https://extensions.gnome.org/extension/6057/happy-appy-hotkey/)] [[github](https://github.com/jqno/gnome-happy-appy-hotkey/)]
+
 _Tranquility.nvim_
 <br>
 A configurable, tranquil colorscheme for Neovim that highlights identifiers and de-emphasizes keywords, so you can easily see what's important in your code. Successor of [vim-reversal](#vim-reversal)
