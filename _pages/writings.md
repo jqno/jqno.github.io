@@ -19,12 +19,12 @@ My technology blog
   <br>
   _September 2021_
   <br>
-  🇳🇱 [[PDF](https://www.dropbox.com/s/xs5zlh1eiitcise/java-magazine-2021-3.pdf)]
+  🇳🇱 [[PDF](https://www.dropbox.com/s/xs5zlh1eiitcise/java-magazine-2021-3.pdf)] [[site](https://nljug.org/java-magazine/java-magazine-3-2021-java-17-is-here/)]
 * **Actief worden in open source** (met [Danny van Bruggen](https://twitter.com/matozoid))
   <br>
   _September 2020_
   <br>
-  🇳🇱 [[PDF](https://www.dropbox.com/s/nq52nlblkalv3ef/java-magazine-2020-3.pdf)] [[site](https://nljug.org/java-magazine/java-magazine-3-2020-take-a-deep-dive-into-the-code/)]
+  🇳🇱 [[PDF](https://www.dropbox.com/s/nq52nlblkalv3ef/java-magazine-2020-3.pdf)] [[site](https://nljug.org/java-magazine/2020-editie-3/actief-worden-in-open-source/)]
 * **Lees dit niet! ☠️💣💥**
   <br>
   _October 2018_
