@@ -41,6 +41,8 @@ footer:
   links:
     - label: "Privacy policy"
       url: "/privacy"
+    - label: "Climate considerations"
+      url: "/climate"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jqno"
