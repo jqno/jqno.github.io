@@ -6,9 +6,9 @@ layout: single
 
 > TL;DR: the most effective way to help reduce CO<sub>2</sub> emissions as a software developer, is to reduce cloud spend.
 
-Climate change is a big problem and I worry about it a lot. Maybe you do too. Perhaps you care about nature, or about living in a place that won't flood or burn, or where you won't melt during summers.
+Climate change is a big problem and I worry about it a lot. Maybe you do too. Perhaps you care about nature, or about living in a place that doesn't flood or burn, or where you won't melt during summers.
 
-Maybe you care more about other things, like reducing migration: even then you have a stake in this, because people will migrate from places that become too hot. Or if you think dealing with climate change is too expensive or too ineffective: it will only become more expensive if we wait. But all small actions combined, do make a difference!
+Climate change is traditionally a topic of the political left, but I don't understand why. The political right should care about it too: climate change will have severe and unpredictable consequences that should worry conservatives who want to preserve their way of life; it will cause large numbers of people to attempt to migrate from more affected places in Africa and Central America to less affected places in Europe and the USA; and yes, dealing with climate change is expensive, but not dealing with climate change is even more expensive. Besides, green tech simply is good business these days.
 
 So what can we do?
 
