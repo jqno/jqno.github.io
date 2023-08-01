@@ -14,10 +14,11 @@ So what can we do?
 
 As a single individual, it's hard to find a way to make a difference, but there are two things you can do: you could donate your money to organisations that deal with climate change, or you could donate your time by joining a political party (they're happy to have you!). And be mindful of what kind organisation you choose to work for, if you have the choice. If you work for Big Oil, you might be in the wrong place.
 
-As a developer, depending on your position, you can actually do a lot. IT is responsible for a significant portion of worldwide CO<sub>2</sub> emissions, and you can help reduce emissions for your organisation. The most effective way is to reduce cloud spend for your organization. The more you pay your cloud provider, the more machines you  probably have running there. Do you need them all? Here's how you can reduce your spend:
+As a developer, depending on your position, you can actually do a lot. IT is responsible for a significant portion of worldwide CO<sub>2</sub> emissions, and you can help reduce emissions for your organisation. The most effective way is to reduce cloud spend for your organization. The more you pay your cloud provider, the more machines you probably have running there. Do you need them all? Here's how you can reduce your spend:
 
 - Turn off services that you don't need. Do so aggressively.
 - Cache your build artefacts. Downloading them again and again for each build makes your build slower anyway.
+- Use small Docker base images. That saves on downloading and on storage.
 - Reduce uptime service level agreements (SLAs). 99.999% uptime guarantees require a lot of overhead in redundancy and orchestration. If you communicate well to your users, they won't mind the occasional scheduled downtime.
 - Look further than Spring Boot. Other frameworks can handle more requests per second, which means you'll need less machines to handle the same load.
 - Reduce network traffic and keep your html/JavaScript lightweight. Network traffic causes emissions too!
