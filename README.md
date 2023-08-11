@@ -12,3 +12,6 @@ A list of all sub-sites:
 - [ComposeKey](https://jqno.nl/ComposeKey.alfredsnippets/) / [repo](https://github.com/jqno/ComposeKey.alfredsnippets)
 
 It was based on the template [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) by Michael Rose.
+
+This page uses the [TilburgsAns](https://www.tilburgsans.nl/) font. See the font license [here](assets/tilburgsans/Ans%20Font%20License-AFL.pdf).
+

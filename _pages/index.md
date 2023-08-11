@@ -27,10 +27,10 @@ imagebutton_row:
 ![Jan Ouwens](/images/meta/avatar.jpg){: .main__avatar }
 
 "Java juggler"
-{: .text-center }
+{: .center-text }
 
 Hi! I'm **Jan Ouwens**, a developer from the Netherlands. I work for [Yoink](https://yoink.nl) and I do a bunch of things:
-{: .text-center }
+{: .center-text }
 
 {% include imagebutton_row %}
 
