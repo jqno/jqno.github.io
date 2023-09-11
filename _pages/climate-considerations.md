@@ -6,6 +6,8 @@ layout: single
 
 > TL;DR: the most effective way to help reduce CO<sub>2</sub> emissions as a software developer, is to reduce cloud spend.
 
+![](/images/climate-change.png)
+
 Climate change is a big problem and I worry about it a lot. Maybe you do too. We've all seen the floods, the forest fires and the heat waves on the news.
 
 Climate change is traditionally a topic of the political left, but I don't understand why. The political right should care about it too: climate change will have severe and unpredictable consequences that should worry conservatives who want to preserve their way of life; it will cause large numbers of people to attempt to migrate from more affected places in Africa and Central America to less affected places in Europe and the USA; and yes, dealing with climate change is expensive, but not dealing with climate change is even more expensive. Besides, green tech simply is good business these days.
