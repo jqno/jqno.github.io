@@ -20,7 +20,7 @@ My technology blog
   <br>
   _September 2023_
   <br>
-  🇬🇧 [[PDF](https://www.dropbox.com/scl/fi/ha8xbdpbik7kjbqvoe729/java-magazine-2023-3.pdf)]
+  🇬🇧 [[PDF](https://www.dropbox.com/scl/fi/ha8xbdpbik7kjbqvoe729/java-magazine-2023-3.pdf?rlkey=lexqid3346vesb2czvemwhen0)]
 - **De algoritmes van het Java Collections Framework**
   <br>
   _September 2021_
