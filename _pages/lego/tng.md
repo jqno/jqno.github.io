@@ -3,7 +3,10 @@ permalink: /lego/tng/
 title: "Star Trek: The Next Generation cast Lego MOC"
 layout: single
 ---
+
 A minimalistic rendition of the cast of Star Trek: The Next Generation
+
+Wesley, Dr Crusher, Worf, Riker, Picard, Troi, Data, LaForge
 
 ![render](/images/lego/tng/render.png)
 

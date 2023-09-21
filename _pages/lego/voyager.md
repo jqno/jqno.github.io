@@ -3,7 +3,10 @@ permalink: /lego/voyager/
 title: "Star Trek: Voyager cast Lego MOC"
 layout: single
 ---
+
 A minimalistic rendition of the cast of Star Trek: Voyager
+
+Neelix, Tuvok, The Doctor, Seven, Janeway, Chakotay, B'Elanna, Paris, Kim
 
 ![render](/images/lego/voy/render.png)
 

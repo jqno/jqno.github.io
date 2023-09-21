@@ -3,7 +3,10 @@ permalink: /lego/ds9/
 title: "Star Trek: Deep Space Nine cast Lego MOC"
 layout: single
 ---
+
 A minimalistic rendition of the cast of Star Trek: Deep Space Nine
+
+Bashir, O'Brien, Worf, Dax, Jake, Sisko, Kira, Odo, Quark
 
 ![render](/images/lego/ds9/render.png)
 
