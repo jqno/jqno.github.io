@@ -12,7 +12,7 @@ Neelix, Tuvok, The Doctor, Seven, Janeway, Chakotay, B'Elanna, Paris, Kim
 
 ![photo](/images/lego/voy/photo.jpg)
 
-[Download zip file](https://www.dropbox.com/scl/fi/a72680mjcwzzpypc3v8to/lego-voy-cast.zip?rlkey=1mberm41sngp5euqplws5r9r1&dl=1) with:
+Check the [Rebrickable page](https://rebrickable.com/mocs/MOC-159366) or [download the zip file](https://www.dropbox.com/scl/fi/a72680mjcwzzpypc3v8to/lego-voy-cast.zip?rlkey=1mberm41sngp5euqplws5r9r1&dl=1) with:
 
 - Building instructions with parts list
 - BrickLink parts list
