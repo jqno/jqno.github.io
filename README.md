@@ -13,5 +13,7 @@ A list of all sub-sites:
 
 It was based on the template [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) by Michael Rose.
 
-This page uses the [TilburgsAns](https://www.tilburgsans.nl/) font. See the font license [here](assets/tilburgsans/Ans%20Font%20License-AFL.pdf).
+This page uses the following fonts: 
 
+- [TilburgsAns](https://www.tilburgsans.nl/) [[license](assets/tilburgsans/Ans%20Font%20License-AFL.pdf)].
+- [FiraGO](https://github.com/bBoxType/FiraGO) [[license](https://github.com/bBoxType/FiraGO/blob/master/OFL.txt)]
