@@ -8,7 +8,7 @@ tags:
 - dependencies you already probably have on your classpath
 excerpt: In which I provide ammo to annoy your coworkers.
 ---
-_This is a partial transcription of [one of my talks](https://jqno.nl/talks/dont-hack-the-platform)._
+_This is a partial transcription of [one of my talks](https://jqno.nl/talks/dont-hack-the-platform), written down for [JAX London's blog](https://jaxlondon.com/) but never published._
 
 Are you reading this post anyway? Wasn't the title clear enough? ಠ\_ಠ
 

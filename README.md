@@ -17,3 +17,4 @@ This page uses the following fonts:
 
 - [TilburgsAns](https://www.tilburgsans.nl/) [[license](assets/tilburgsans/Ans%20Font%20License-AFL.pdf)].
 - [FiraGO](https://github.com/bBoxType/FiraGO) [[license](https://github.com/bBoxType/FiraGO/blob/master/OFL.txt)]
+- [Commit Mono](https://commitmono.com/) [[license - see section 9](https://commitmono.com/)]
