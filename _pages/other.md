@@ -9,13 +9,13 @@ _November 2021_
 <br>
 Featured by the creators of the typeface inspired by my former hometown of Tilburg, which I've used in many of my talks
 <br>
-🇳🇱 ![jè](/images/icons/je.png){: .icon } [[twitter](https://twitter.com/TilburgsAns/status/1465621378539872257)] [[facebook](https://www.facebook.com/tilburgsans/posts/2989909641221819)] [[linkedin](https://www.linkedin.com/posts/sander-neijnens-b6a60659_jan-ouwens-adopteerde-twee-jaar-geleden-spatie-activity-6871384168568279040-bscj)]
+🇳🇱 ![jè](/images/icons/je.png){: .icon } [[facebook](https://www.facebook.com/tilburgsans/posts/2989909641221819)] [[linkedin](https://www.linkedin.com/posts/sander-neijnens-b6a60659_jan-ouwens-adopteerde-twee-jaar-geleden-spatie-activity-6871384168568279040-bscj)]
 
 _January 2019_
 <br>
 I also used TilburgsAns in our daughter's birth card
 <br>
-🇳🇱 [[twitter](https://twitter.com/TilburgsAns/status/1116303992248832016)] [[website](http://www.tilburgsans.nl/nl/nieuws/cinq-ans-7-bijzondere-verrassingen.html)]
+🇳🇱 [[website](http://www.tilburgsans.nl/nl/nieuws/cinq-ans-7-bijzondere-verrassingen.html)]
 
 ## BarCoding podcast
 
