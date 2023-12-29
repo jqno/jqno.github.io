@@ -32,12 +32,3 @@ _February 2018_
 My team was filmed for a recruitment campaign at the Dutch National Police and the footage keeps popping up in videos 😄
 <br>
 🇳🇱 [[video](https://www.youtube.com/watch?v=XG6RJ9wix34)] [[video](https://www.youtube.com/watch?v=61pkzdL7Yo4)] [[video](https://www.youtube.com/watch?v=tjXTJ0bGl0Q)]
-
-## Image credits
-
-Images on the website are my own, except for these ones on the home page:
-
-* [blog](/images/menu/blog.jpg) by Sophieja23 on [Pixabay](https://pixabay.com/photos/blog-to-blog-wordpress-write-684748/)
-* [writings](/images/menu/writings.jpg) by Bernard Hermant on [Unsplash](https://unsplash.com/photos/qTpc0Vj4YoE)
-* [other](/images/menu/other.jpg) by Luca Laurence on [Unsplash](https://unsplash.com/photos/vhQ4BTH6mj4)
-* [concerts](/images/menu/concerts.jpg) by me, taken at [this concert](https://jqno.nl/concerts/2019/08/14/The-Alan-Parsons-Live-Project/)

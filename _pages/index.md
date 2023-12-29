@@ -27,6 +27,9 @@ imagebutton_row:
   - image_path: "images/menu/other.jpg"
     title: "Other things"
     url: "other/"
+  - image_path: "images/menu/credits.jpg"
+    title: "Credits"
+    url: "credits/"
 ---
 &nbsp;
 
