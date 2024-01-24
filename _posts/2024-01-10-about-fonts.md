@@ -1,10 +1,10 @@
 ---
 title: "About fonts"
 tags:
-- font
-- typography
-- blog
-excerpt: In which I fall into a typographic rabbit hole
+  - font
+  - typography
+  - blog
+excerpt: In which I fall into a typographic rabbit hole.
 ---
 I fell into a bit of a rabbit hole after reading Matthew Butterick's [Practical Typography](https://practicaltypography.com/): I got a little obsessed with fonts for a while. It convinced me that I want my website to look pretty, and one important part of that is the choice of font. There are three applications of fonts that have been on my mind: headings and body text on my website, and a coding font for my editor (and also for code snippets on my website). Let's look at each in turn, but first, let's set some criteria.
 
