@@ -44,6 +44,11 @@ Here's an example of Commit Mono's smart kerning feature at work. It's especiall
 
 ![Example of Commit Mono's smart kerning](/images/2024-01-10-about-fonts/smart-kerning.png)
 
+> **UPDATE, March 1st, 2024**: I've concluded that I find the jumping around of letters with Commit Mono a bit annoying, so I'm back on the hunt for a new day-to-day font. I was able to make Recursive work in my terminal, but decided that I don't like the looks enough. A former coworker [suggested](https://twitter.com/skrebbel/status/1745360344803934450) I try [Iosevka](https://typeof.net/Iosevka/), which has _all the features_ and then some. However, I just don't like its narrow look. It's great if you want to be able to see many columns of code in one window, but...I don't. I prefer to see many lines at the same time, which means a wider font is more suited for me. I'd love to use Monaspace Argon, but GitHub still haven't provided a new release, so it still doesn't work with my terminal. I'm currently trying out the trial version of [MonoLisa](https://www.monolisa.dev/), which looks nice and ticks all the boxes, but I haven't decided yet if I want to actually drop the cash on that one (though it's relatively cheap for a font!) I could also see myself go back to Fira Code, but with ligatures disabled. In that case I'll have to find another font to provide the italics, though.
+>
+> For the code samples on the website, it seemed clear to me that I should revert to Fira Code, for the simple reasons that a) I don't use the italics there, and b) the body text is FiraGO (spoilers for the next section!), which is basically the same font. This makes things satisfyingly consistent. I mean, look at how those g's look:
+>
+> <span style='font-style:normal;'>FiraGO: g</span><br/><span style='font-style:normal;'>`FiraCode: g`</span>
 
 ## Body text
 
