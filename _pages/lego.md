@@ -18,7 +18,7 @@ imagebutton_row:
 ---
 &nbsp;
 
-![Jan Ouwens](/images/meta/avatar.jpg){: .main__avatar }
+![Jan Ouwens](/images/meta/avatar.webp){: .main__avatar }
 
 Hi! I'm **Jan Ouwens**, a developer from the Netherlands.
 {: .center-text }

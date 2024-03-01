@@ -33,7 +33,7 @@ imagebutton_row:
 ---
 &nbsp;
 
-![Jan Ouwens](/images/meta/avatar.jpg){: .main__avatar }
+![Jan Ouwens](/images/meta/avatar.webp){: .main__avatar }
 
 "Java juggler"
 {: .center-text }
