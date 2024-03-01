@@ -8,9 +8,9 @@ A minimalistic rendition of the cast of Star Trek: Deep Space Nine
 
 Bashir, O'Brien, Worf, Dax, Jake, Sisko, Kira, Odo, Quark
 
-![render](/images/lego/ds9/render.png)
+![render](/images/lego/ds9/render.webp)
 
-![photo](/images/lego/ds9/photo.jpg)
+![photo](/images/lego/ds9/photo.webp)
 
 Check the [Rebrickable page](https://rebrickable.com/mocs/MOC-159365) or [download the zip file](https://www.dropbox.com/scl/fi/n0u3heyl6ccbd7z64wmas/lego-ds9-cast.zip?rlkey=4466tntsxbk1jm9pxmbyc30cw&dl=1) with:
 

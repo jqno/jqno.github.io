@@ -8,9 +8,9 @@ A minimalistic rendition of the cast of Star Trek: Voyager
 
 Neelix, Tuvok, The Doctor, Seven, Janeway, Chakotay, B'Elanna, Paris, Kim
 
-![render](/images/lego/voy/render.png)
+![render](/images/lego/voy/render.webp)
 
-![photo](/images/lego/voy/photo.jpg)
+![photo](/images/lego/voy/photo.webp)
 
 Check the [Rebrickable page](https://rebrickable.com/mocs/MOC-159366) or [download the zip file](https://www.dropbox.com/scl/fi/a72680mjcwzzpypc3v8to/lego-voy-cast.zip?rlkey=1mberm41sngp5euqplws5r9r1&dl=1) with:
 
