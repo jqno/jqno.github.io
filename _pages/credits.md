@@ -17,8 +17,8 @@ This site is based on the template [Minimal Mistakes](https://mmistakes.github.i
 
 Images on the website are my own, except for these ones on the home page:
 
-- [blog](/images/menu/blog.jpg) by Sophieja23 on [Pixabay](https://pixabay.com/photos/blog-to-blog-wordpress-write-684748/)
-- [concerts](/images/menu/concerts.jpg) by me, taken at [this concert](https://jqno.nl/concerts/2019/08/14/The-Alan-Parsons-Live-Project/)
-- [other](/images/menu/other.jpg) by Luca Laurence on [Unsplash](https://unsplash.com/photos/vhQ4BTH6mj4)
-- [talks](/images/menu/talks.jpg) by Devoxx Belgium, 2017
-- [writings](/images/menu/writings.jpg) by Bernard Hermant on [Unsplash](https://unsplash.com/photos/qTpc0Vj4YoE)
+- [blog](/images/menu/blog.webp) by Sophieja23 on [Pixabay](https://pixabay.com/photos/blog-to-blog-wordpress-write-684748/)
+- [concerts](/images/menu/concerts.webp) by me, taken at [this concert](https://jqno.nl/concerts/2019/08/14/The-Alan-Parsons-Live-Project/)
+- [other](/images/menu/other.webp) by Luca Laurence on [Unsplash](https://unsplash.com/photos/vhQ4BTH6mj4)
+- [talks](/images/menu/talks.webp) by Devoxx Belgium, 2017
+- [writings](/images/menu/writings.webp) by Bernard Hermant on [Unsplash](https://unsplash.com/photos/qTpc0Vj4YoE)

@@ -6,7 +6,7 @@ layout: single
 
 > TL;DR: the most effective way to help reduce CO<sub>2</sub> emissions as a software developer, is to reduce cloud spend.
 
-![](/images/climate-change.png)
+![](/images/climate-change.webp)
 
 Climate change is a big problem and I worry about it a lot. Maybe you do too. We've all seen the floods, the forest fires and the heat waves on the news.
 
