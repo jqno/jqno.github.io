@@ -41,39 +41,30 @@ I decided to adopt a formatter in EqualsVerifier as well. I tried a few, started
 
 Basically, I want what formatters from other language ecosystems have, such as Scala, Rust and Go. Which is:
 
-- 🏗: Integration with Maven. Anything that's not enforced by CI is merely a suggestion, and may as well not exist. I want CI to check formatting and fail the build if it's not good, and I want Maven to be able to reformat code too, so contributors don't have to install anything. As a corollary, if a binary must be installed, Maven must handle that too.
-- 🏃‍♂️: It must be fast (or: there must be a fast way to format a file). That way, I can invoke it from [Neovim](https://jqno.nl/post/2020/09/09/my-vim-setup). A command-line tool is ideal, but Maven is too slow. Even [mvnd](https://github.com/apache/maven-mvnd) is not fast enough for this. In lieu of a command-line tool, I'll accept some kind of [Language Server Protocol](https://langserver.org/) integration. I realise that this may not be a concern for many people, but it is for me and it seems to me like a reasonable thing to want: it's standard practice for all other language ecosystems.
-- ✨: It must format well. It may seem obvious, but I want the formatted code to look _nice_. See the code sample in the previous paragraph for an example of a formatter not doing a good job.
-- 🚀: It must get out of my way. I don't want to get bogged down with version incompatibilities that I have to debug or jump through weird hoops in order to configure the thing.
+- 🏗 `maven`: Integration with Maven. Anything that's not enforced by CI is merely a suggestion, and may as well not exist. I want CI to check formatting and fail the build if it's not good, and I want Maven to be able to reformat code too, so contributors don't have to install anything. As a corollary, if a binary must be installed, Maven must handle that too.
+-  🏃‍♂️ `speed`: It must be fast (or: there must be a fast way to format a file). That way, I can invoke it from [Neovim](https://jqno.nl/post/2020/09/09/my-vim-setup). A command-line tool is ideal, but Maven is too slow. Even [mvnd](https://github.com/apache/maven-mvnd) is not fast enough for this. In lieu of a command-line tool, I'll accept some kind of [Language Server Protocol](https://langserver.org/) integration. I realise that this may not be a concern for many people, but it is for me and it seems to me like a reasonable thing to want: it's standard practice for all other language ecosystems.
+- ✨ `beauty`: It must format well. It may seem obvious, but I want the formatted code to look _nice_. See the code sample in the previous paragraph for an example of a formatter not doing a good job.
+- 🚀 `ergonomics`: It must get out of my way. I don't want to get bogged down with version incompatibilities that I have to debug or jump through weird hoops in order to configure the thing.
 
 If a formatter fails on one of these criteria, it fails as a whole. Some criteria may be subjective; in those cases I will be the judge and executioner. Again, all of the formatters for all of the languages have all of these features, so it shouldn't be strange to want the same things from a Java formatter, right? It's not like Java is a niche language with historically bad tooling, after all.
 
 There are other factors to consider that, for me at least, don't weigh on the final verdict, but are interesting nonetheless:
 
-- `IJ`: A plugin for IntelliJ would be nice. I don't use IntelliJ myself, but many potential contributors do, and I want things to be easy for them.
-- ⚙️: Some formatters have many configuration options while others take inspiration from Go and provide none. I'm fine either way (as long as the results are good enough), but it's interesting to keep track of.
+- 🧠 `IntelliJ`: A plugin for IntelliJ would be nice. I don't use IntelliJ myself, but many potential contributors do, and I want things to be easy for them.
+- ⚙️ `config`: Some formatters have many configuration options while others take inspiration from Go and provide none. I'm fine either way (as long as the results are good enough), but it's interesting to keep track of.
 
 ## Review of formatters
 
-So, let's discuss all the formatters (that I know of) one by one. We'll review each criterion with one of the following emoji: 
-
-- 🤩: Does exceptionally well
-- 👍🏻: Is acceptable
-- 👎🏻: Fails
-- 0️⃣: Has no configuration options
-- ✅: Has some configuration options
-- 💯: Has many configuration options
-
-Let's dive in.
+So, let's discuss all the formatters (that I know of) one by one.
 
 ### IntelliJ's built-in formatter
 
-- 🏗: 👎🏻
-- 🏃‍♂️: 👎🏻
-- ✨: 👍🏻
-- 🚀: 👍🏻
-- `IJ`: 🤩
-- ⚙️: 💯
+- 🏗 `maven`: fail
+- 🏃‍♂️ `speed`: fail
+- ✨ `beauty`: good
+- 🚀 `ergonomics`: good
+- 🧠 `IntelliJ`: excellent
+- ⚙️ `config`: many options
 
 It's a decent formatter, but it suffers from Kotlin-syndrome: there's no way you can use it from anything that isn't IntelliJ. You can't call it from Maven, and you _certainly_ can't use it from the command-line.
 
@@ -97,7 +88,7 @@ EqualsVerifier.simple()
 
 For me, that's not a deal-breaker. The lack of proper non-telliJ tooling, however, is.
 
-Final verdict: 👎🏻
+Final verdict: **fail**
 
 Example, with inconsistent line breaking:
 ```java
@@ -117,12 +108,12 @@ ExpectedException.when(
 
 ### [google-java-format](https://github.com/google/google-java-format)
 
-- 🏗: 👍🏻
-- 🏃‍♂️: 🤩
-- ✨: 👎🏻
-- 🚀: 🤩
-- `IJ`: 👍🏻
-- ⚙️: 0️⃣
+- 🏗 `maven`: good
+- 🏃‍♂️ `speed`: excellent
+- ✨ `beauty`: fail
+- 🚀 `ergonomics`: excellent
+- 🧠 `IntelliJ`: good
+- ⚙️ `config`: no options
 
 This should have been the obvious choice. Integration with tooling is excellent, and the quality of the formatting would have been good if not for one _extremely weird_ design decision.
 
@@ -134,7 +125,7 @@ Thankfully, the _one_ configuration option that they have, allows you to use 4 s
 
 Anyway, the AOSP option really accentuates google-java-format's only other weakness: it _loves_ to double-indent, and sometimes even quadruple-indent, especially with nested lambdas and expressions. This really pushes a lot of code to the right hand side of your editor, making the code look quite bad, as you can see in the examples below.
 
-Final verdict: 👎🏻
+Final verdict: **fail**
 
 Example, with default configuration - note that there actually aren't any 2-space indentations in this example; they only happen after `{`:
 ```java
@@ -172,12 +163,12 @@ ExpectedException.when(
 
 ### [Prettier Java](https://www.jhipster.tech/prettier-java/)
 
-- 🏗: 👍🏻
-- 🏃‍♂️: 👍🏻
-- ✨: 🤩
-- 🚀: 👎🏻
-- `IJ`: 👎🏻
-- ⚙️: ✅
+- 🏗 `maven`: good
+- 🏃‍♂️ `speed`: good
+- ✨ `beauty`: excellent
+- 🚀 `ergonomics`: fail
+- 🧠 `IntelliJ`: fail
+- ⚙️ `config`: some options
 
 Prettier Java, on the surface, is also a very nice formatter. It has sane defaults and produces beautiful code out of the box. It's the one I'm currently using for EqualsVerifier.
 
@@ -189,7 +180,7 @@ It has a lot of peripheral problems though:
 - Because of this, you might want to pin your Prettier Java to a specific version, which makes managing your prettierd installation _even harder_, because now you can't blindly update your system anymore. Of course, if you allow the Prettier Java in your build script and the one in your editor to diverge, they will start working against each other, which is no fun.
 - There's no IntelliJ plugin.
 
-Final verdict: 👎🏻
+Final verdict: **fail**
 
 Example with Prettier Java 2.4.0:
 ```java
@@ -228,12 +219,12 @@ ExpectedException.when(
 
 ### Eclipse JDT formatter
 
-- 🏗: 👍🏻
-- 🏃‍♂️: 👍🏻
-- ✨: 👍🏻
-- 🚀: 👎🏻
-- `IJ`: 👍🏻
-- ⚙️: 💯
+- 🏗 `maven`: good
+- 🏃‍♂️ `speed`: meh
+- ✨ `beauty`: good
+- 🚀 `ergonomics`: fail
+- 🧠 `IntelliJ`: good
+- ⚙️ `config`: many options
 
 The formatter that turned me off on formatters so long ago. But if configured properly, it's actually very decent.
 
@@ -245,7 +236,7 @@ Also, despite the fact that there are _two_ different Maven plugins to run this 
 
 Since the Eclipse JDT formatter is basically a Java library that can be used from various tools, it shouldn't be too hard to make a GraalVM command-line tool to invoke it. But that adds quite a lot to the burden of adopting it, which was already high due to the need to configure it from Eclipse.
 
-Final verdict: 👎🏻
+Final verdict: **fail**
 
 Example with no configuration:
 ```java
@@ -275,12 +266,12 @@ ExpectedException
 
 ### [Palantir Java Format](https://github.com/palantir/palantir-java-format)
 
-- 🏗: 👍🏻
-- 🏃‍♂️: 👎🏻
-- ✨: 🤩
-- 🚀: 👍🏻
-- `IJ`: 👍🏻
-- ⚙️: 0️⃣
+- 🏗 `maven`: good
+- 🏃‍♂️ `speed`: fail
+- ✨ `beauty`: excellent
+- 🚀 `ergonomics`: good
+- 🧠 `IntelliJ`: good
+- ⚙️ `config`: no options
 
 Palantir Java Format is based on google-java-format, and somehow they manage to make Google's bad parts good, and Google's good parts bad, at the same time.
 
@@ -288,14 +279,14 @@ On the one hand, they make google-java-format's crappy formatting much, _much_ b
 
 There's a way to work around that. If you use Arch, BTW, you can download [a script from the AUR](https://aur.archlinux.org/cgit/aur.git/tree/palantir-java-format?h=palantir-java-format) that you can run from the command-line, and of course you can easily borrow and adapt that script if you use a more sensible OS. You'll have to gather and package the dependencies somehow, though. If you want to go down that path, here's the updated ratings:
 
-- 🏗: 👍🏻
-- 🏃‍♂️: 👍🏻
-- ✨: 🤩
-- 🚀: 👎🏻
-- `IJ`: 👍🏻
-- ⚙️: 0️⃣
+- 🏗 `maven`: good
+- 🏃‍♂️ `speed`: good
+- ✨ `beauty`: excellent
+- 🚀 `ergonomics`: fail
+- 🧠 `IntelliJ`: good
+- ⚙️ `config`: no options
 
-I give 🚀 a 👎🏻 in this case because you have to figure out how to share the script and its dependencies with other people, and how you want to update them.
+Palantir fails `ergonomics` in this case because you have to figure out how to share the script and its dependencies with other people, and how you want to update them.
 
 This script does expose that Palantir is probably a wrapper around google-java-format, rather than a fork of it. I'm not sure what that implies for the long-term stability of the project, and I don't know if I should let myself be bothered by that.
 
@@ -303,7 +294,7 @@ Also, there's the business activities of Palantir, the company behind this forma
 
 Either way, the messy business around the command-line tool is a deal-breaker for me.
 
-Final verdict: 👎🏻
+Final verdict: **fail**
 
 Example:
 ```java
@@ -320,18 +311,18 @@ ExpectedException.when(() -> EqualsVerifier.forClass(Foo.class)
 
 ### [Spring Java Format](https://github.com/spring-io/spring-javaformat)
 
-- 🏗: 👍🏻
-- 🏃‍♂️: 👎🏻
-- ✨: 👍🏻
-- 🚀: 👎🏻
-- `IJ`: 👍🏻
-- ⚙️: 0️⃣
+- 🏗 `maven`: good
+- 🏃‍♂️ `speed`: fail
+- ✨ `beauty`: good
+- 🚀 `ergonomics`: fail
+- 🧠 `IntelliJ`: good
+- ⚙️ `config`: no options
 
 This seems to be a wrapper around the Eclipse JDT formatter (and also Checkstyle) with a hard-coded configuration. The formatting looks nice enough, and it provides plugins for all the build tools and IDEs ... but no command-line tool.
 
 For some reason, it needs a modification in your `.m2/settings.xml` file, which is weird.
 
-Final verdict: 👎🏻
+Final verdict: **fail**
 
 Example:
 ```java
@@ -353,12 +344,12 @@ ExpectedException
 
 ### Cross-language code formatters
 
-- 🏗: 👎🏻
-- 🏃‍♂️: 🤩
-- ✨: ???
-- 🚀: 👎🏻
-- `IJ`: 👍🏻
-- ⚙️: 💯
+- 🏗 `maven`: fail
+- 🏃‍♂️ `speed`: excellent
+- ✨ `beauty`: varies
+- 🚀 `ergonomics`: fail
+- 🧠 `IntelliJ`: good
+- ⚙️ `config`: many options
 
 There are many languages that look like Java (because they all descend from C), so it makes sense that there exist various tools that can format all of these languages: [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html), [Artistic Style (astyle)](https://astyle.sourceforge.net/), [Uncrustify](https://github.com/uncrustify/uncrustify)...
 
@@ -366,7 +357,7 @@ They are all similar in a way, in that they all have excellent command-line supp
 
 Also, since there are so many configuration options, and the tools are focused on other languages than Java, they don't look particularly well out of the box, so expect to invest a lot of time tweaking. For this reason, I won't include examples, since they don't mean much without configuration anyway.
 
-Final verdict: 👎🏻
+Final verdict: **fail**
 
 ### [EditorConfig](https://editorconfig.org/)
 
@@ -384,13 +375,13 @@ Spotless isn't a formatter. What it is, is a plugin for both Maven and Gradle th
 
 If I compile the final verdicts for all the formatters I discussed, there's a clear trend:
 
-- IntelliJ's built-in formatter: 👎🏻
-- google-java-format: 👎🏻
-- Prettier Java: 👎🏻
-- Eclipse JDT formatter: 👎🏻
-- Palantir Java Format: 👎🏻
-- Spring Java Format: 👎🏻
-- Cross-language code formatters: 👎🏻
+- IntelliJ's built-in formatter: **fail**
+- google-java-format: **fail**
+- Prettier Java: **fail**
+- Eclipse JDT formatter: **fail**
+- Palantir Java Format: **fail**
+- Spring Java Format: **fail**
+- Cross-language code formatters: **fail**
 
 None of the formatters that I could find provide a decent solution to all of the stated requirements.
 
