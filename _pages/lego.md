@@ -3,6 +3,9 @@ permalink: /lego/
 title: "Lego MOCs"
 layout: splash
 imagebutton_row:
+  - image_path: "images/lego/menu/tilburg.webp"
+    title: "Tilburg Skyline"
+    url: "lego/tilburg/"
   - image_path: "images/lego/menu/tos.webp"
     title: "Star Trek: The Original Series cast"
     url: "lego/tos/"
