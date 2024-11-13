@@ -1,3 +1,10 @@
+{% if author.bluesky %}
+  <li>
+    <a href="{{ author.bluesky }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span class="label">Bluesky</span>
+    </a>
+  </li>
+{% endif %}
 {% if author.mastodon %}
   <li>
     <a href="{{ author.mastodon }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
