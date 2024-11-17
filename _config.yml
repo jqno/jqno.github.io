@@ -49,7 +49,7 @@ footer:
       url: "https://twitter.com/jqno"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/jqno.nl
+      url: "https://bsky.app/profile/jqno.nl"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://mastodon.online/@jqno"
