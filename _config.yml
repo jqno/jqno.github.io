@@ -27,7 +27,7 @@ search: true
 author:
   name: "Jan Ouwens"
   avatar: "images/meta/avatar.webp"
-  bio: '<a href="/about">"Java juggler"</a>'
+  bio: '<a href="/">"Java juggler"</a>'
   location: "The Netherlands"
   github: jqno
   stackoverflow: 127863
