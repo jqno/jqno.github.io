@@ -13,8 +13,6 @@ tags:
 
 Climate change is a thing that affects us all. As developers, we are in a unique position to help do something about this. After all, the whole world runs on computers these days, and computers consume energy. We, developers, program these computers, and the decisions that we make have consequences beyond the business domain we code for. Also, as employed people living in Europe or North-America, we belong to the top 10% of richest people on the planet.
 
-<!--more-->
-
 But what _can_ we do specifically? It's not often clear. After a discussion on Twitter, we ([Hanno Embregts](https://twitter.com/hannotify), [Julien Lengrand-Lambert](https://twitter.com/jlengrand), [Jan-Hendrik Kuperus](https://twitter.com/jhkuperus) and [Jan Ouwens](https://twitter.com/jqno)) discovered we all have ideas about what we can do. Julien even has a [conference talk](https://www.youtube.com/watch?v=umQby6H50xI) on the subject. We want to know how we can make the most impact, and we know that we can't do it alone.
 
 We figured it was a good idea to host a panel about it: both to get more people involved in the conversation and to learn from them ourselves. The most important rule of such a panel? **No guilt-tripping**! We all do our best, and ultimately, that's all we can do. Participating in a panel like this one can serve as an inspiration to do even better.
