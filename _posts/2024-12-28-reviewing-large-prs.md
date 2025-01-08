@@ -32,7 +32,7 @@ You can put the code in a file named `git-review`. The `-` is important: that wa
 
 Note that you need to have the [GitHub CLI](https://cli.github.com/) installed: the script uses it to determine the name of the branch for a PR. If you don't want to install it, you can modify the script to checkout branches instead of PRs. In that case, remove the block that checks if the GitHub CLI is available, and replace the line that says `pr_branch=$(gh ...)` with `pr_branch=$1`. That will allow you to run the script using `git review feature/add-the-big-new-killer-feature`.
 
-And yes, I've been told that IntelliJ IDEA comes with very similar functionality out of the box. But I haven't been able to find it yet 😅. Please let me know if you know where it is, and how it compares!
+And yes, I've been told that IntelliJ IDEA comes with very similar functionality out of the box through its GitHub plugin: you'll have to authorize IntelliJ with GitHub, and then you can interact with your PRs directly from the IDE's Pull Request tab. You can see the PR's changes in context, but the view is read-only so you won't be able to make changes to try things out. So try both and see what you prefer!
 
 ```sh
 #!/bin/bash
