@@ -24,6 +24,8 @@ In fact, you may be better off trying VS Code with its Java plugin (and maybe it
 
 There's a big debate going on inside the Vim community, whether Vim can replace an IDE. There's an even bigger debate whether you should even _try_. My take on this is that Vim isn't, and shouldn't try to be, an IDE. I think that the shell is the IDE, and Vim is merely its editor. Vim is not its Git client or its database client. It is not its search tool. It should not try to compile code. It is not even its debugger. But I do think Vim should be a great editor, and great editing includes things like code completion and some rudimentary refactoring.
 
+**EDIT 2025-01-08** Everything below this point has been out of date for a while: I've moved to Neovim and its built-in LSP feature. Rather than updating everything, I'll just point you to another blog post. Its author went through the same process as I, and explains very nicely how they did it. [Click here](https://ptrtojoel.dev/posts/so-you-want-to-write-java-in-neovim/)! Of course you're also welcome to check out [my dotfiles](https://github.com/jqno/dotfiles/tree/main/nvim/) for inspiration.
+
 ## How did I do it?
 
 What I'm about to describe may change at any time. As I said, configuring Vim is a hobby of mine, and I'll probably keep tinkering with my configuration as long as I'm able to write code.
