@@ -6,6 +6,8 @@ layout: single
 
 ![render](/images/lego/tilburg/tilburg.webp)
 
+Feature in het [Brabants Dagblad](https://www.bd.nl/tilburg/jan-deed-er-anderhalf-jaar-over-om-de-tilburgse-skyline-in-lego-na-te-maken-en-nu-kan-iedereen-dat~ac98f048/) van 17 mei 2025. ([screenshot](/images/other/brabants-dagblad-2025.webp))
+
 Deze Skyline bevat een aantal van de meest herkenbare plaatsen en gebouwen in Tilburg:
 
 - het draaiend huis

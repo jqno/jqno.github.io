@@ -3,6 +3,14 @@ permalink: /other/
 title: Other things
 layout: single
 ---
+## Brabants Dagblad
+
+_May 2025_
+<br>
+Featured in the regional section of Brabants Dagblad with my [Lego Tilburg Skyline](/lego/tilburg/).
+<br>
+🇳🇱 [[website (paywalled)](https://www.bd.nl/tilburg/jan-deed-er-anderhalf-jaar-over-om-de-tilburgse-skyline-in-lego-na-te-maken-en-nu-kan-iedereen-dat~ac98f048/)] [[screenshot](/images/other/brabants-dagblad-2025.webp)]
+
 ## TilburgsAns
 
 _November 2021_
