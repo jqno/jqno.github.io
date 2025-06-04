@@ -67,6 +67,10 @@ If you want, you can now disable "Show hidden files" again. If you had downloade
 
 I have also enabled the "Remote mark-as-read settings → Auto-upload article statuses when downloading" setting. With this setting enabled, it will update your read status when you download new articles. Otherwise, this would be two separate synchronization operations, which is extra work and I'm lazy.
 
+## Conclusion
+
+I'm happy I got this working, and I can now read articles on my Kobo again. However, neither of the proposed solutions is without problems. Kobo's native Pocket integration was much, much easier to use. Hopefully, Kobo will realize this and replace their (now useless) Pocket app with a Wallabag client.
+
 ## Bonus round: fonts!
 
 ![An article on my Kobo set in TilburgsAns](/images/2025-06-04-reading-blogs-on-my-kobo-ereader-via-wallabag/tilburgsans.webp)
