@@ -6,8 +6,6 @@ layout: single
 
 ![render](/images/lego/tilburg/tilburg.webp)
 
-Feature in het [Brabants Dagblad](https://www.bd.nl/tilburg/jan-deed-er-anderhalf-jaar-over-om-de-tilburgse-skyline-in-lego-na-te-maken-en-nu-kan-iedereen-dat~ac98f048/) van 17 mei 2025. ([screenshot](/images/other/brabants-dagblad-2025.webp))
-
 Deze Skyline bevat een aantal van de meest herkenbare plaatsen en gebouwen in Tilburg:
 
 - het draaiend huis
@@ -21,9 +19,19 @@ Deze Skyline bevat een aantal van de meest herkenbare plaatsen en gebouwen in Ti
 - standbeeld van koning Willem II
 - St-Jozefkerk
 
-Via de [Rebrickable pagina](https://rebrickable.com/mocs/MOC-196703/) kun je de instructies en inventaris downloaden.
+## Reclame
 
-De instructies bevatten een label (gezet in het TilburgsAns lettertype) om op een stickervel te printen. Als je besluit om steentjes voor deze set te bestellen via BrickLink, let erop dat het niet meer moet kosten dan ± €38 exclusief verzendkosten.
+- Wethouder Bas van der Pol [neemt een exemplaar in ontvangst](https://www.linkedin.com/posts/bas-van-der-pol-5aa1797_tilburg-bouwen-spelen-activity-7313187738759933952-Aak5/).
+- Feature in het [Brabants Dagblad](https://www.bd.nl/tilburg/jan-deed-er-anderhalf-jaar-over-om-de-tilburgse-skyline-in-lego-na-te-maken-en-nu-kan-iedereen-dat~ac98f048/) van 17 mei 2025. ([screenshot](/images/other/brabants-dagblad-2025.webp))
+
+## Cool! Ik wil er ook een!
+
+- Bestel de bouwinstructies via de [Rebrickable pagina](https://rebrickable.com/mocs/MOC-196703/). Dit kost €2. Dit bevat een PDF met instructies, een inventaris met benodigde steentjes, en een label met de tekst 'Tilburg' (gezet in het TilburgsAns lettertype) om op een stickervel te printen.
+- Upload dan de lijst van steentjes bij [BrickLink](https://www.bricklink.com/v2/main.page) om de legosteentjes te bestellen. Let erop dat dit niet meer moet kosten dan ± €38, exclusief verzendkosten.
+
+(Je kunt de volledige set ook kopen op [AliExpress](https://nl.aliexpress.com/item/1005007919262912.html). Let op dat dit hier zonder mijn toestemming is opgezet; ik kan dus ook niet instaan voor de verkoper. Ook bevat deze set geen label met de tekst 'Tilburg'.)
+
+## Meer foto's
 
 ![flats](/images/lego/tilburg/flats.webp)
 

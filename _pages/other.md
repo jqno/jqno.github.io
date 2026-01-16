@@ -27,7 +27,7 @@ Interviewed about EqualsVerifier
 <br>
 _May 2025_
 <br>
-Featured in the regional section with my [Lego Tilburg Skyline](/lego/tilburg/).
+Featured in the regional section with my [Lego Tilburg Skyline](/lego/tilburg/), after I presented a copy to [wethouder Bas van der Pol](https://www.linkedin.com/posts/bas-van-der-pol-5aa1797_tilburg-bouwen-spelen-activity-7313187738759933952-Aak5/).
 <br>
 🇳🇱 [[website (paywalled)](https://www.bd.nl/tilburg/jan-deed-er-anderhalf-jaar-over-om-de-tilburgse-skyline-in-lego-na-te-maken-en-nu-kan-iedereen-dat~ac98f048/)] [[screenshot](/images/other/brabants-dagblad-2025.webp)]
 
