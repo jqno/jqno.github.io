@@ -16,6 +16,11 @@ My technology blog
 
 🇳🇱/🇬🇧 [[site](https://nljug.org/category/java-magazine/)]
 
+- **Old man yells at cloud DB schema**
+  <br>
+  _February 2026_
+  <br>
+  🇬🇧 [[PDF](https://www.dropbox.com/scl/fi/ki74juv3r45dvr9n56md8/java-magazine-2026-1.pdf?rlkey=p2xiztn8cwvl4vuo8gzr9gv96)]
 - **The impact of AI**
   <br>
   _September 2023_
