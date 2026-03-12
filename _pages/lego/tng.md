@@ -12,7 +12,7 @@ Wesley, Dr Crusher, Worf, Riker, Picard, Troi, Data, LaForge
 
 ![photo](/images/lego/tng/photo.webp)
 
-Check the [Rebrickable page](https://rebrickable.com/mocs/MOC-159364) or [download the zip file](https://www.dropbox.com/scl/fi/jfyd7cb72m4rahvyj1coh/lego-tng-cast.zip?rlkey=ohbi6t612fv48gagnuf15phzq&dl=1) with:
+Check the [Rebrickable page](https://rebrickable.com/mocs/MOC-159364) or [download the zip file](https://jqno.nl/website-files/lego-tng-cast.zip) with:
 
 - Building instructions with parts list
 - BrickLink parts list

@@ -20,42 +20,42 @@ My technology blog
   <br>
   _February 2026_
   <br>
-  🇬🇧 [[PDF](https://www.dropbox.com/scl/fi/ki74juv3r45dvr9n56md8/java-magazine-2026-1.pdf?rlkey=p2xiztn8cwvl4vuo8gzr9gv96)]
+  🇬🇧 [[PDF](https://jqno.nl/website-files/java-magazine-2026-1.pdf)]
 - **The impact of AI**
   <br>
   _September 2023_
   <br>
-  🇬🇧 [[PDF](https://www.dropbox.com/scl/fi/ha8xbdpbik7kjbqvoe729/java-magazine-2023-3.pdf?rlkey=lexqid3346vesb2czvemwhen0)]
+  🇬🇧 [[PDF](https://jqno.nl/website-files/java-magazine-2023-3.pdf)]
 - **De algoritmes van het Java Collections Framework**
   <br>
   _September 2021_
   <br>
-  🇳🇱 [[PDF](https://www.dropbox.com/s/xs5zlh1eiitcise/java-magazine-2021-3.pdf)] [[site](https://nljug.org/java-magazine/java-magazine-3-2021-java-17-is-here/)]
+  🇳🇱 [[PDF](https://jqno.nl/website-files/java-magazine-2021-3.pdf)] [[site](https://nljug.org/java-magazine/java-magazine-3-2021-java-17-is-here/)]
 - **Actief worden in open source** (met [Danny van Bruggen](https://twitter.com/matozoid))
   <br>
   _September 2020_
   <br>
-  🇳🇱 [[PDF](https://www.dropbox.com/s/nq52nlblkalv3ef/java-magazine-2020-3.pdf)] [[site](https://nljug.org/java-magazine/2020-editie-3/actief-worden-in-open-source/)]
+  🇳🇱 [[PDF](https://jqno.nl/website-files/java-magazine-2020-3.pdf)] [[site](https://nljug.org/java-magazine/2020-editie-3/actief-worden-in-open-source/)]
 - **Lees dit niet! ☠️💣💥**
   <br>
   _October 2018_
   <br>
-  🇳🇱 [[PDF](https://www.dropbox.com/s/4ps9ufccavdp5kx/java-magazine-2018-4.pdf)] [[site](https://nljug.org/java-magazine/2018-editie-4/java-magazine-4-2018/)]
+  🇳🇱 [[PDF](https://jqno.nl/website-files/java-magazine-2018-4.pdf)] [[site](https://nljug.org/java-magazine/2018-editie-4/java-magazine-4-2018/)]
 - **Selenium is leuk met ScalaTest**
   <br>
   _February 2018_
   <br>
-  🇳🇱 [[PDF](https://www.dropbox.com/s/kj6errr6udf809x/java-magazine-2018-1.pdf)] [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)]
+  🇳🇱 [[PDF](https://jqno.nl/website-files/java-magazine-2018-1.pdf)] [[site](https://nljug.org/java-magazine/selenium-is-leuk-met-scalatest/)]
 - **Een DSL kweken**
   <br>
   _April 2016_
   <br>
-  🇳🇱 [[PDF](https://www.dropbox.com/s/v4q4ws2zqgfnf2v/java-magazine-2016-2.pdf)] [[site](https://nljug.org/java-magazine/een-dsl-kweken/)]
+  🇳🇱 [[PDF](https://jqno.nl/website-files/java-magazine-2016-2.pdf)] [[site](https://nljug.org/java-magazine/een-dsl-kweken/)]
 - **Grip op je buildproces met Gradle** (met [Hanno Embregts](https://twitter.com/hannotify))
   <br>
   _June 2015_
   <br>
-  🇳🇱 [[PDF](https://www.dropbox.com/s/sab43l2k6brd3xu/java-magazine-2015-3.pdf)] [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)]
+  🇳🇱 [[PDF](https://jqno.nl/website-files/java-magazine-2015-3.pdf)] [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)]
 
 ## Yoink blog
 
@@ -81,7 +81,7 @@ _January 2008_
 <br>
 a way too in-depth survey of Asterix jokes
 <br>
-🇳🇱 [[PDF](https://www.dropbox.com/s/gdswss6fkm3hbv7/paper.pdf)]
+🇳🇱 [[PDF](https://jqno.nl/website-files/paper.pdf)]
 
 ## The Performance of Wireless MPEG-2 Video Streaming
 
@@ -89,4 +89,4 @@ _August 2005_
 <br>
 my Master's Thesis
 <br>
-🇬🇧 [[PDF](https://www.dropbox.com/s/idenxmsvblck2zd/thesis.pdf)]
+🇬🇧 [[PDF](https://jqno.nl/website-files/thesis.pdf)]

@@ -4,6 +4,7 @@ Start the server by running `docker-compose up` or `docker compose run jekyll se
 
 A list of all sub-sites:
 
+- website-files / [repo](https://github.com/jqno/website-files)
 - [EqualsVerifier](https://jqno.nl/equalsverifier/) / [repo](https://github.com/jqno/equalsverifier)
 - [Talks](https://jqno.nl/talks/) / [repo](https://github.com/jqno/talks)
 - [Concerts](https://jqno.nl/concerts/) / [repo](https://github.com/jqno/concerts)

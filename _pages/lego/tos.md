@@ -12,7 +12,7 @@ Chekov, Sulu, Spock, Kirk, McCoy, Uhura, Scotty
 
 ![photo](/images/lego/tos/photo.webp)
 
-Check the [Rebrickable page](https://rebrickable.com/mocs/MOC-159312) or [download the zip file](https://www.dropbox.com/scl/fi/ne41c1in9zk1ioc7o3vwf/lego-tos-cast.zip?rlkey=jfgm8xnbpwtotwodrddqphxqm&dl=1) with:
+Check the [Rebrickable page](https://rebrickable.com/mocs/MOC-159312) or [download the zip file](https://jqno.nl/website-files/lego-tos-cast.zip) with:
 
 - Building instructions with parts list
 - BrickLink parts list
