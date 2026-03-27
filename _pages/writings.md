@@ -65,7 +65,7 @@ My technology blog
   <br>
   _September 2023_
   <br>
-  🇬🇧 [[site](https://blog.yoink.nl/posts/2023/09/18/stop-chasing-nines.html)]
+  🇬🇧 [[site](https://yoink.nl/posts/2023/09/18/stop-chasing-nines.html)]
 
 ## Brief en leed
 
