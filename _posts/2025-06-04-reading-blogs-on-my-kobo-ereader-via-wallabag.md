@@ -67,9 +67,17 @@ If you want, you can now disable "Show hidden files" again. If you had downloade
 
 I have also enabled the "Remote mark-as-read settings → Auto-upload article statuses when downloading" setting. With this setting enabled, it will update your read status when you download new articles. Otherwise, this would be two separate synchronization operations, which is extra work and I'm lazy.
 
+## Dealing with Kobo firmware updates
+
+After a firmware update, your KOReader installation will be left broken. This sucks. It happens because KOReader needs KFMon to launch itself, and KFMon needs to hook itself into a place that gets overwritten during an update.
+
+Fortunately there's an easy fix. Connect your Kobo to your laptop. Go back to the [KOReader forum thread](https://www.mobileread.com/forums/showthread.php?t=314220). From the first post, download the `OCP-KFMon-*.zip` file and put it in a directory. Don't unzip it. From the second post, download the install script for your OS and unzip it in the same directory. Open a terminal, run the script, and tell it to install the KFMon file. When it's done, eject your Kobo and let it reboot. Now everything should work again!
+
 ## Conclusion
 
 I'm happy I got this working, and I can now read articles on my Kobo again. However, neither of the proposed solutions is without problems. Kobo's native Pocket integration was much, much easier to use. Hopefully, Kobo will realize this and replace their (now useless) Pocket app with a Wallabag client.
+
+**UPDATE** Sadly, Kobo went with Instapaper instead. Oh well.
 
 ## Bonus round: fonts!
 
