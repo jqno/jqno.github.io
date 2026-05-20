@@ -26,7 +26,7 @@ Also, Big Tech is no longer fun and exciting. I remember when smartphones were s
 
 Every time in the last ten years that I have been excited by some piece of tech, it was either an open-source project or an app maintained by a small company. Never by something produced by Big Tech. I miss that excitement, so I decided to start looking for it again.
 
-<a id='how'/>
+<a name='how'/>
 ## How?
 
 I've been looking for (and finding!) alternatives. My criteria are as follows, in descending order of desirability:
