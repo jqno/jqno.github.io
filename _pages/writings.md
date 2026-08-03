@@ -57,6 +57,14 @@ My technology blog
   <br>
   🇳🇱 [[PDF](https://jqno.nl/website-files/java-magazine-2015-3.pdf)] [[site](https://nljug.org/java-magazine/grip-op-je-buildproces-met-gradle/)]
 
+## Sustainability for Java Developers
+
+_2024 - present_
+<br>
+Co-author of the [Foojay](https://foojay.io/) book on sustainability
+<br>
+🇬🇧 [[site](https://leanpub.com/sustainabilityforjavadevelopers)]
+
 ## Yoink blog
 
 🇬🇧 [[site](https://blog.yoink.nl/)]
